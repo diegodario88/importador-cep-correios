@@ -1,0 +1,30 @@
+version: "3.7"
+volumes:
+  db:
+services:
+  correios:
+    container_name: correios
+    image: postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRESQL_PORT: ${POSTGRESQL_PORT}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - db:/var/lib/postgresql/data
+  importer:
+    container_name: importer
+    image: importer:1.0.0
+    depends_on:
+      correios:
+        condition: service_healthy
+    build: .
+    tty: true
