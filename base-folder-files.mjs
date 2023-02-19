@@ -1,4 +1,5 @@
 import { MultiBar } from "cli-progress";
+import { cwd } from "node:process";
 import { InfrastructureService } from "./infra.mjs";
 import { ECT_PAIS_STREAM } from "./streams/ECT_PAIS.mjs";
 import { LOG_BAIRRO_STREAM } from "./streams/LOG_BAIRRO.mjs";
@@ -37,23 +38,29 @@ export class BaseFolderFiles {
   }
 
   async process() {
+    /**
+     * Caminho onde se encontram os arquivos `.TXT` do modelo básico
+     * delimitado por `@`
+     */
+    const basePath = `${cwd()}/eDNE/basico`;
+
     await Promise.all([
-      LOG_FAIXA_UF_STREAM.run(this._options),
-      LOG_LOCALIDADE_STREAM.run(this._options),
-      LOG_VAR_LOC_STREAM.run(this._options),
-      LOG_FAIXA_LOCALIDADE_STREAM.run(this._options),
-      LOG_BAIRRO_STREAM.run(this._options),
-      LOG_VAR_BAI_STREAM.run(this._options),
-      LOG_FAIXA_BAIRRO_STREAM.run(this._options),
-      LOG_CPC_STREAM.run(this._options),
-      LOG_FAIXA_CPC_STREAM.run(this._options),
-      LOG_LOGRADOURO_STREAM.run(this._options),
-      LOG_VAR_LOG_STREAM.run(this._options),
-      LOG_NUM_SEC_STREAM.run(this._options),
-      LOG_GRANDE_USUARIO_STREAM.run(this._options),
-      LOG_UNID_OPER_STREAM.run(this._options),
-      LOG_FAIXA_UOP_STREAM.run(this._options),
-      ECT_PAIS_STREAM.run(this._options),
+      LOG_FAIXA_UF_STREAM.run(this._options, basePath),
+      LOG_LOCALIDADE_STREAM.run(this._options, basePath),
+      LOG_VAR_LOC_STREAM.run(this._options, basePath),
+      LOG_FAIXA_LOCALIDADE_STREAM.run(this._options, basePath),
+      LOG_BAIRRO_STREAM.run(this._options, basePath),
+      LOG_VAR_BAI_STREAM.run(this._options, basePath),
+      LOG_FAIXA_BAIRRO_STREAM.run(this._options, basePath),
+      LOG_CPC_STREAM.run(this._options, basePath),
+      LOG_FAIXA_CPC_STREAM.run(this._options, basePath),
+      LOG_LOGRADOURO_STREAM.run(this._options, basePath),
+      LOG_VAR_LOG_STREAM.run(this._options, basePath),
+      LOG_NUM_SEC_STREAM.run(this._options, basePath),
+      LOG_GRANDE_USUARIO_STREAM.run(this._options, basePath),
+      LOG_UNID_OPER_STREAM.run(this._options, basePath),
+      LOG_FAIXA_UOP_STREAM.run(this._options, basePath),
+      ECT_PAIS_STREAM.run(this._options, basePath),
     ]);
   }
 }

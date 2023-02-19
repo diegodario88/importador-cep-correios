@@ -1,0 +1,9 @@
+1047349@AC@16@55416@@Lua Azul@@69909052@Rua@S@R Lua Azul
+1047350@AC@16@55466@@Dias Martins@- de 232 a 790 - lado par@69919180@Estrada@S@Est Dias Martins
+1047351@AC@16@55469@@Dias Martins@- de 792 a 1590 - lado par@69919600@Estrada@S@Est Dias Martins
+1047352@AC@16@30@@Dias Martins@- até 591 - lado ímpar@69915522@Estrada@S@Est Dias Martins
+1047353@AC@16@30@@Dias Martins@- de 787 a 1485 - lado ímpar@69915526@Estrada@S@Est Dias Martins
+1047354@AC@16@55464@@Dias Martins@- até 230 - lado par@69919140@Estrada@S@Est Dias Martins
+1047355@AC@16@19@@Dias Martins@- de 4121/4122 a 7799/7800@69917520@Estrada@S@Est Dias Martins
+1047356@AC@16@55442@@Dias Martins@- de 7801/7802 ao fim@69917766@Estrada@S@Est Dias Martins
+1047357@AC@16@19@@Dias Martins@- de 1600/1601 a 4119/4120@69917560@Estrada@S@Est Dias Martins

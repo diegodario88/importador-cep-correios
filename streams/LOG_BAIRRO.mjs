@@ -1,5 +1,4 @@
-import { createReadStream, statSync } from "node:fs";
-import { cwd } from "node:process";
+import { createReadStream, existsSync, statSync } from "node:fs";
 import { createInterface } from "node:readline";
 import { AbstractStream } from "./abstract-stream.mjs";
 
@@ -7,14 +6,21 @@ export class LOG_BAIRRO_STREAM extends AbstractStream {
   /**
    *
    * @param {import("../base-folder-files.mjs").BaseFolderOptions} options
+   * @param {string} basePath
    * @returns {Promise<void>}
    */
-  static async run(options) {
-    const filePath = `${cwd()}/eDNE_Basico/eDNE_Basico_23012/Delimitado/LOG_BAIRRO.TXT`;
-    const fileLines = await this.getFileLines(filePath);
+  static async run(options, basePath) {
+    const fileName = "LOG_BAIRRO.TXT";
+    const filePath = `${basePath}/${fileName}`;
+
+    if (!existsSync(filePath)) {
+      return;
+    }
+
     const fileSize = statSync(filePath).size;
+    const fileLines = await this.getFileLines(filePath);
     const bar = options.multiBar.create(fileLines, 0, {
-      filename: filePath.split("/").pop(),
+      filename: fileName,
     });
 
     await options.infra.CREATE_TABLE_LOG_BAIRRO();

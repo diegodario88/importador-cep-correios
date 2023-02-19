@@ -1,0 +1,55 @@
+6201@ES@1816@Distrito de Aracruz Comunidades@Rua Padre Luiz Parenzi, 710@29190997@INS@
+6202@ES@1816@Distrito de Santa Cruz_Santa Rosa@ES-261 Santa Rosa Comunidades@29199995@INS@
+2019@ES@1816@Distrito de Riacho Comunidades@Rua Patriarca Albuíno Azeredo, s/n@29197990@UPD@29197990
+2024@ES@1816@Distrito de Guaraná Comunidades@Avenida Gabriel Pandohfi, s/n@29195990@UPD@29195990
+2025@ES@1816@Distrito de Jacupemba Comunidades@Rua Pedro Souza, s/n@29196990@UPD@29196990
+2500@ES@1816@Distrito de Santa Cruz Comunidades@Rua 16 de Dezembro, 100@29199990@UPD@29199990
+2503@ES@1816@Distrito de Riacho_Vila do Riacho Comunidades@Rua São Benedito, s/n@29197991@UPD@29197991
+6179@MG@3234@Baixada Grande@Rua Baixada Grande, 216 - Barreiro@35903990@UPD@35903990
+6207@MG@3334@Bairro São João@Posto de Saúde do bairro São João s/n@37480990@INS@
+6088@MA@2612@Associação Comunitária dos Moradores do Comum@Comum - Sítio União@65580990@UPD@65580990
+4339@PR@6656@Barro Preto@Rua Manoel Martins, 535@83175990@UPD@83175990
+6205@PE@5285@Salinas@Rua Projetada, s/n - Porto de Galinhas@55592991@INS@
+6206@PE@5285@Maracaípe@Rua Projetada s/n - Maracaípe@55592992@INS@
+3022@PE@5362@Olinda Nova@Avenida Flores do Campo, 180  Fragoso - Olinda@53250990@UPD@53250990
+6210@PI@5665@Lagoa Comprida@Av Cap Felipe Araujo Rocha@64604990@INS@
+6211@PI@5665@Samambaia@Av Piauí@64608990@INS@
+6212@PI@5665@Morrinhos@BR-316 Lado Impar - Altamira@64602990@INS@
+6213@PI@5665@Altamira@BR-316 Km 303 - Lado Impar - Altamira@64602991@INS@
+6217@RS@8179@Associação Comunitária de Moradores da Vila Rica@Rua Dr Fernando Pahim - Vila Fernando Paim@97420990@INS@
+6204@SC@8430@CPC Linha Batista@Rodovia Leonardo Bialeck, s/n@88812990@INS@
+4595@SC@8589@Ponta do Papagaio@Rua Flamboyant, 435 - Ponta do Papagaio@88139993@UPD@88139993
+6194@SP@8992@Marina@Rua Marinópolis, 4 - Mercearia Dona Neusa@12929991@UPD@12929991
+6208@SP@9088@Associação de Educação Ambiental Cubatão de Bem com o Mangue@Rua Larissa Cokner, 378@11540990@INS@
+6214@SP@9113@Fazenda Atalaia@Alameda Maritaca, Nº 42, Fazenda Atalaia, Ressaca@06844992@INS@
+6215@SP@9114@Vale Florido@Rua L, Nº 10 - Vale Florido@06900996@INS@
+6216@RS@7784@Comunidade Vila Etelvina@Av Dona Etelvina, 2240 - Vila Etelvina@97185992@INS@
+6203@SP@9182@Associação de Moradores Futura Geração da Cachoeira@Viela Santo Amaro 142@11446992@INS@
+3736@SP@9660@Sociedade Amigos do Bairro Santa Cecília I@Estrada Dom José Antonio Couto nº 5007 - Santa Cecília I@12226991@UPD@12226991
+6209@SP@9673@Caixa Postal Comunitário do Bairro Tropicanga@Rua Tropicanganº 22@11620991@INS@
+4645@PE@5146@Macujê@Rua Euzébio Davi da Silva, 38 - Distrito de Macujê@55898990@DEL@
+5724@PE@5189@CECOG@Rua Almirante Paulo Moreira, 05 Lote 05 Quadra 160@54520994@DEL@
+5600@PE@5189@Cidade Garapu ll@Rua Noventa e Cinco, Quadra 41 - Lote 24 - Cidade Garapu@54515991@DEL@
+2960@PE@5189@Itapuama@Rua Três, 9 - Praia de Itapuama@54500993@DEL@
+3214@PE@5198@Sítio dos Macacos@Rua Gilberto Viegas, 145 - Sítio dos Macacos - Jd Primavera@54753990@DEL@
+5723@PE@5198@Vila Rica@Rua Gerson Gonçalves, 14 A - Bairro Vera Cruz@54786991@DEL@
+4787@PE@5281@Nova Cruz l@Rua João Alfredo s/n  - Cruz de Rebouças@53620990@DEL@
+4795@PE@5285@Porto de Galinha@Rua Beira Mar s/n Porto de Galinha - Ipojuca@55592990@DEL@
+3006@PE@5293@Forte Orange@Rodovia PE-01 , Nº 4104 - Praia da Ilha de Itamaracá@53900990@DEL@
+3018@PE@5302@São Cristóvão@Rua Santa Clara, 48 - Lot S Cristóvão - Dois Carneiros@54290990@DEL@
+5635@PE@5302@Vila Dez de Novembro@Rua Três, Lote Vinte e Um - Eixo Integração Muribeca@54160990@DEL@
+4792@PE@5362@Boa Fé l@Rua D, nº 1 - Rio Doce@53090991@DEL@
+4602@PE@5362@Cidade Nova@Avenida Napolis, 719 Casa - C- 4ª Etapa - Rio Doce@53090990@DEL@
+3023@PE@5384@Sítio Fragoso@Avenida Agamenon Magalhães, 3748 - Sítio Fragoso@53400990@DEL@
+5753@PE@5388@Apolônio Sales@Projeto Apolônio Sales s/n   Distrito de Irrigação Projeto Apolonio Sales@56460990@DEL@
+3034@PE@5389@Uruáis@Rua Principal, s/n - Povoado de Uruáis@56301998@DEL@
+5754@PE@5389@Cruz de Salinas@Avenida Principal, s/n - Povoado de Cruz de Salinas@56301991@DEL@
+5756@PE@5389@Serrote do Urubu@Avenida Principal, s/n - Povoado do Serrote do Urubu@56301993@DEL@
+5757@PE@5389@Massangana@Avenida Principal, s/n - Agrovila Massangana@56301994@DEL@
+5759@PE@5389@Pau Ferro@Avenida Principal, s/n - Povoado do Pau Ferro@56345990@DEL@
+5725@PE@5389@Pedrinhas@Rua Principal, s/n - Distrito de Pedrinhas@56300998@DEL@
+3841@PE@5406@Córrego do Curió@Rua Córrego do Curió, 300 - Dois Unidos@52160990@DEL@
+4678@PE@5406@Grupão Jordão Alto I@Rua Sertânia, s/n - Jordão Alto@51260991@DEL@
+4679@PE@5406@Brega e Chique@Rua Tiguassu, 28 - Várzea@50960990@DEL@
+4694@PE@5456@Albuquerque Né@Rua Coronel Antônio Siqueira, 271 - Distrito de Albuquerque Né@56610990@DEL@
+4697@PE@5456@Rio da Barra@Rua do Comércio, 153 - Distrito Rio da Barra@56615990@DEL@

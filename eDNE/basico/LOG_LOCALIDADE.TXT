@@ -1,0 +1,20 @@
+2@AC@Assis Brasil@69935000@0@M@@Assis Brasil@1200054
+15398@AC@Terra Indígena Riozinho do Alto Envira@69959810@0@P@18@Terra I R At Envira@
+4@AC@Bujari@69926000@0@M@@Bujari@1200138
+5@AC@Capixaba@69931000@0@M@@Capixaba@1200179
+6@AC@Cruzeiro do Sul@69980000@0@M@@Cruzeiro Sul@1200203
+7@AC@Epitaciolândia@69934000@0@M@@Epitaciolândia@1200252
+8@AC@Feijó@69960000@0@M@@Feijó@1200302
+9@AC@Jordão@69975000@0@M@@Jordão@1200328
+10@AC@Mâncio Lima@69990000@0@M@@Mâncio Lima@1200336
+11@AC@Manoel Urbano@69950000@0@M@@Manoel Urbano@1200344
+14@AC@Porto Acre@69927000@0@M@@Pto Acre@1200807
+15@AC@Porto Walter@69982000@0@M@@Pto Walter@1200393
+17@AC@Rodrigues Alves@69985000@0@M@@Rodrigues Alves@1200427
+18@AC@Santa Rosa do Purus@69955000@0@M@@Sta Rosa Purus@1200435
+20@AC@Senador Guiomard@69925000@0@M@@Sen Guiomard@1200450
+22@AC@Xapuri@69930000@0@M@@Xapuri@1200708
+1@AC@Acrelândia@69945000@0@M@@Acrelândia@1200013
+19@AC@Sena Madureira@69940000@0@M@@Sena Madureira@1200500
+21@AC@Tarauacá@69970000@0@M@@Tarauacá@1200609
+16@AC@Rio Branco@@1@M@@Rio Branco@1200401

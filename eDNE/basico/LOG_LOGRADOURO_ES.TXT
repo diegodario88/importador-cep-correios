@@ -1,0 +1,33 @@
+100030@ES@2044@1752@@Presidente Getúlio Vargas@@29127225@Avenida@S@Av Pres Getúlio Vargas
+100031@ES@2044@1687@@Presidente John Kennedy@@29108440@Rua@S@R Pres John Kennedy
+100032@ES@2044@1754@@Presidente John Kennedy@@29113480@Rua@S@R Pres John Kennedy
+100033@ES@2044@1670@@Presidente Lima@@29100330@Rua@S@R Pres Lima
+100034@ES@2044@30419@@Presidente Tancredo de Almeida Neves@@29102635@Rua@S@R Pres Tancredo de A Neves
+100035@ES@2044@1700@@Primavera@@29104495@Rua@S@R Primavera
+100036@ES@2044@1705@@Primeira@@29112230@Avenida@S@Av Primeira
+100037@ES@2044@1677@@Geneide do Nascimento Nolasco@@29111160@Avenida@S@Av Geneide do N Nolasco
+100038@ES@2044@1736@@Primeira Avenida@@29112680@Avenida@S@Av Primeira Avenida
+100039@ES@2044@1705@@1º de Abril@@29112132@Rua@S@R 1º de Abril
+100040@ES@2044@1659@@1º de Maio@@29120260@Rua@S@R 1º de Maio
+100041@ES@2044@1659@@1º de Maio@@29120265@Travessa@S@Tv 1º de Maio
+100042@ES@2044@1694@@Primeiro de Maio@@29118700@Rua@S@R Primeiro de Maio
+100043@ES@2044@1716@@Princesa Izabel@@29110170@Rua@S@R Prca Izabel
+100044@ES@2044@1660@@Princesa Izabel@@29119260@Rua@S@R Prca Izabel
+100045@ES@2044@1659@@Princesa Izabel@@29120275@Rua@S@R Prca Izabel
+100047@ES@2044@1690@@Principal@@29115660@Rua@S@R Principal
+100049@ES@2044@1697@@Professor Augusto Rusch@@29102080@Rua@S@R Prf Augusto Rusch
+100050@ES@2044@1716@@Edgard Souza@@29110110@Rua@S@R Edgard Souza
+100051@ES@2044@1686@@Professor Geraldo Costa Alves@@29103690@Rua@S@R Prf Geraldo C Alves
+100052@ES@2044@1660@@Professor Humberto de Campos@@29119220@Rua@S@R Prf Humberto de Campos
+100053@ES@2044@1663@@Professor João Cardoso@@29125040@Rua@S@R Prf João Cardoso
+100054@ES@2044@1663@@Professor João Coutinho@@29125030@Rua@S@R Prf João Coutinho
+100055@ES@2044@1687@@Professor Manoel de Souza@@29108821@Beco@S@Bc Prf Manoel de Souza
+100056@ES@2044@1687@@Professor Manoel de Souza@@29108820@Rua@S@R Prf Manoel de Souza
+100057@ES@2044@1747@@Professor Pedro Barbosa@@29114312@Beco@S@Bc Prf Pedro Barbosa
+100058@ES@2044@1670@@Professor Telmo de Souza Torres@- lado ímpar@29100261@Rua@S@R Prf Telmo de S Torres
+100059@ES@2044@1670@@Professor Telmo de Souza Torres@- lado par@29100490@Rua@S@R Prf Telmo de S Torres
+100060@ES@2044@1727@@Professor Telmo de Souza Torres@- lado ímpar@29101295@Rua@S@R Prf Telmo de S Torres
+100061@ES@2044@1727@@Professor Telmo de Souza Torres@- lado par@29101294@Rua@S@R Prf Telmo de S Torres
+100062@ES@2044@1698@@Professora Francelina Carneiro Setúbal@@29101641@Avenida@S@Av Prfa Francelina C Setúbal
+100064@ES@2044@1682@@Professora Francelina Carneiro Setúbal@- lado ímpar@29107055@Avenida@S@Av Prfa Francelina C Setúbal
+100065@ES@2044@1682@@Professora Francelina Carneiro Setúbal@- lado par@29107052@Avenida@S@Av Prfa Francelina C Setúbal

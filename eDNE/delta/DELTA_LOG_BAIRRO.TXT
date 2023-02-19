@@ -1,0 +1,30 @@
+13370@RS@7953@Loteamento Cidade Universitária@Lot C Universitária@DEL
+13371@RS@7953@Loteamento Escola Rural@Lot E Rural@DEL
+13372@RS@7953@Loteamento Força e Luz@Lot F E Luz@DEL
+13373@RS@7953@Loteamento Julieta K Ricci@Lot J K Ricci@DEL
+13374@RS@7953@Loteamento Luiza Cassaros@Lot L Cassaros@DEL
+13375@RS@7953@Loteamento Magi@Lot Magi@DEL
+13376@RS@7953@Loteamento Manoel Edu Reis@Lot M E Reis@DEL
+13377@RS@7953@Loteamento Morada da Colina@Lot M Colina@DEL
+13380@RS@7953@Loteamento Nonoai@Lot Nonoai@DEL
+13381@RS@7953@Loteamento Nova Estação@Lot N Estação@DEL
+13382@RS@7953@Loteamento Parque Farroupilha@Lot Prq Farroupilha@DEL
+13383@RS@7953@Loteamento Pio XII@Lot Pio XII@DEL
+13384@RS@7953@Loteamento Ricci@Lot Ricci@DEL
+13385@RS@7953@Loteamento Santa Rita@Lot Sta Rita@DEL
+13386@RS@7953@Loteamento Santo Antônio@Lot Sto Antônio@DEL
+13387@RS@7953@Loteamento São Francisco@Lot S Francisco@DEL
+13389@RS@7953@Loteamento Wolmar Salton@Lot W Salton@DEL
+13390@RS@7953@Parque Centenário@Prq Centenário@DEL
+13391@RS@7953@Parque Comerciários@Prq Comerciários@DEL
+13392@RS@7953@Parque do Sol@Prq Sol@DEL
+13393@RS@7953@Parque Leão XIII@Prq Leão XIII@DEL
+13396@RS@7953@Recreio@@DEL
+13399@RS@7953@São Geraldo@S Geraldo@DEL
+13402@RS@7953@Vila Agostinho Carrão@Vl A Carrão@DEL
+13403@RS@7953@Vila Alice@Vl Alice@DEL
+13404@RS@7953@Vila Ambrozina@Vl Ambrozina@DEL
+13406@RS@7953@Vila Berthier@Vl Berthier@DEL
+13408@RS@7953@Vila Carmem@Vl Carmem@DEL
+13410@RS@7953@Vila Dona Eliza@Vl Da Eliza@DEL
+13411@RS@7953@Vila Dona Julia@Vl Da Julia@DEL

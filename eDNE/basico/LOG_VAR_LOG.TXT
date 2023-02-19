@@ -1,0 +1,14 @@
+3538@2@Avenida@Avenida Augusto Ferreira da Silva
+3540@1@Avenida@Avenida Rotary
+3541@2@Rua@Rua C
+4852@1@Rua@Rua G
+3542@2@Rua@Rua Nove
+4721@2@Vila@Vila Redenção
+3544@1@Rua@Rua S
+3557@1@Rua@Rua T - Conjunto Santo Eduardo
+3560@1@Rua@Rua da Mangueira
+956578@2@Rua@Rua Santa Tercila
+956579@2@Rua@Rua Santa Tercila
+3564@1@Rua@Rua B - Lot Cambuci
+1106646@1@Rua@Rua Dr Meneses
+1106647@1@Rua@Rua Dr Meneses

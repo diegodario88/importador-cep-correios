@@ -1,0 +1,12 @@
+33085@AC@11@39332@@AC Manoel Urbano Clique e Retire@Rua Valério Caldas Magalhães, 92@69950959@AC M U C Retire
+33078@AC@12@39339@@AC Marechal Thaumaturgo Clique e Retire@Rua 5 de Novembro, 125@69983959@AC Mal T C Retire
+33104@AC@13@39325@@AC Plácido de Castro Clique e Retire@Avenida Diamantino Augusto de Macedo, 580@69928959@AC P C C Retire
+32499@AC@14@39322@@AC Porto Acre Clique e Retire@Rua Margaridas, 131@69927959@AC Pto A C Retire
+33079@AC@15@39338@@AC Porto Walter Clique e Retire@Rua Projetada, s/n@69982959@AC Pto W C Retire
+1@AC@16@17@55@Assembléia Legislativa do Estado do Acre@Rua Arlindo Porto Leal, 241@69900904@Assembléia L E Acre
+2@AC@16@17@948218@Governo do Estado do Acre@Avenida Getúlio Vargas, 232@69900900@Governo E Acre
+3@AC@16@17@949571@Prefeitura Municipal de Rio Branco@Rua Rui Barbosa, 285@69900901@Prefeitura Mun R Branco
+4@AC@16@17@103@Oi@Avenida Brasil, 378@69900902@Oi
+5@AC@16@22@948254@Universidade Federal do Acre@Rodovia BR-364, 6000@69920900@Universidade Fed Acre
+15346@AC@16@31@674758@UNINORTE@Alameda Alemanha, 200@69915901@UNINORTE
+19123@AC@16@17@948295@Ministério da Fazenda@Rua Marechal Deodoro, 340@69900903@Ministério Fazenda

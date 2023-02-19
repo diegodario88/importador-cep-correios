@@ -1,0 +1,16 @@
+48437@AC@11059@51784@@AGC Campinas@Rua Kaxinawás, s/n@69929970@N@AGC Campinas
+12035@AC@22@39326@@AC Xapuri@Rua 24 de Janeiro, 270@69930970@S@AC Xapuri
+12046@AC@6@39337@@AC Cruzeiro do Sul@Rua Rego Barros, 73@69980970@S@AC Cruzeiro Sul
+34293@AC@6@39337@@CDD Cruzeiro do Sul@Rua Rego Barros, 73@69980972@N@CDD Cruzeiro Sul
+12037@AC@7@39328@@AC Epitaciolândia@Avenida Santos Dumont, 160@69934970@N@AC Epitaciolândia
+12043@AC@8@39334@@AC Feijó@Avenida Plácido de Castro, 871@69960970@N@AC Feijó
+12044@AC@21@39335@@AC Tarauacá@Rua Coronel Juvêncio de Menezes, 158@69970970@S@AC Tarauacá
+12040@AC@1@39331@@AC Acrelândia@Avenida Paraná, 296@69945970@N@AC Acrelândia
+12050@AC@10@39341@@AC Mâncio Lima@Rua Alberto Gadelha, 333@69990970@N@AC Mâncio Lima
+12041@AC@11@39332@@AC Manoel Urbano@Rua Valério Caldas Magalhães, 92@69950970@N@AC Manoel Urbano
+12038@AC@2@39329@@AC Assis Brasil@Rua Dom Giocondo Maria Grotte, 230@69935970@N@AC Assis Brasil
+11987@AC@20@39324@@AC Senador Guiomard@Avenida Castelo Branco, 1750@69925970@N@AC Sen Guiomard
+12036@AC@3@39327@@AC Brasiléia@Avenida Prefeito Rolando Moreira, 170@69932970@S@AC Brasiléia
+11984@AC@4@39321@@AC Bujari@Rua Expedito Pereira de Souza, 971@69926970@N@AC Bujari
+12045@AC@9@39336@@AC Jordão@Rua Romildo Magalhães, s/n@69975970@N@AC Jordão
+12048@AC@12@39339@@AC Marechal Thaumaturgo@Rua 5 de Novembro, 125@69983970@N@AC Mal Thaumaturgo

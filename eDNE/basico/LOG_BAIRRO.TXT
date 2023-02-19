@@ -1,0 +1,20 @@
+41@AC@16@Placas@Placas
+42@AC@16@Plácido de Castro@P Castro
+43@AC@16@Preventório@Preventório
+45@AC@16@Quinze@Quinze
+46@AC@16@Santa Inês@Sta Inês
+47@AC@16@Santa Quitéria@Sta Quitéria
+32642@GO@2361@Vila Isabel@Vl Isabel
+32677@GO@2263@Setor Central@St Central
+32685@GO@2267@Setor Central@St Central
+32714@GO@2268@Setor Central@St Central
+32716@GO@2269@Setor Central@St Central
+5268@MG@3689@Santa Paula@Sta Paula
+5269@MG@3689@Santana (Justinópolis)@Santana (Justinópolis)
+5274@MG@3689@São João de Deus (Justinópolis)@S J Deus (Justinópolis)
+5280@MG@3689@Sevilha (1ª Seção)@Sevilha (1ª Seção)
+5281@MG@3689@Sevilha (2ª Seção)@Sevilha (2ª Seção)
+5284@MG@3689@Suely (Justinópolis)@Suely (Justinópolis)
+5288@MG@3689@Tropical (Justinópolis)@Tropical (Justinópolis)
+5289@MG@3689@Urca (Justinópolis)@Urca (Justinópolis)
+5298@MG@3689@Vila do Sapé@Vl Sapé

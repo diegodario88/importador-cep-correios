@@ -4,17 +4,20 @@
  Docker
 
 #### Tempo estimado para processamento
- Foi verificado a duração de 01 (uma) hora para realizar todo o processo usando o banco do container
+ Foi verificado a duração de 01 (uma) hora para realizar todo o processo 
+ usando o banco do container e o arquivo original dos correios.
 
 #### Como rodar
-1) Extraia o arquivo `eDNE_Basico` cedido pelos correios na raiz do projeto
->`unzip /caminho/para/o/arquivo/caminho_do_arquivo.zip`
-Certifique-se de substituir "caminho_do_arquivo.zip" pelo caminho real do arquivo que deseja extrair.
+1) Extraia o arquivo `eDNE_Basico` cedido pelos correios em algum diretório
 
-2) Crie um um arquivo `.env` com as credenciais conforme o arquivo `.env.example`
+2) Substitua os arquivos `.TXT` contidos na pasta `eDNE/basico` e `eDNE/delta`
+com os respectivos arquivos extraídos dos correios.
+> Obs: Nesse script usamos os arquivos delimitados
+
+3) Crie um um arquivo `.env` com as credenciais conforme o arquivo `.env.example`
 >`cp .env.example .env`
 
-2) Suba os containers
+4) Suba os containers
 >`docker-compose up`
 
 #### Erros comuns
