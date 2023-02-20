@@ -12,7 +12,21 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const infra = new InfrastructureService();
 const fileSizeCount = [0];
 const lineCount = [0];
-const multiBar = new MultiBar(
+const baseMultiBar = new MultiBar(
+  {
+    clearOnComplete: false,
+    hideCursor: true,
+    fps: 60,
+    format: " {bar} {percentage}% of {total} | {filename} ",
+    barsize: 30,
+    autopadding: true,
+    forceRedraw: true,
+    stopOnComplete: true,
+    formatValue: (v) => v.toLocaleString("pt-BR"),
+  },
+  Presets.rect
+);
+const deltaMultiBar = new MultiBar(
   {
     clearOnComplete: false,
     hideCursor: true,
@@ -35,7 +49,7 @@ try {
     fileSizeCount,
     infra,
     lineCount,
-    multiBar,
+    multiBar: baseMultiBar,
   });
   console.log("Importing files ...");
   await baseFolder.process();
@@ -45,7 +59,7 @@ try {
     fileSizeCount,
     infra,
     lineCount,
-    multiBar,
+    multiBar: deltaMultiBar,
   });
   console.log("Updating delta ...");
   await deltaFolder.process();
