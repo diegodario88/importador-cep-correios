@@ -58,14 +58,22 @@ export class InfrastructureService {
   async getTotalRecords() {
     const query = {
       name: "get-total-records",
-      text: `SELECT SUM(reltuples) AS total_registros
-             FROM pg_class C
-             JOIN pg_namespace N ON (N.oid = C.relnamespace)
-             WHERE n.nspname = 'correios' AND relkind = 'r';`,
+      text: `SELECT sum((xpath('/row/cnt/text()', xml_count))[1]::TEXT::int ) AS total_records
+              FROM
+              (
+              SELECT
+                table_name,
+                table_schema,
+                query_to_xml(format('select count(*) as cnt from %I.%I', table_schema, table_name), FALSE, TRUE, '') AS xml_count
+              FROM
+                information_schema.tables
+              WHERE
+                table_schema = 'correios'
+              ) t`,
     };
 
     const result = await this.DATABASE_CLIENT.query(query);
-    return result.rows[0].total_registros;
+    return result.rows[0].total_records;
   }
 
   /**
