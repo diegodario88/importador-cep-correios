@@ -1,24 +1,35 @@
-## Importador de dados Correios eDNE_Basico
+# Importador de dados Correios eDNE_Basico
 
-#### Dependências
- Docker
+## Descrição
 
-#### Tempo estimado para processamento
- Foi verificado a duração de 01 (uma) hora para realizar todo o processo 
- usando o banco do container e o arquivo original dos correios.
+Este repositório contém um script para importar dados do Correios eDNE_Basico para um banco de dados PostgreSQL usando Docker e Docker Compose. Este script usa arquivos delimitados para importação.
 
-#### Como rodar
-1) Extraia o arquivo `eDNE_Basico` cedido pelos correios em algum diretório
+## Dependências
 
-2) Substitua os arquivos `.TXT` contidos na pasta `eDNE/basico` e `eDNE/delta`
-com os respectivos arquivos extraídos dos correios.
-> Obs: Nesse script usamos os arquivos delimitados
+Para executar este script, você precisará das seguintes dependências:
 
-3) Crie um um arquivo `.env` com as credenciais conforme o arquivo `.env.example`
->`cp .env.example .env`
+- Docker
+- Docker Compose
+
+## Tempo estimado para processamento
+
+Foi verificado que o processo completo leva cerca de 3 horas, usando o banco de dados no container e o arquivo original dos Correios.
+
+## Como usar
+
+Siga as instruções abaixo para executar o script:
+
+1. Extraia o arquivo `eDNE_Basico` cedido pelos correios em algum diretório.
+
+2. Substitua os arquivos `.TXT` contidos nas pastas `eDNE/basico` e `eDNE/delta` com os respectivos arquivos extraídos dos Correios.
+
+   > Nota: Neste script, usamos arquivos delimitados.
+
+3. Crie um arquivo `.env` com as credenciais conforme o arquivo `.env.example`.
+   >`cp .env.example .env`
 
 4) Suba os containers
->`docker-compose up`
+   >`docker-compose up`
 
 #### Erros comuns
 - Se a porta `5423` já estiver em uso altere a variável `POSTGRESQL_PORT` no arquivo `.env` para uma porta diferente.
