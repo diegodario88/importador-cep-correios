@@ -24,7 +24,7 @@ const baseMultiBar = new MultiBar(
     stopOnComplete: true,
     formatValue: (v) => v.toLocaleString("pt-BR"),
   },
-  Presets.rect
+  Presets.rect,
 );
 const deltaMultiBar = new MultiBar(
   {
@@ -38,7 +38,7 @@ const deltaMultiBar = new MultiBar(
     stopOnComplete: true,
     formatValue: (v) => v.toLocaleString("pt-BR"),
   },
-  Presets.rect
+  Presets.rect,
 );
 
 try {
