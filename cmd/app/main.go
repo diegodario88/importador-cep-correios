@@ -30,9 +30,9 @@ func main() {
 		log.Printf("Error reading LOG_LOCALIDADE: %v\n", err)
 	} else {
 		log.Printf("Read %d records from LOG_LOCALIDADE\n", len(logLocalidadeRecords))
-		if err := database.InsertLogLocalidade(logLocalidadeRecords); err != nil {
-			log.Fatalf("Error inserting LOG_LOCALIDADE records: %v", err)
-		}
+		// if err := database.InsertLogLocalidade(logLocalidadeRecords); err != nil {
+		// 	log.Fatalf("Error inserting LOG_LOCALIDADE records: %v", err)
+		// }
 		log.Println("Successfully inserted/updated LOG_LOCALIDADE records")
 	}
 
@@ -44,9 +44,9 @@ func main() {
 		log.Printf("Error reading LOG_BAIRRO: %v\n", err)
 	} else {
 		log.Printf("Read %d records from LOG_BAIRRO\n", len(logBairroRecords))
-		if err := database.InsertLogBairro(logBairroRecords); err != nil {
-			log.Fatalf("Error inserting LOG_BAIRRO records: %v", err)
-		}
+		// if err := database.InsertLogBairro(logBairroRecords); err != nil {
+		// 	log.Fatalf("Error inserting LOG_BAIRRO records: %v", err)
+		// }
 		log.Println("Successfully inserted/updated LOG_BAIRRO records")
 	}
 

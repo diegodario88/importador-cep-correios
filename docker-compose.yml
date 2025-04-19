@@ -1,7 +1,25 @@
-version: "3.7"
 volumes:
   db:
 services:
+  importer:
+    container_name: importer
+    image: importer:1.0.0
+    stop_grace_period: 30s
+    depends_on:
+      correios:
+        condition: service_healthy
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    tty: true
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app:z
+    restart: unless-stopped
+    extra_hosts:
+      - "gazintech.dev:172.17.0.1"
   correios:
     container_name: correios
     image: postgres
@@ -20,15 +38,3 @@ services:
       retries: 5
     volumes:
       - db:/var/lib/postgresql/data
-  importer:
-    container_name: importer
-    image: importer:1.0.0
-    depends_on:
-      correios:
-        condition: service_healthy
-    build: .
-    tty: true
-    extra_hosts:
-      - "gazintech.dev:172.17.0.1"
-    ports:
-      - "8080:8080"

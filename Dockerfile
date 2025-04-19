@@ -1,28 +1,33 @@
-FROM golang:1.22-alpine AS builder
+FROM golang:1.24-alpine AS base
 
-# Set working directory
 WORKDIR /app
 
-# Copy go mod and sum files
+RUN apk add --no-cache make
+
 COPY go.mod go.sum ./
 
-# Download dependencies
 RUN go mod download
 
-# Copy the source code
+FROM base AS development
+
+RUN go install github.com/air-verse/air@latest 
+
 COPY . .
 
-# Build the Go app
-RUN go build -o main ./cmd/app
+CMD ["air", "-c", ".air.toml"]
 
-# Create a minimal image for running the app
-FROM alpine:latest  
+FROM base AS builder
 
-# Set working directory
+COPY . .
+
+RUN CGO_ENABLED=0 go build -o /app/importer -ldflags="-s -w" ./cmd/main.go
+
+FROM alpine:latest AS production
+
 WORKDIR /app
 
-# Copy the built binary from the builder stage
-COPY --from=builder /app/main .
+COPY --from=builder /app/importer /usr/local/bin/importer
 
-# Command to run the executable
-CMD ["./main"]
+RUN chmod +x /usr/local/bin/importer
+
+CMD ["/usr/local/bin/importer"]
