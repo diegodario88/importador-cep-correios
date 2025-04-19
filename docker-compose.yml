@@ -30,3 +30,5 @@ services:
     tty: true
     extra_hosts:
       - "gazintech.dev:172.17.0.1"
+    ports:
+      - "8080:8080"

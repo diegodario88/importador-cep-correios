@@ -1,13 +1,28 @@
-FROM node:18.12.1-alpine3.15 AS development
+FROM golang:1.22-alpine AS builder
 
-RUN mkdir -p /opt/importer/app && chown node:node /opt/importer/app
+# Set working directory
+WORKDIR /app
 
-WORKDIR /opt/importer/app
+# Copy go mod and sum files
+COPY go.mod go.sum ./
 
-COPY --chown=node:node . .
+# Download dependencies
+RUN go mod download
 
-RUN npm install
+# Copy the source code
+COPY . .
 
-USER node
+# Build the Go app
+RUN go build -o main ./cmd/app
 
-CMD ["node", "main.mjs"]
+# Create a minimal image for running the app
+FROM alpine:latest  
+
+# Set working directory
+WORKDIR /app
+
+# Copy the built binary from the builder stage
+COPY --from=builder /app/main .
+
+# Command to run the executable
+CMD ["./main"]
