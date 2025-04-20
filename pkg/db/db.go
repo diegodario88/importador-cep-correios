@@ -8,6 +8,7 @@ import (
 	"strings"
 	"sync"
 
+	immu "github.com/diegodario88/importador-cep-correios/pkg/constants"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
@@ -22,7 +23,7 @@ type DB struct {
 func (db *DB) Connect() error {
 	db.ctx = context.Background()
 
-	err := godotenv.Load("/app/.env")
+	err := godotenv.Load(".env")
 	if err != nil {
 		log.Println("Warning: Error loading .env file:", err)
 	}
@@ -728,8 +729,7 @@ func (db *DB) BulkInsertECTPais(rows [][]any) error {
 
 func (db *DB) CreateCorreiosTables() error {
 	var wg sync.WaitGroup
-
-	errChan := make(chan error, 20) // Buffer size based on number of tables
+	errChan := make(chan error, immu.SIXTEEN_TASKS)
 
 	createTable := func(name string, createFn func() error) {
 		defer wg.Done()
@@ -743,7 +743,7 @@ func (db *DB) CreateCorreiosTables() error {
 		return fmt.Errorf("error creating schema: %w", err)
 	}
 
-	wg.Add(16)
+	wg.Add(immu.SIXTEEN_TASKS)
 
 	go createTable("ect_pais", db.CreateTableECTPais)
 	go createTable("log_faixa_uf", db.CreateTableLogFaixaUF)
@@ -762,10 +762,8 @@ func (db *DB) CreateCorreiosTables() error {
 	go createTable("log_unid_oper", db.CreateTableLogUnidOper)
 	go createTable("log_faixa_uop", db.CreateTableLogFaixaUOP)
 
-	go func() {
-		wg.Wait()
-		close(errChan)
-	}()
+	wg.Wait()
+	close(errChan)
 
 	var errMsgs []string
 	for err := range errChan {

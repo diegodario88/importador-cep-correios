@@ -2,10 +2,11 @@ package utils
 
 import (
 	"bufio"
-	"fmt"
 	"log"
 	"os"
-	"strings"
+
+	"golang.org/x/text/language"
+	"golang.org/x/text/message"
 )
 
 func CountLines(path string) (int, error) {
@@ -32,12 +33,6 @@ func GetCWD() string {
 }
 
 func FormatNumber(n int) string {
-	return strings.ReplaceAll(fmt.Sprintf("%d", n), "", ".")
-}
-
-func EmptyToNull(field string) any {
-	if field == "" {
-		return nil
-	}
-	return field
+	p := message.NewPrinter(language.BrazilianPortuguese)
+	return p.Sprintf("%d", n)
 }

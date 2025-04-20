@@ -7,11 +7,11 @@ import (
 	"github.com/vbauerster/mpb/v8"
 )
 
-type Job struct {
+type JobTools struct {
 	Ctx      context.Context
 	Database *db.DB
 	BasePath string
 	Progress *mpb.Progress
 }
 
-type Processes func(Job) error
+type Processes func(JobTools) error

@@ -13,9 +13,9 @@ import (
 	"golang.org/x/text/encoding/charmap"
 )
 
-func ProcessECTPais(job Job) error {
+func ProcessECTPais(tools JobTools) error {
 	fileName := "ECT_PAIS.TXT"
-	filePath := filepath.Join(job.BasePath, fileName)
+	filePath := filepath.Join(tools.BasePath, fileName)
 
 	_, err := os.Stat(filePath)
 	if err != nil {
@@ -36,10 +36,16 @@ func ProcessECTPais(job Job) error {
 		return fmt.Errorf("erro ao contar linhas: %w", err)
 	}
 
-	bar := job.Progress.AddBar(int64(lineCount),
+	bar := tools.Progress.AddBar(
+		int64(lineCount),
 		mpb.PrependDecorators(
 			decor.Name(fileName, decor.WC{W: len(fileName) + 1, C: decor.DindentRight}),
-			decor.Percentage(decor.WC{W: 6}),
+			decor.Percentage(decor.WCSyncSpace),
+		),
+		mpb.AppendDecorators(
+			decor.OnComplete(
+				decor.EwmaETA(decor.ET_STYLE_GO, 30, decor.WCSyncWidth), "importado",
+			),
 		),
 	)
 
@@ -62,7 +68,7 @@ func ProcessECTPais(job Job) error {
 
 		batch = append(batch, row)
 		if len(batch) >= batchSize {
-			if err := job.Database.BulkInsertECTPais(batch); err != nil {
+			if err := tools.Database.BulkInsertECTPais(batch); err != nil {
 				return err
 			}
 			batch = batch[:0]
@@ -76,7 +82,7 @@ func ProcessECTPais(job Job) error {
 	}
 
 	if len(batch) > 0 {
-		if err := job.Database.BulkInsertECTPais(batch); err != nil {
+		if err := tools.Database.BulkInsertECTPais(batch); err != nil {
 			return err
 		}
 	}

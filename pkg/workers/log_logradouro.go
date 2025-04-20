@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 
 	"github.com/diegodario88/importador-cep-correios/pkg/utils"
 	"github.com/vbauerster/mpb/v8"
@@ -13,51 +14,80 @@ import (
 	"golang.org/x/text/encoding/charmap"
 )
 
-func ProcessLogLogradouro(job Job) error {
+func ProcessLogLogradouro(tools JobTools) error {
+	var wg sync.WaitGroup
 	filePattern := "LOG_LOGRADOURO_*.TXT"
-	matches, err := filepath.Glob(filepath.Join(job.BasePath, filePattern))
+	matches, err := filepath.Glob(filepath.Join(tools.BasePath, filePattern))
 	if err != nil {
 		return fmt.Errorf("erro ao buscar arquivos de logradouro: %w", err)
 	}
 
-	if len(matches) == 0 {
+	ufs := len(matches)
+	if ufs == 0 {
 		return fmt.Errorf("nenhum arquivo de logradouro encontrado com o padrão %s", filePattern)
 	}
 
-	var totalLines int64
-	for _, filePath := range matches {
-		lines, err := utils.CountLines(filePath)
-		if err != nil {
-			return fmt.Errorf(
-				"erro ao contar linhas do arquivo %s: %w",
-				filepath.Base(filePath),
-				err,
-			)
-		}
-		totalLines += int64(lines)
-	}
-
-	bar := job.Progress.AddBar(totalLines,
-		mpb.PrependDecorators(
-			decor.Name("LOG_LOGRADOURO", decor.WC{W: 15, C: decor.DindentRight}),
-			decor.Percentage(decor.WC{W: 6}),
-		),
-	)
+	errCh := make(chan error, ufs)
+	wg.Add(ufs)
 
 	for _, filePath := range matches {
 		fileName := filepath.Base(filePath)
-		if err := processLogradouroFile(job, filePath, fileName, bar); err != nil {
-			return fmt.Errorf("erro ao processar %s: %w", fileName, err)
+
+		lineCount, err := utils.CountLines(filePath)
+		if err != nil {
+			return fmt.Errorf("erro ao contar linhas: %w", err)
 		}
+
+		ufBar := tools.Progress.AddBar(
+			int64(lineCount),
+			mpb.PrependDecorators(
+				decor.Name(fileName, decor.WC{W: len(fileName) + 1, C: decor.DindentRight}),
+				decor.Percentage(decor.WCSyncSpace),
+			),
+			mpb.AppendDecorators(
+				decor.OnComplete(
+					decor.EwmaETA(decor.ET_STYLE_GO, 30, decor.WCSyncWidth), "importado",
+				),
+			),
+		)
+
+		go processLogradouroFile(
+			tools,
+			filePath,
+			fileName,
+			ufBar,
+			errCh,
+			&wg,
+		)
+	}
+
+	wg.Wait()
+	close(errCh)
+
+	var errMsgs []string
+	for err := range errCh {
+		errMsgs = append(errMsgs, err.Error())
+	}
+
+	if len(errMsgs) > 0 {
+		return fmt.Errorf("errors creating tables: %s", strings.Join(errMsgs, "; "))
 	}
 
 	return nil
 }
 
-func processLogradouroFile(job Job, filePath, fileName string, bar *mpb.Bar) error {
+func processLogradouroFile(
+	tools JobTools,
+	filePath, fileName string,
+	bar *mpb.Bar,
+	c chan error,
+	wg *sync.WaitGroup,
+) {
+	defer wg.Done()
 	file, err := os.Open(filePath)
 	if err != nil {
-		return fmt.Errorf("erro ao abrir arquivo %s: %w", fileName, err)
+		c <- fmt.Errorf("erro ao abrir arquivo %s: %w", fileName, err)
+		return
 	}
 	defer file.Close()
 
@@ -83,8 +113,9 @@ func processLogradouroFile(job Job, filePath, fileName string, bar *mpb.Bar) err
 
 		batch = append(batch, row)
 		if len(batch) >= batchSize {
-			if err := job.Database.BulkInsertLogLogradouro(batch); err != nil {
-				return err
+			if err := tools.Database.BulkInsertLogLogradouro(batch); err != nil {
+				c <- err
+				return
 			}
 			batch = batch[:0]
 		}
@@ -93,14 +124,14 @@ func processLogradouroFile(job Job, filePath, fileName string, bar *mpb.Bar) err
 	}
 
 	if err := scanner.Err(); err != nil {
-		return fmt.Errorf("erro ao escanear arquivo: %w", err)
+		c <- fmt.Errorf("erro ao escanear arquivo: %w", err)
+		return
 	}
 
 	if len(batch) > 0 {
-		if err := job.Database.BulkInsertLogLogradouro(batch); err != nil {
-			return err
+		if err := tools.Database.BulkInsertLogLogradouro(batch); err != nil {
+			c <- err
+			return
 		}
 	}
-
-	return nil
 }

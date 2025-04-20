@@ -13,6 +13,7 @@ services:
       dockerfile: Dockerfile
       target: development
     tty: true
+    stdin_open: true
     ports:
       - 3000:3000
     volumes:
