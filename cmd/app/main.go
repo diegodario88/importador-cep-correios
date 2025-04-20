@@ -1,54 +1,94 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"log"
+	"os"
 	"path/filepath"
+	"time"
 
-	"github.com/diegodario88/correios-processor/pkg/db"
-	"github.com/diegodario88/correios-processor/pkg/readers"
+	"github.com/vbauerster/mpb/v8"
+
+	"github.com/diegodario88/importador-cep-correios/pkg/db"
+	"github.com/diegodario88/importador-cep-correios/pkg/utils"
+	"github.com/diegodario88/importador-cep-correios/pkg/workers"
 )
 
 func main() {
-	fmt.Println("Starting Correios Processor...")
-
-	// Database connection
+	start := time.Now()
+	basePath := filepath.Join(utils.GetCWD(), "eDNE", "basico")
+	progress := mpb.New(mpb.WithWidth(60), mpb.WithOutput(os.Stdout))
 	database := &db.DB{}
+	ctx := context.Background()
+
 	if err := database.Connect(); err != nil {
-		log.Fatalf("Failed to connect to database: %v", err)
+		log.Fatal(err)
 	}
-	defer database.Close()
+	defer database.Disconnect()
 
-	// Define the base directory for the eDNE files
-	baseDir := "eDNE/basico" // Adjust if necessary
-
-	// Process LOG_LOCALIDADE.TXT
-	logLocalidadePath := filepath.Join(baseDir, "LOG_LOCALIDADE.TXT")
-	log.Printf("Processing %s...\n", logLocalidadePath)
-	logLocalidadeRecords, err := readers.ReadLogLocalidade(logLocalidadePath)
-	if err != nil {
-		log.Printf("Error reading LOG_LOCALIDADE: %v\n", err)
-	} else {
-		log.Printf("Read %d records from LOG_LOCALIDADE\n", len(logLocalidadeRecords))
-		// if err := database.InsertLogLocalidade(logLocalidadeRecords); err != nil {
-		// 	log.Fatalf("Error inserting LOG_LOCALIDADE records: %v", err)
-		// }
-		log.Println("Successfully inserted/updated LOG_LOCALIDADE records")
+	if err := database.CreateCorreiosSchema(); err != nil {
+		log.Fatal(err)
 	}
 
-	// Process LOG_BAIRRO.TXT
-	logBairroPath := filepath.Join(baseDir, "LOG_BAIRRO.TXT")
-	log.Printf("Processing %s...\n", logBairroPath)
-	logBairroRecords, err := readers.ReadLogBairro(logBairroPath)
-	if err != nil {
-		log.Printf("Error reading LOG_BAIRRO: %v\n", err)
-	} else {
-		log.Printf("Read %d records from LOG_BAIRRO\n", len(logBairroRecords))
-		// if err := database.InsertLogBairro(logBairroRecords); err != nil {
-		// 	log.Fatalf("Error inserting LOG_BAIRRO records: %v", err)
-		// }
-		log.Println("Successfully inserted/updated LOG_BAIRRO records")
+	if err := database.CreateCorreiosTables(); err != nil {
+		log.Fatal(err)
 	}
 
-	fmt.Println("Correios Processor finished.")
+	executors := []workers.Processes{
+		workers.ProcessECTPais,
+		workers.ProcessLogFaixaUF,
+		workers.ProcessLogLocalidade,
+		workers.ProcessLogVarLoc,
+		workers.ProcessLogFaixaLocalidade,
+		workers.ProcessLogBairro,
+		workers.ProcessLogVarBai,
+		workers.ProcessLogFaixaBairro,
+		workers.ProcessLogCPC,
+		workers.ProcessLogFaixaCPC,
+		workers.ProcessLogLogradouro,
+		workers.ProcessLogVarLog,
+		workers.ProcessLogNumSec,
+		workers.ProcessLogGrandeUsuario,
+		workers.ProcessLogUnidOper,
+		workers.ProcessLogFaixaUOP,
+	}
+
+	errCh := make(chan error, len(executors))
+	done := make(chan struct{})
+
+	for _, worker := range executors {
+		go func(execute workers.Processes) {
+			job := workers.Job{
+				Ctx:      ctx,
+				Database: database,
+				BasePath: basePath,
+				Progress: progress,
+			}
+
+			if err := execute(job); err != nil {
+				errCh <- err
+			}
+			done <- struct{}{}
+		}(worker)
+	}
+
+	for range executors {
+		select {
+		case <-done:
+		case err := <-errCh:
+			log.Fatalf("Erro no processamento: %v", err)
+		}
+	}
+
+	progress.Wait()
+
+	fmt.Println("\nRelatório final:")
+
+	totalRecords, _ := database.GetTotalRecords()
+	totalCeps, _ := database.GetTotalCEPs()
+
+	fmt.Printf("Registros totais: %s\n", utils.FormatNumber(totalRecords))
+	fmt.Printf("Total de CEPs: %s\n", utils.FormatNumber(totalCeps))
+	fmt.Printf("Tempo total: %s\n", time.Since(start).Round(time.Millisecond))
 }
