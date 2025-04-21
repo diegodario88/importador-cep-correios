@@ -1,13 +1,33 @@
-FROM node:18.12.1-alpine3.15 AS development
+FROM golang:1.24-alpine AS base
 
-RUN mkdir -p /opt/importer/app && chown node:node /opt/importer/app
+WORKDIR /app
 
-WORKDIR /opt/importer/app
+RUN apk add --no-cache make
 
-COPY --chown=node:node . .
+COPY go.mod go.sum ./
 
-RUN npm install
+RUN go mod download
 
-USER node
+FROM base AS development
 
-CMD ["node", "main.mjs"]
+RUN go install github.com/air-verse/air@latest 
+
+COPY . .
+
+CMD ["air", "-c", ".air.toml"]
+
+FROM base AS builder
+
+COPY . .
+
+RUN CGO_ENABLED=0 go build -o /app/importer -ldflags="-s -w" ./cmd/app/main.go
+
+FROM alpine:latest AS production
+
+WORKDIR /app
+
+COPY --from=builder /app/importer /usr/local/bin/importer
+
+RUN chmod +x /usr/local/bin/importer
+
+CMD ["/usr/local/bin/importer"]
