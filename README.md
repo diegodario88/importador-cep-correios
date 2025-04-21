@@ -1,35 +1,92 @@
-# Importador de dados Correios eDNE_Basico
+# Importador de CEPs dos Correios
 
 ## Descrição
 
-Este repositório contém um script para importar dados do Correios eDNE_Basico para um banco de dados PostgreSQL usando Docker e Docker Compose. Este script usa arquivos delimitados para importação.
+Este projeto é uma aplicação CLI escrita em Go que importa arquivos do
+Diretório Nacional de Endereços (DNE) dos Correios para um banco de dados
+PostgreSQL. A aplicação foi construída com foco em desempenho, concorrência
+e baixo consumo de memória.
+
+## Visão geral
+
+- Lê arquivos da base completa `eDNE/basico` no formato `.TXT`, com layout delimitado por `@`, conforme o padrão dos Correios.
+- Processa os dados em paralelo, arquivo por arquivo.
+- Utiliza `pgx.CopyFrom` para inserções em lote no PostgreSQL.
+- Exibe barras de progresso em tempo real com a biblioteca `mpb`.
+- Registra métricas como tempo total de execução, total de registros e total de CEPs inseridos.
+
+O propósito deste projeto é importar a base completa de CEPs para um banco PostgreSQL e, a partir disso, executar um `dump`
+do schema `correios`, permitindo seu `restore` em ambientes de produção. Esse processo pode ser repetido periodicamente para manter
+a sincronização com as atualizações quinzenais publicadas pelos Correios.
+
+Optou-se por não utilizar os arquivos do diretório **Delta**, visto que a importação completa é suficientemente rápida e elimina
+a complexidade de gerenciar operações de `UPDATE` e `DELETE`. Além disso, essa abordagem permite recuperar facilmente a sincronização
+caso uma atualização quinzenal seja perdida, bastando importar novamente a base completa mais recente.
 
 ## Dependências
 
-Para executar este script, você precisará das seguintes dependências:
+Para executar este projeto, você precisará de:
 
+- Go (para rodar localmente, opcional)
 - Docker
 - Docker Compose
+- Arquivos da base `eDNE/basico` (modelo atual disponível [aqui](https://www2.correios.com.br/sistemas/edne/default.cfm?s=true))
 
-## Tempo estimado para processamento
+## Tempo estimado de processamento
 
-Foi verificado que o processo completo leva cerca de 3 horas, usando o banco de dados no container e o arquivo original dos Correios.
+Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com o hardware e software descritos abaixo.
+
+### Hardware
+
+- **Placa-mãe:** Gigabyte B450M S2H
+- **Memória:** 64 GiB
+- **Processador:** AMD Ryzen™ 9 3900 (24 threads)
+- **Gráficos:** AMD Radeon™ RX 6600M
+- **Armazenamento:** 2 TB SSD
+
+### Software
+
+- **Firmware:** F67d
+- **Sistema operacional:** Fedora Linux 42 (Workstation Edition)
+- **Arquitetura:** 64-bit
+- **Interface gráfica:** GNOME 48 sob Wayland
+- **Kernel:** Linux 6.14.2-300.fc42.x86_64
 
 ## Como usar
 
-Siga as instruções abaixo para executar o script:
+1. Extraia os arquivos da base `eDNE_Basico` fornecida pelos Correios para um diretório local.
 
-1. Extraia o arquivo `eDNE_Basico` cedido pelos correios em algum diretório.
+2. Substitua os arquivos `.TXT` existentes na pasta `eDNE/basico` pelo conteúdo extraído dos Correios.
 
-2. Substitua os arquivos `.TXT` contidos nas pastas `eDNE/basico` e `eDNE/delta` com os respectivos arquivos extraídos dos Correios.
+   > Observação: Este projeto trabalha com arquivos delimitados por `@`.
 
-   > Nota: Neste script, usamos arquivos delimitados.
+3. Crie um arquivo `.env` com as credenciais do banco. Use o modelo `.env.example` como base:
 
-3. Crie um arquivo `.env` com as credenciais conforme o arquivo `.env.example`.
-   >`cp .env.example .env`
+   ```bash
+   cp .env.example .env
+   ```
 
 4) Suba os containers
-   >`docker-compose up`
+   > `docker-compose up`
 
 #### Erros comuns
-- Se a porta `5423` já estiver em uso altere a variável `POSTGRESQL_PORT` no arquivo `.env` para uma porta diferente.
+
+- _Porta em uso:_ Se a porta `5432` já estiver ocupada no seu sistema, altere a variável `POSTGRESQL_PORT` no arquivo `.env`  
+  para uma porta diferente (ex: `6432`)
+
+- _Barras de progresso não aparecem:_ Isso é esperado ao rodar via `docker compose logs`. As barras só são exibidas corretamente quando
+  o terminal é interativo (ex: `go run`, `docker exec -it`, etc).
+
+- As barras de progresso podem não aparecer no output do docker, essa é uma limitação conhecida.
+
+## Planos futuros
+
+- Automatizar o processo de download e extração dos arquivos da base dos Correios utilizando a biblioteca `chromedp`, eliminando a etapa manual de obtenção dos dados.
+- Criar uma tabela de relatório (`correios.importacao_relatorio`) contendo os dados consolidados da execução, como total de registros inseridos, total de CEPs distintos, data/hora de execução e versão da base importada.
+- Implementar uma função no banco de dados PostgreSQL para facilitar consultas por CEP, com interface simples e desempenho otimizado. Exemplo de uso:
+  ```sql
+  SELECT * FROM correios.consulta_cep('01001000');
+  ```
+- Gerar automaticamente o arquivo de `dump` do schema `correios` no formato binário (`.dump`) ao final da importação, facilitando restaurações e integrando com pipelines de produção.
+- Adicionar uma etapa de confirmação interativa antes de iniciar o processo de importação, garantindo que o usuário esteja ciente das operações que serão executadas, especialmente em ambientes sensíveis.
+- Exibir informações detalhadas sobre a conexão com o banco de dados no início da execução, incluindo a versão do PostgreSQL, para facilitar a validação de compatibilidade com ambientes de produção e evitar falhas em operações de restore.

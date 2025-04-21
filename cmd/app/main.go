@@ -28,6 +28,7 @@ func main() {
 		mpb.WithWidth(64),
 		mpb.WithWaitGroup(&wg),
 		mpb.WithOutput(os.Stderr),
+		mpb.WithAutoRefresh(),
 	)
 
 	if err := database.Connect(); err != nil {

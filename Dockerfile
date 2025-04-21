@@ -20,7 +20,7 @@ FROM base AS builder
 
 COPY . .
 
-RUN CGO_ENABLED=0 go build -o /app/importer -ldflags="-s -w" ./cmd/main.go
+RUN CGO_ENABLED=0 go build -o /app/importer -ldflags="-s -w" ./cmd/app/main.go
 
 FROM alpine:latest AS production
 
