@@ -36,20 +36,9 @@ Para executar este projeto, você precisará de:
 
 Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com o hardware e software descritos abaixo.
 
-### Hardware
-
-- **Placa-mãe:** Gigabyte B450M S2H
-- **Memória:** 64 GiB
 - **Processador:** AMD Ryzen™ 9 3900 (24 threads)
-- **Gráficos:** AMD Radeon™ RX 6600M
-- **Armazenamento:** 2 TB SSD
-
-### Software
-
-- **Firmware:** F67d
+- **Memória:** 64 GiB
 - **Sistema operacional:** Fedora Linux 42 (Workstation Edition)
-- **Arquitetura:** 64-bit
-- **Interface gráfica:** GNOME 48 sob Wayland
 - **Kernel:** Linux 6.14.2-300.fc42.x86_64
 
 ## Como usar
@@ -90,3 +79,7 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
 - Gerar automaticamente o arquivo de `dump` do schema `correios` no formato binário (`.dump`) ao final da importação, facilitando restaurações e integrando com pipelines de produção.
 - Adicionar uma etapa de confirmação interativa antes de iniciar o processo de importação, garantindo que o usuário esteja ciente das operações que serão executadas, especialmente em ambientes sensíveis.
 - Exibir informações detalhadas sobre a conexão com o banco de dados no início da execução, incluindo a versão do PostgreSQL, para facilitar a validação de compatibilidade com ambientes de produção e evitar falhas em operações de restore.
+
+<a href='https://ko-fi.com/Y8Y8Q12UV' target='_blank'><img height='36'
+style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
+border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
