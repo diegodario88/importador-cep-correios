@@ -46,7 +46,14 @@ func (db *DB) Connect() error {
 	}
 
 	db.Pool = pool
+	version, err := db.Version()
+	if err != nil {
+		return fmt.Errorf("error seeking for database version: %w", err)
+	}
+
+	log.Println("------------------------------------------------------")
 	log.Println("Successfully connected to the database")
+	log.Println(version)
 	return nil
 }
 
@@ -54,6 +61,7 @@ func (db *DB) Disconnect() {
 	if db.Pool != nil {
 		db.Pool.Close()
 		log.Println("Disconnected from database")
+		log.Println("------------------------------------------------------")
 	}
 }
 
@@ -75,6 +83,56 @@ func (db *DB) CreateCorreiosSchema() error {
 	if err != nil {
 		return fmt.Errorf("erro ao criar schema correios: %w", err)
 	}
+	return nil
+}
+
+func (db *DB) CreateCorreiosTables() error {
+	var wg sync.WaitGroup
+	errChan := make(chan error, immu.SIXTEEN_TASKS)
+
+	createTable := func(name string, createFn func() error) {
+		defer wg.Done()
+		if err := createFn(); err != nil {
+			log.Printf("Error creating %s: %v", name, err)
+			errChan <- fmt.Errorf("error creating %s: %w", name, err)
+		}
+	}
+
+	if err := db.CreateCorreiosSchema(); err != nil {
+		return fmt.Errorf("error creating schema: %w", err)
+	}
+
+	wg.Add(immu.SIXTEEN_TASKS)
+
+	go createTable("ect_pais", db.createTableECTPais)
+	go createTable("log_faixa_uf", db.createTableLogFaixaUF)
+	go createTable("log_localidade", db.createTableLogLocalidade)
+	go createTable("log_var_loc", db.createTableLogVarLoc)
+	go createTable("log_faixa_localidade", db.createTableLogFaixaLocalidade)
+	go createTable("log_bairro", db.createTableLogBairro)
+	go createTable("log_var_bai", db.createTableLogVarBai)
+	go createTable("log_faixa_bairro", db.createTableLogFaixaBairro)
+	go createTable("log_cpc", db.createTableLogCPC)
+	go createTable("log_faixa_cpc", db.createTableLogFaixaCPC)
+	go createTable("log_logradouro", db.createTableLogLogradouro)
+	go createTable("log_var_log", db.createTableLogVarLog)
+	go createTable("log_num_sec", db.createTableLogNumSec)
+	go createTable("log_grande_usuario", db.createTableLogGrandeUsuario)
+	go createTable("log_unid_oper", db.createTableLogUnidOper)
+	go createTable("log_faixa_uop", db.createTableLogFaixaUOP)
+
+	wg.Wait()
+	close(errChan)
+
+	var errMsgs []string
+	for err := range errChan {
+		errMsgs = append(errMsgs, err.Error())
+	}
+
+	if len(errMsgs) > 0 {
+		return fmt.Errorf("errors creating tables: %s", strings.Join(errMsgs, "; "))
+	}
+
 	return nil
 }
 
@@ -119,7 +177,48 @@ func (db *DB) GetTotalCEPs() (int, error) {
 	return total, nil
 }
 
-func (db *DB) CreateTableLogFaixaUF() error {
+func (db *DB) BulkInsertFile(fileName string, rows [][]any) error {
+	if strings.HasPrefix(fileName, "LOG_LOGRADOURO_") && strings.HasSuffix(fileName, ".TXT") {
+		return db.bulkInsertLogLogradouro(rows)
+	}
+
+	switch fileName {
+	case "ECT_PAIS.TXT":
+		return db.bulkInsertECTPais(rows)
+	case "LOG_FAIXA_UF.TXT":
+		return db.bulkInsertLogFaixaUF(rows)
+	case "LOG_LOCALIDADE.TXT":
+		return db.bulkInsertLogLocalidade(rows)
+	case "LOG_VAR_LOC.TXT":
+		return db.bulkInsertLogVarLoc(rows)
+	case "LOG_FAIXA_LOCALIDADE.TXT":
+		return db.bulkInsertLogFaixaLocalidade(rows)
+	case "LOG_BAIRRO.TXT":
+		return db.bulkInsertLogBairro(rows)
+	case "LOG_VAR_BAI.TXT":
+		return db.bulkInsertLogVarBai(rows)
+	case "LOG_FAIXA_BAIRRO.TXT":
+		return db.bulkInsertLogFaixaBairro(rows)
+	case "LOG_CPC.TXT":
+		return db.bulkInsertLogCPC(rows)
+	case "LOG_FAIXA_CPC.TXT":
+		return db.bulkInsertLogFaixaCPC(rows)
+	case "LOG_VAR_LOG.TXT":
+		return db.bulkInsertLogVarLog(rows)
+	case "LOG_NUM_SEC.TXT":
+		return db.bulkInsertLogNumSec(rows)
+	case "LOG_GRANDE_USUARIO.TXT":
+		return db.bulkInsertLogGrandeUsuario(rows)
+	case "LOG_UNID_OPER.TXT":
+		return db.bulkInsertLogUnidOper(rows)
+	case "LOG_FAIXA_UOP.TXT":
+		return db.bulkInsertLogFaixaUOP(rows)
+	default:
+		return fmt.Errorf("unknown file name: %s", fileName)
+	}
+}
+
+func (db *DB) createTableLogFaixaUF() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_faixa_uf(
 		ufe_sg char(2) NOT NULL,
@@ -139,7 +238,7 @@ func (db *DB) CreateTableLogFaixaUF() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogFaixaUF(rows [][]any) error {
+func (db *DB) bulkInsertLogFaixaUF(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_uf"},
@@ -152,7 +251,7 @@ func (db *DB) BulkInsertLogFaixaUF(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogLocalidade() error {
+func (db *DB) createTableLogLocalidade() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_localidade(
 		loc_nu numeric NOT NULL,
@@ -184,7 +283,7 @@ func (db *DB) CreateTableLogLocalidade() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogLocalidade(rows [][]any) error {
+func (db *DB) bulkInsertLogLocalidade(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_localidade"},
@@ -201,7 +300,7 @@ func (db *DB) BulkInsertLogLocalidade(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogVarLoc() error {
+func (db *DB) createTableLogVarLoc() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_var_loc(
 		loc_nu numeric NOT NULL,
@@ -221,7 +320,7 @@ func (db *DB) CreateTableLogVarLoc() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogVarLoc(rows [][]any) error {
+func (db *DB) bulkInsertLogVarLoc(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_var_loc"},
@@ -234,7 +333,7 @@ func (db *DB) BulkInsertLogVarLoc(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogFaixaLocalidade() error {
+func (db *DB) createTableLogFaixaLocalidade() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_faixa_localidade(
 		loc_nu numeric NOT NULL,
@@ -256,7 +355,7 @@ func (db *DB) CreateTableLogFaixaLocalidade() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogFaixaLocalidade(rows [][]any) error {
+func (db *DB) bulkInsertLogFaixaLocalidade(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_localidade"},
@@ -269,7 +368,7 @@ func (db *DB) BulkInsertLogFaixaLocalidade(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogBairro() error {
+func (db *DB) createTableLogBairro() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_bairro(
 		bai_nu numeric NOT NULL,
@@ -293,7 +392,7 @@ func (db *DB) CreateTableLogBairro() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogBairro(rows [][]any) error {
+func (db *DB) bulkInsertLogBairro(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_bairro"},
@@ -306,7 +405,7 @@ func (db *DB) BulkInsertLogBairro(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogVarBai() error {
+func (db *DB) createTableLogVarBai() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_var_bai(
 		bai_nu numeric NOT NULL,
@@ -326,7 +425,7 @@ func (db *DB) CreateTableLogVarBai() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogVarBai(rows [][]any) error {
+func (db *DB) bulkInsertLogVarBai(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_var_bai"},
@@ -339,7 +438,7 @@ func (db *DB) BulkInsertLogVarBai(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogFaixaBairro() error {
+func (db *DB) createTableLogFaixaBairro() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_faixa_bairro(
 		bai_nu numeric NOT NULL,
@@ -359,7 +458,7 @@ func (db *DB) CreateTableLogFaixaBairro() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogFaixaBairro(rows [][]any) error {
+func (db *DB) bulkInsertLogFaixaBairro(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_bairro"},
@@ -372,7 +471,7 @@ func (db *DB) BulkInsertLogFaixaBairro(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogCPC() error {
+func (db *DB) createTableLogCPC() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_cpc(
 		cpc_nu numeric NOT NULL,
@@ -398,7 +497,7 @@ func (db *DB) CreateTableLogCPC() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogCPC(rows [][]any) error {
+func (db *DB) bulkInsertLogCPC(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_cpc"},
@@ -411,7 +510,7 @@ func (db *DB) BulkInsertLogCPC(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogFaixaCPC() error {
+func (db *DB) createTableLogFaixaCPC() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_faixa_cpc(
 		cpc_nu numeric NOT NULL,
@@ -431,7 +530,7 @@ func (db *DB) CreateTableLogFaixaCPC() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogFaixaCPC(rows [][]any) error {
+func (db *DB) bulkInsertLogFaixaCPC(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_cpc"},
@@ -444,7 +543,7 @@ func (db *DB) BulkInsertLogFaixaCPC(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogLogradouro() error {
+func (db *DB) createTableLogLogradouro() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_logradouro(
 		log_nu numeric NOT NULL,
@@ -480,7 +579,7 @@ func (db *DB) CreateTableLogLogradouro() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogLogradouro(rows [][]any) error {
+func (db *DB) bulkInsertLogLogradouro(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_logradouro"},
@@ -494,7 +593,7 @@ func (db *DB) BulkInsertLogLogradouro(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogVarLog() error {
+func (db *DB) createTableLogVarLog() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_var_log(
 		log_nu numeric NOT NULL,
@@ -516,7 +615,7 @@ func (db *DB) CreateTableLogVarLog() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogVarLog(rows [][]any) error {
+func (db *DB) bulkInsertLogVarLog(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_var_log"},
@@ -529,7 +628,7 @@ func (db *DB) BulkInsertLogVarLog(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogNumSec() error {
+func (db *DB) createTableLogNumSec() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_num_sec(
 		log_nu numeric NOT NULL,
@@ -551,7 +650,7 @@ func (db *DB) CreateTableLogNumSec() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogNumSec(rows [][]any) error {
+func (db *DB) bulkInsertLogNumSec(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_num_sec"},
@@ -564,7 +663,7 @@ func (db *DB) BulkInsertLogNumSec(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogGrandeUsuario() error {
+func (db *DB) createTableLogGrandeUsuario() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_grande_usuario(
 		gru_nu numeric NOT NULL,
@@ -596,7 +695,7 @@ func (db *DB) CreateTableLogGrandeUsuario() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogGrandeUsuario(rows [][]any) error {
+func (db *DB) bulkInsertLogGrandeUsuario(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_grande_usuario"},
@@ -610,7 +709,7 @@ func (db *DB) BulkInsertLogGrandeUsuario(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogUnidOper() error {
+func (db *DB) createTableLogUnidOper() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_unid_oper(
 		uop_nu numeric NOT NULL,
@@ -644,7 +743,7 @@ func (db *DB) CreateTableLogUnidOper() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogUnidOper(rows [][]any) error {
+func (db *DB) bulkInsertLogUnidOper(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_unid_oper"},
@@ -658,7 +757,7 @@ func (db *DB) BulkInsertLogUnidOper(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableLogFaixaUOP() error {
+func (db *DB) createTableLogFaixaUOP() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_faixa_uop(
 		uop_nu numeric NOT NULL,
@@ -678,7 +777,7 @@ func (db *DB) CreateTableLogFaixaUOP() error {
 	return nil
 }
 
-func (db *DB) BulkInsertLogFaixaUOP(rows [][]any) error {
+func (db *DB) bulkInsertLogFaixaUOP(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_uop"},
@@ -691,7 +790,7 @@ func (db *DB) BulkInsertLogFaixaUOP(rows [][]any) error {
 	return nil
 }
 
-func (db *DB) CreateTableECTPais() error {
+func (db *DB) createTableECTPais() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.ect_pais(
 		pai_sg char(2) NOT NULL,
@@ -713,7 +812,7 @@ func (db *DB) CreateTableECTPais() error {
 	return nil
 }
 
-func (db *DB) BulkInsertECTPais(rows [][]any) error {
+func (db *DB) bulkInsertECTPais(rows [][]any) error {
 	_, err := db.Pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "ect_pais"},
@@ -724,55 +823,5 @@ func (db *DB) BulkInsertECTPais(rows [][]any) error {
 	if err != nil {
 		return fmt.Errorf("error bulk inserting into ect_pais: %w", err)
 	}
-	return nil
-}
-
-func (db *DB) CreateCorreiosTables() error {
-	var wg sync.WaitGroup
-	errChan := make(chan error, immu.SIXTEEN_TASKS)
-
-	createTable := func(name string, createFn func() error) {
-		defer wg.Done()
-		if err := createFn(); err != nil {
-			log.Printf("Error creating %s: %v", name, err)
-			errChan <- fmt.Errorf("error creating %s: %w", name, err)
-		}
-	}
-
-	if err := db.CreateCorreiosSchema(); err != nil {
-		return fmt.Errorf("error creating schema: %w", err)
-	}
-
-	wg.Add(immu.SIXTEEN_TASKS)
-
-	go createTable("ect_pais", db.CreateTableECTPais)
-	go createTable("log_faixa_uf", db.CreateTableLogFaixaUF)
-	go createTable("log_localidade", db.CreateTableLogLocalidade)
-	go createTable("log_var_loc", db.CreateTableLogVarLoc)
-	go createTable("log_faixa_localidade", db.CreateTableLogFaixaLocalidade)
-	go createTable("log_bairro", db.CreateTableLogBairro)
-	go createTable("log_var_bai", db.CreateTableLogVarBai)
-	go createTable("log_faixa_bairro", db.CreateTableLogFaixaBairro)
-	go createTable("log_cpc", db.CreateTableLogCPC)
-	go createTable("log_faixa_cpc", db.CreateTableLogFaixaCPC)
-	go createTable("log_logradouro", db.CreateTableLogLogradouro)
-	go createTable("log_var_log", db.CreateTableLogVarLog)
-	go createTable("log_num_sec", db.CreateTableLogNumSec)
-	go createTable("log_grande_usuario", db.CreateTableLogGrandeUsuario)
-	go createTable("log_unid_oper", db.CreateTableLogUnidOper)
-	go createTable("log_faixa_uop", db.CreateTableLogFaixaUOP)
-
-	wg.Wait()
-	close(errChan)
-
-	var errMsgs []string
-	for err := range errChan {
-		errMsgs = append(errMsgs, err.Error())
-	}
-
-	if len(errMsgs) > 0 {
-		return fmt.Errorf("errors creating tables: %s", strings.Join(errMsgs, "; "))
-	}
-
 	return nil
 }
