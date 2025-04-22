@@ -23,7 +23,7 @@ services:
       - "gazintech.dev:172.17.0.1"
   correios:
     container_name: correios
-    image: postgres
+    image: postgres:${POSTGRES_VERSION}
     restart: unless-stopped
     ports:
       - "5432:5432"
