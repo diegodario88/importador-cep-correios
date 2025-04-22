@@ -1,28 +1,13 @@
 package utils
 
 import (
-	"bufio"
 	"log"
 	"os"
+	"strings"
 
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 )
-
-func CountLines(path string) (int, error) {
-	file, err := os.Open(path)
-	if err != nil {
-		return 0, err
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	count := 0
-	for scanner.Scan() {
-		count++
-	}
-	return count, scanner.Err()
-}
 
 func GetCWD() string {
 	wd, err := os.Getwd()
@@ -35,4 +20,16 @@ func GetCWD() string {
 func FormatNumber(n int) string {
 	p := message.NewPrinter(language.BrazilianPortuguese)
 	return p.Sprintf("%d", n)
+}
+
+func HandleEmpty(field string, fileName string) any {
+	if fileName == "ECT_PAIS.TXT" && field == "" {
+		return field
+	}
+
+	if field == "" {
+		return nil
+	}
+
+	return strings.TrimSpace(field)
 }
