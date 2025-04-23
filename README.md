@@ -15,21 +15,24 @@ e baixo consumo de memória.
 - Exibe barras de progresso em tempo real com a biblioteca `mpb`.
 - Registra métricas como tempo total de execução, total de registros e total de CEPs inseridos e armazena em `correios.importacao_relatorio`
 - Implementa uma função no banco de dados PostgreSQL para facilitar consultas por CEP, com interface simples e desempenho otimizado. Exemplo de uso:
+
   ```sql
   SELECT * FROM correios.consulta_cep('87020025');
   ```
 
-```json
-{
-  "uf": "PR",
-  "localidade": "Maringá",
-  "cep": "87020025",
-  "ibge": "4115200",
-  "bairro": "Zona 07",
-  "complemento": "- de 701/702 ao fim",
-  "logradouro": "Avenida Duque de Caxias"
-}
-```
+  ```json
+  {
+    "uf": "PR",
+    "localidade": "Maringá",
+    "cep": "87020025",
+    "ibge": "4115200",
+    "bairro": "Zona 07",
+    "complemento": "- de 701/702 ao fim",
+    "logradouro": "Avenida Duque de Caxias"
+  }
+  ```
+
+````
 
 O propósito deste projeto é importar a base completa de CEPs para um banco PostgreSQL e, a partir disso, executar um `dump`
 do schema `correios`, permitindo seu `restore` em ambientes de produção. Esse processo pode ser repetido periodicamente para manter
@@ -69,15 +72,15 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
 
    ```bash
    cp .env.example .env
-   ```
+````
 
-4) Construa os containers
+4. Construa os containers
 
    ```bash
    docker compose build
    ```
 
-5) Execute a aplicação
+5. Execute a aplicação
    ```bash
    docker compose run --rm importer
    ```
@@ -94,10 +97,6 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
 
 - Automatizar o processo de download e extração dos arquivos da base dos Correios utilizando a biblioteca `chromedp`, eliminando a etapa manual de obtenção dos dados.
 - Criar uma tabela de relatório (`correios.importacao_relatorio`) contendo os dados consolidados da execução, como total de registros inseridos, total de CEPs distintos, data/hora de execução e versão da base importada.
-- Implementar uma função no banco de dados PostgreSQL para facilitar consultas por CEP, com interface simples e desempenho otimizado. Exemplo de uso:
-  ```sql
-  SELECT * FROM correios.consulta_cep('01001000');
-  ```
 - Gerar automaticamente o arquivo de `dump` do schema `correios` no formato binário (`.dump`) ao final da importação, facilitando restaurações e integrando com pipelines de produção.
 - Adicionar uma etapa de confirmação interativa antes de iniciar o processo de importação, garantindo que o usuário esteja ciente das operações que serão executadas, especialmente em ambientes sensíveis.
 - Exibir informações detalhadas sobre a conexão com o banco de dados no início da execução, incluindo a versão do PostgreSQL, para facilitar a validação de compatibilidade com ambientes de produção e evitar falhas em operações de restore.
