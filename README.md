@@ -59,12 +59,14 @@ Para executar este projeto, você precisará de:
 
 ## Tempo estimado de processamento
 
-Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com o hardware e software descritos abaixo.
+Na versão 2.\*, a importação da base completa levou cerca de 9 segundos, com o hardware e software descritos abaixo.
 
 - **Processador:** AMD Ryzen™ 9 3900 (24 threads)
 - **Memória:** 64 GiB
 - **Sistema operacional:** Fedora Linux 42 (Workstation Edition)
 - **Kernel:** Linux 6.14.2-300.fc42.x86_64
+
+https://github.com/user-attachments/assets/097061de-87fb-49e1-860a-3e4a91628bf6
 
 ## Como usar
 
