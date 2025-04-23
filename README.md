@@ -104,10 +104,8 @@ https://github.com/user-attachments/assets/097061de-87fb-49e1-860a-3e4a91628bf6
 ## Planos futuros
 
 - Automatizar o processo de download e extração dos arquivos da base dos Correios utilizando a biblioteca `chromedp`, eliminando a etapa manual de obtenção dos dados.
-- Criar uma tabela de relatório (`correios.importacao_relatorio`) contendo os dados consolidados da execução, como total de registros inseridos, total de CEPs distintos, data/hora de execução e versão da base importada.
 - Gerar automaticamente o arquivo de `dump` do schema `correios` no formato binário (`.dump`) ao final da importação, facilitando restaurações e integrando com pipelines de produção.
 - Adicionar uma etapa de confirmação interativa antes de iniciar o processo de importação, garantindo que o usuário esteja ciente das operações que serão executadas, especialmente em ambientes sensíveis.
-- Exibir informações detalhadas sobre a conexão com o banco de dados no início da execução, incluindo a versão do PostgreSQL, para facilitar a validação de compatibilidade com ambientes de produção e evitar falhas em operações de restore.
 
   <a href='https://ko-fi.com/Y8Y8Q12UV' target='_blank'><img height='36'
     style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
