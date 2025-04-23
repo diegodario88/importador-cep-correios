@@ -32,8 +32,6 @@ e baixo consumo de memória.
   }
   ```
 
-````
-
 O propósito deste projeto é importar a base completa de CEPs para um banco PostgreSQL e, a partir disso, executar um `dump`
 do schema `correios`, permitindo seu `restore` em ambientes de produção. Esse processo pode ser repetido periodicamente para manter
 a sincronização com as atualizações quinzenais publicadas pelos Correios.
@@ -72,6 +70,8 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
 
    ```bash
    cp .env.example .env
+   ```
+
 ````
 
 4. Construa os containers
@@ -87,7 +87,7 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
 
 #### Erros comuns
 
-- _Porta em uso:_ Se a porta `5432` já estiver ocupada no seu sistema, altere a variável `POSTGRESQL_PORT` no arquivo `.env`  
+- _Porta em uso:_ Se a porta `5432` já estiver ocupada no seu sistema, altere a variável `POSTGRESQL_PORT` no arquivo `.env`
   para uma porta diferente (ex: `6432`)
 
 - _Barras de progresso não aparecem:_ Isso é esperado ao rodar via `docker compose logs`. As barras só são exibidas corretamente quando
@@ -104,3 +104,4 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
 <a href='https://ko-fi.com/Y8Y8Q12UV' target='_blank'><img height='36'
 style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
 border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+````
