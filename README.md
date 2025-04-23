@@ -13,7 +13,23 @@ e baixo consumo de memória.
 - Processa os dados em paralelo, arquivo por arquivo.
 - Utiliza `pgx.CopyFrom` para inserções em lote no PostgreSQL.
 - Exibe barras de progresso em tempo real com a biblioteca `mpb`.
-- Registra métricas como tempo total de execução, total de registros e total de CEPs inseridos.
+- Registra métricas como tempo total de execução, total de registros e total de CEPs inseridos e armazena em `correios.importacao_relatorio`
+- Implementa uma função no banco de dados PostgreSQL para facilitar consultas por CEP, com interface simples e desempenho otimizado. Exemplo de uso:
+  ```sql
+  SELECT * FROM correios.consulta_cep('87020025');
+  ```
+
+```json
+{
+  "uf": "PR",
+  "localidade": "Maringá",
+  "cep": "87020025",
+  "ibge": "4115200",
+  "bairro": "Zona 07",
+  "complemento": "- de 701/702 ao fim",
+  "logradouro": "Avenida Duque de Caxias"
+}
+```
 
 O propósito deste projeto é importar a base completa de CEPs para um banco PostgreSQL e, a partir disso, executar um `dump`
 do schema `correios`, permitindo seu `restore` em ambientes de produção. Esse processo pode ser repetido periodicamente para manter
@@ -55,8 +71,16 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
    cp .env.example .env
    ```
 
-4) Suba os containers
-   > `docker-compose up`
+4) Construa os containers
+
+   ```bash
+   docker compose build
+   ```
+
+5) Execute a aplicação
+   ```bash
+   docker compose run --rm importer
+   ```
 
 #### Erros comuns
 
@@ -65,8 +89,6 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
 
 - _Barras de progresso não aparecem:_ Isso é esperado ao rodar via `docker compose logs`. As barras só são exibidas corretamente quando
   o terminal é interativo (ex: `go run`, `docker exec -it`, etc).
-
-- As barras de progresso podem não aparecer no output do docker, essa é uma limitação conhecida.
 
 ## Planos futuros
 
