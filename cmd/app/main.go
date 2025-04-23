@@ -13,6 +13,7 @@ import (
 
 	immu "github.com/diegodario88/importador-cep-correios/pkg/constants"
 	"github.com/diegodario88/importador-cep-correios/pkg/db"
+	"github.com/diegodario88/importador-cep-correios/pkg/types"
 	"github.com/diegodario88/importador-cep-correios/pkg/utils"
 	work "github.com/diegodario88/importador-cep-correios/pkg/workers"
 )
@@ -21,18 +22,18 @@ func main() {
 	start := time.Now()
 	var wg sync.WaitGroup
 	var lineCount int64
+	var storage types.Storage = &db.DB{}
 	basePath := filepath.Join(utils.GetCWD(), "eDNE", "basico")
-	database := &db.DB{}
 	ctx := context.Background()
-	counterChan := make(chan work.Counter)
+	counterChan := make(chan types.Counter)
 	progress := mpb.New(mpb.WithWidth(64))
 
-	if err := database.Connect(); err != nil {
+	if err := storage.Connect(); err != nil {
 		log.Fatal(err)
 	}
-	defer database.Disconnect()
+	defer storage.Disconnect()
 
-	if err := database.CreateCorreiosTables(); err != nil {
+	if err := storage.CreateCorreiosSql(); err != nil {
 		log.Fatal(err)
 	}
 
@@ -40,21 +41,21 @@ func main() {
 		mpb.BarStyle().Lbound("╢").Filler("▌").Tip("▌").Padding("░").Rbound("╟"),
 		mpb.BarFillerOnComplete(""),
 		mpb.PrependDecorators(
-			decor.Name("Importação base eDNE Correios:"),
+			decor.Name("Importação base eDNE Correios "),
 			decor.OnComplete(
-				decor.Spinner(nil, decor.WCSyncSpace), "done",
+				decor.Spinner(nil, decor.WCSyncSpace), "importado",
 			),
 		),
 		mpb.AppendDecorators(decor.Percentage()),
 	)
 
-	run := func(fileName string, execute work.Processes) {
+	run := func(fileName string, execute types.Processes) {
 		defer wg.Done()
 		defer bar.Increment()
 
-		tools := work.JobTools{
+		tools := types.JobTools{
 			Ctx:         ctx,
-			Database:    database,
+			Database:    storage,
 			BasePath:    basePath,
 			CounterChan: counterChan,
 		}
@@ -96,12 +97,20 @@ func main() {
 	progress.Wait()
 	fmt.Println("\nRelatório final:")
 
-	totalRecords, _ := database.GetTotalRecords()
-	totalCeps, _ := database.GetTotalCEPs()
+	duration := time.Since(start).Round(time.Millisecond)
+	totalRecords, _ := storage.GetTotalRecords()
+	totalCeps, _ := storage.GetTotalCEPs()
+
+	storage.InsertImportacaoRelatorio(types.ImportacaoRelatorio{
+		TotalRegistros: totalRecords,
+		TotalCeps:      totalCeps,
+		VersaoEDNE:     "25041", //TODO: Essa info deve vir dinâmica do arquivo dos correios .zip
+		Duracao:        duration,
+		Observacoes:    fmt.Sprintf("Importação realizada por: %s", utils.GetHostname()),
+	})
 
 	fmt.Printf("Registros totais: %s\n", utils.FormatNumber(totalRecords))
 	fmt.Printf("Total de CEPs: %s\n", utils.FormatNumber(totalCeps))
 	fmt.Printf("Total de linhas: %s\n", utils.FormatNumber(int(lineCount)))
-	fmt.Printf("Tempo total: %s\n", time.Since(start).Round(time.Millisecond))
-	log.Println("------------------------------------------------------")
+	fmt.Printf("Tempo total: %s\n", duration)
 }

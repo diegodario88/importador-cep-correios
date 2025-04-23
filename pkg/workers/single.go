@@ -8,13 +8,14 @@ import (
 	"strings"
 
 	immu "github.com/diegodario88/importador-cep-correios/pkg/constants"
+	"github.com/diegodario88/importador-cep-correios/pkg/types"
 	"github.com/diegodario88/importador-cep-correios/pkg/utils"
 	"golang.org/x/text/encoding/charmap"
 )
 
-func Single(fileName string, tools JobTools) {
+func Single(fileName string, tools types.JobTools) {
 	filePath := filepath.Join(tools.BasePath, fileName)
-	counter := Counter{
+	counter := types.Counter{
 		Increment: 1,
 		Error:     nil,
 	}

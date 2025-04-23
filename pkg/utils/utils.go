@@ -33,3 +33,12 @@ func HandleEmpty(field string, fileName string) any {
 
 	return strings.TrimSpace(field)
 }
+
+func GetHostname() string {
+	hostname, err := os.Hostname()
+	if err != nil {
+		log.Printf("Erro ao obter o nome do host: %v", err)
+		return "desconhecido"
+	}
+	return hostname
+}
