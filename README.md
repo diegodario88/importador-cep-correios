@@ -1,11 +1,19 @@
-# Importador de CEPs dos Correios
+<table>
+  <tr>
+    <td width="220">
+      <img src="https://github.com/user-attachments/assets/43e88783-5d12-4267-a087-84188028d49c" width="200" alt="Gopher Importador" />
+    </td>
+    <td>
+      <h3>Importador de CEPs dos Correios</h3>
+      <p>
+        Ferramenta para importar arquivos do Diretório Nacional de Endereços (DNE) dos Correios para um banco de dados PostgreSQL.
+        Usa processamento concorrente, leitura eficiente e inserção via <code>pgx.CopyFrom</code>.
+      </p>
+    </td>
+  </tr>
+</table>
 
-## Descrição
-
-Este projeto é uma aplicação CLI escrita em Go que importa arquivos do
-Diretório Nacional de Endereços (DNE) dos Correios para um banco de dados
-PostgreSQL. A aplicação foi construída com foco em desempenho, concorrência
-e baixo consumo de memória.
+---
 
 ## Visão geral
 
