@@ -72,8 +72,6 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
    cp .env.example .env
    ```
 
-````
-
 4. Construa os containers
 
    ```bash
@@ -101,7 +99,10 @@ Na versão 2.\*, a importação da base completa levou cerca de 25 segundos, com
 - Adicionar uma etapa de confirmação interativa antes de iniciar o processo de importação, garantindo que o usuário esteja ciente das operações que serão executadas, especialmente em ambientes sensíveis.
 - Exibir informações detalhadas sobre a conexão com o banco de dados no início da execução, incluindo a versão do PostgreSQL, para facilitar a validação de compatibilidade com ambientes de produção e evitar falhas em operações de restore.
 
-<a href='https://ko-fi.com/Y8Y8Q12UV' target='_blank'><img height='36'
-style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
-border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-````
+  <a href='https://ko-fi.com/Y8Y8Q12UV' target='_blank'><img height='36'
+    style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3'
+    border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+```
+
+```
