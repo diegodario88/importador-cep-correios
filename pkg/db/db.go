@@ -9,6 +9,7 @@ import (
 	"sync"
 
 	immu "github.com/diegodario88/importador-cep-correios/pkg/constants"
+	"github.com/diegodario88/importador-cep-correios/pkg/types"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
@@ -16,7 +17,7 @@ import (
 )
 
 type DB struct {
-	Pool *pgxpool.Pool
+	pool *pgxpool.Pool
 	ctx  context.Context
 }
 
@@ -45,7 +46,7 @@ func (db *DB) Connect() error {
 		return fmt.Errorf("error pinging database: %w", err)
 	}
 
-	db.Pool = pool
+	db.pool = pool
 	version, err := db.Version()
 	if err != nil {
 		return fmt.Errorf("error seeking for database version: %w", err)
@@ -58,15 +59,15 @@ func (db *DB) Connect() error {
 }
 
 func (db *DB) Disconnect() {
-	if db.Pool != nil {
-		db.Pool.Close()
+	if db.pool != nil {
+		db.pool.Close()
 		log.Println("Disconnected from database")
 		log.Println("------------------------------------------------------")
 	}
 }
 
 func (db *DB) Version() (string, error) {
-	row := db.Pool.QueryRow(db.ctx, "SELECT version()")
+	row := db.pool.QueryRow(db.ctx, "SELECT version()")
 	var fullVersion string
 	if err := row.Scan(&fullVersion); err != nil {
 		return "", fmt.Errorf("erro ao obter versão do PostgreSQL: %w", err)
@@ -79,14 +80,14 @@ func (db *DB) Version() (string, error) {
 }
 
 func (db *DB) CreateCorreiosSchema() error {
-	_, err := db.Pool.Exec(db.ctx, "CREATE SCHEMA IF NOT EXISTS correios;")
+	_, err := db.pool.Exec(db.ctx, "CREATE SCHEMA IF NOT EXISTS correios;")
 	if err != nil {
 		return fmt.Errorf("erro ao criar schema correios: %w", err)
 	}
 	return nil
 }
 
-func (db *DB) CreateCorreiosTables() error {
+func (db *DB) CreateCorreiosSql() error {
 	var wg sync.WaitGroup
 	errChan := make(chan error, immu.SIXTEEN_TASKS)
 
@@ -98,11 +99,19 @@ func (db *DB) CreateCorreiosTables() error {
 		}
 	}
 
+	createFunction := func(createFn func() error) {
+		defer wg.Done()
+		if err := createFn(); err != nil {
+			log.Printf("Error creating: %v", err)
+			errChan <- fmt.Errorf("error creating: %w", err)
+		}
+	}
+
 	if err := db.CreateCorreiosSchema(); err != nil {
 		return fmt.Errorf("error creating schema: %w", err)
 	}
 
-	wg.Add(immu.SIXTEEN_TASKS)
+	wg.Add(immu.EITHTEEN_TASKS)
 
 	go createTable("ect_pais", db.createTableECTPais)
 	go createTable("log_faixa_uf", db.createTableLogFaixaUF)
@@ -120,6 +129,8 @@ func (db *DB) CreateCorreiosTables() error {
 	go createTable("log_grande_usuario", db.createTableLogGrandeUsuario)
 	go createTable("log_unid_oper", db.createTableLogUnidOper)
 	go createTable("log_faixa_uop", db.createTableLogFaixaUOP)
+	go createTable("importacao_relatorio", db.createTableImportacaoRelatorio)
+	go createFunction(db.createConsultaCepFunction)
 
 	wg.Wait()
 	close(errChan)
@@ -149,7 +160,7 @@ func (db *DB) GetTotalRecords() (int, error) {
 	) t;`
 
 	var total int
-	if err := db.Pool.QueryRow(db.ctx, query).Scan(&total); err != nil {
+	if err := db.pool.QueryRow(db.ctx, query).Scan(&total); err != nil {
 		return 0, fmt.Errorf("erro ao obter total de registros: %w", err)
 	}
 	return total, nil
@@ -171,7 +182,7 @@ func (db *DB) GetTotalCEPs() (int, error) {
 	) as all_ceps;`
 
 	var total int
-	if err := db.Pool.QueryRow(db.ctx, query).Scan(&total); err != nil {
+	if err := db.pool.QueryRow(db.ctx, query).Scan(&total); err != nil {
 		return 0, fmt.Errorf("erro ao obter total de CEPs: %w", err)
 	}
 	return total, nil
@@ -218,6 +229,193 @@ func (db *DB) BulkInsertFile(fileName string, rows [][]any) error {
 	}
 }
 
+func (db *DB) GetCep(cep string) (types.CepResponse, error) {
+	query := "SELECT * FROM correios.consulta_cep($1);"
+	var response types.CepResponse
+	if err := db.pool.QueryRow(db.ctx, query, cep).Scan(&response); err != nil {
+		return types.CepResponse{}, fmt.Errorf("erro ao consultar CEP: %w", err)
+	}
+	return response, nil
+}
+
+func (db *DB) InsertImportacaoRelatorio(input types.ImportacaoRelatorio) error {
+	query := `
+	INSERT INTO correios.importacao_relatorio (
+		total_registros,
+		total_ceps,
+		versao_base,
+		duracao,
+		observacoes
+	) VALUES ($1, $2, $3, $4, $5)
+	`
+
+	_, err := db.pool.Exec(db.ctx, query,
+		input.TotalRegistros,
+		input.TotalCeps,
+		input.VersaoEDNE,
+		input.Duracao,
+		input.Observacoes,
+	)
+
+	if err != nil {
+		return fmt.Errorf("erro ao inserir relatório de importação: %w", err)
+	}
+
+	return nil
+}
+
+func (db *DB) createConsultaCepFunction() error {
+	query := `
+    CREATE OR REPLACE FUNCTION correios.consulta_cep(c text)
+     RETURNS TABLE(uf text, localidade text, cep text, ibge text, bairro text, complemento text, logradouro text)
+     LANGUAGE plpgsql
+    AS $function$
+    BEGIN
+        RETURN QUERY
+        SELECT
+            ll.ufe_sg::text AS uf,
+            (
+                CASE WHEN ll.loc_in_tipo_loc = 'M' THEN
+                    ll.loc_no
+                ELSE
+                    ll2.loc_no
+                END)::text AS localidade,
+            ll.cep::text,
+            (
+                CASE WHEN ll.loc_in_tipo_loc = 'M' THEN
+                    ll.mun_nu
+                ELSE
+                    ll2.mun_nu
+                END)::text AS ibge,
+            NULL::text AS bairro,
+            NULL::text AS complemento,
+            NULL::text AS logradouro
+        FROM
+            correios.log_localidade ll
+        LEFT JOIN correios.log_localidade ll2 ON ll2.loc_nu = ll.loc_nu_sub
+            AND ll.loc_in_tipo_loc <> 'M'
+    WHERE
+        ll.cep = c
+    UNION
+    SELECT
+        llog.ufe_sg::text AS uf,
+        (
+            CASE WHEN ll.loc_in_tipo_loc = 'M' THEN
+                ll.loc_no
+            ELSE
+                ll2.loc_no
+            END)::text AS localidade,
+        llog.cep::text,
+        (
+            CASE WHEN ll.loc_in_tipo_loc = 'M' THEN
+                ll.mun_nu
+            ELSE
+                ll2.mun_nu
+            END)::text AS ibge,
+        lb.bai_no::text AS bairro,
+        llog.log_complemento::text AS complemento,
+        (llog.tlo_tx || ' ' || llog.log_no)::text AS logradouro
+    FROM
+        correios.log_logradouro llog
+        JOIN correios.log_localidade ll ON ll.loc_nu = llog.loc_nu
+        LEFT JOIN correios.log_localidade ll2 ON ll2.loc_nu = ll.loc_nu_sub
+            AND ll.loc_in_tipo_loc <> 'M'
+        LEFT JOIN correios.log_bairro lb ON lb.bai_nu = llog.bai_nu_ini
+    WHERE
+        llog.cep = c
+    UNION
+    SELECT
+        lgu.ufe_sg::text AS uf,
+        (
+            CASE WHEN ll.loc_in_tipo_loc = 'M' THEN
+                ll.loc_no_abrev
+            ELSE
+                ll2.loc_no
+            END)::text AS localidade,
+        lgu.cep::text,
+        (
+            CASE WHEN ll.loc_in_tipo_loc = 'M' THEN
+                ll.mun_nu
+            ELSE
+                ll2.mun_nu
+            END)::text AS ibge,
+        lb.bai_no::text AS bairro,
+        NULL::text AS complemento,
+        lgu.gru_endereco::text AS logradouro
+    FROM
+        correios.log_grande_usuario lgu
+        JOIN correios.log_localidade ll ON ll.loc_nu = lgu.loc_nu
+        LEFT JOIN correios.log_localidade ll2 ON ll2.loc_nu = ll.loc_nu_sub
+            AND ll.loc_in_tipo_loc <> 'M'
+        LEFT JOIN correios.log_bairro lb ON lb.bai_nu = lgu.bai_nu
+    WHERE
+        lgu.cep = c
+    UNION
+    SELECT
+        luo.ufe_sg::text AS uf,
+        (
+            CASE WHEN ll.loc_in_tipo_loc = 'M' THEN
+                ll.loc_no
+            ELSE
+                ll2.loc_no
+            END)::text AS localidade,
+        luo.cep::text,
+        (
+            CASE WHEN ll.loc_in_tipo_loc = 'M' THEN
+                ll.mun_nu
+            ELSE
+                ll2.mun_nu
+            END)::text AS ibge,
+        lb.bai_no::text AS bairro,
+        NULL::text AS complemento,
+        luo.uop_endereco::text AS logradouro
+    FROM
+        correios.log_unid_oper luo
+        JOIN correios.log_localidade ll ON ll.loc_nu = luo.loc_nu
+        LEFT JOIN correios.log_localidade ll2 ON ll2.loc_nu = ll.loc_nu_sub
+            AND ll.loc_in_tipo_loc <> 'M'
+        LEFT JOIN correios.log_bairro lb ON lb.bai_nu = luo.bai_nu
+    WHERE
+        luo.cep = c;
+    END;
+    $function$
+    ;`
+
+	_, err := db.pool.Exec(db.ctx, query)
+	if err != nil {
+		return fmt.Errorf("erro ao criar função consulta_cep: %w", err)
+	}
+	return nil
+}
+
+func (db *DB) createTableImportacaoRelatorio() error {
+	query := `
+	CREATE TABLE IF NOT EXISTS correios.importacao_relatorio (
+		id serial PRIMARY KEY,
+		executado_em timestamp NOT NULL DEFAULT now(),
+		total_registros int NOT NULL,
+		total_ceps int NOT NULL,
+		versao_base varchar(100) NOT NULL,
+		duracao interval NOT NULL,
+		observacoes text
+	);
+
+	COMMENT ON TABLE correios.importacao_relatorio IS 'Relatório consolidado das execuções de importação da base dos Correios';
+	COMMENT ON COLUMN correios.importacao_relatorio.executado_em IS 'Data/hora em que a importação foi concluída';
+	COMMENT ON COLUMN correios.importacao_relatorio.total_registros IS 'Soma total de registros inseridos nas tabelas da base';
+	COMMENT ON COLUMN correios.importacao_relatorio.total_ceps IS 'Quantidade total de CEPs distintos inseridos';
+	COMMENT ON COLUMN correios.importacao_relatorio.versao_base IS 'Versão da base eDNE importada';
+	COMMENT ON COLUMN correios.importacao_relatorio.duracao IS 'Duração total da execução da importação';
+	COMMENT ON COLUMN correios.importacao_relatorio.observacoes IS 'Campo livre para anotações da execução';
+	`
+
+	_, err := db.pool.Exec(db.ctx, query)
+	if err != nil {
+		return fmt.Errorf("error creating importacao_relatorio table: %w", err)
+	}
+	return nil
+}
+
 func (db *DB) createTableLogFaixaUF() error {
 	query := `
 	CREATE TABLE IF NOT EXISTS correios.log_faixa_uf(
@@ -231,7 +429,7 @@ func (db *DB) createTableLogFaixaUF() error {
 	COMMENT on column correios.log_faixa_uf.ufe_cep_fim is 'CEP final da UF';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_faixa_uf table: %w", err)
 	}
@@ -239,7 +437,7 @@ func (db *DB) createTableLogFaixaUF() error {
 }
 
 func (db *DB) bulkInsertLogFaixaUF(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_uf"},
 		[]string{"ufe_sg", "ufe_cep_ini", "ufe_cep_fim"},
@@ -276,7 +474,7 @@ func (db *DB) createTableLogLocalidade() error {
 	COMMENT on column correios.log_localidade.mun_nu is 'Código do município IBGE';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_localidade table: %w", err)
 	}
@@ -284,7 +482,7 @@ func (db *DB) createTableLogLocalidade() error {
 }
 
 func (db *DB) bulkInsertLogLocalidade(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_localidade"},
 		[]string{
@@ -313,7 +511,7 @@ func (db *DB) createTableLogVarLoc() error {
 	COMMENT on column correios.log_var_loc.val_tx is 'Denominação';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_var_loc table: %w", err)
 	}
@@ -321,7 +519,7 @@ func (db *DB) createTableLogVarLoc() error {
 }
 
 func (db *DB) bulkInsertLogVarLoc(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_var_loc"},
 		[]string{"loc_nu", "val_nu", "val_tx"},
@@ -348,7 +546,7 @@ func (db *DB) createTableLogFaixaLocalidade() error {
 	COMMENT on column correios.log_faixa_localidade.loc_tipo_faixa is 'tipo de Faixa de CEP:T –Total do Município C – Exclusiva da  Sede Urbana';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_faixa_localidade table: %w", err)
 	}
@@ -356,7 +554,7 @@ func (db *DB) createTableLogFaixaLocalidade() error {
 }
 
 func (db *DB) bulkInsertLogFaixaLocalidade(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_localidade"},
 		[]string{"loc_nu", "loc_cep_ini", "loc_cep_fim", "loc_tipo_faixa"},
@@ -385,7 +583,7 @@ func (db *DB) createTableLogBairro() error {
 	COMMENT on column correios.log_bairro.bai_no_abrev is 'abreviatura do nome do bairro';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_bairro table: %w", err)
 	}
@@ -393,7 +591,7 @@ func (db *DB) createTableLogBairro() error {
 }
 
 func (db *DB) bulkInsertLogBairro(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_bairro"},
 		[]string{"bai_nu", "ufe_sg", "loc_nu", "bai_no", "bai_no_abrev"},
@@ -418,7 +616,7 @@ func (db *DB) createTableLogVarBai() error {
 	COMMENT on column correios.log_var_bai.vdb_tx is 'Denominação';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_var_bai table: %w", err)
 	}
@@ -426,7 +624,7 @@ func (db *DB) createTableLogVarBai() error {
 }
 
 func (db *DB) bulkInsertLogVarBai(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_var_bai"},
 		[]string{"bai_nu", "vdb_nu", "vdb_tx"},
@@ -451,7 +649,7 @@ func (db *DB) createTableLogFaixaBairro() error {
 	COMMENT on column correios.log_faixa_bairro.fcb_cep_fim is 'CEP final do bairro';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_faixa_bairro table: %w", err)
 	}
@@ -459,7 +657,7 @@ func (db *DB) createTableLogFaixaBairro() error {
 }
 
 func (db *DB) bulkInsertLogFaixaBairro(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_bairro"},
 		[]string{"bai_nu", "fcb_cep_ini", "fcb_cep_fim"},
@@ -490,7 +688,7 @@ func (db *DB) createTableLogCPC() error {
 	COMMENT on column correios.log_cpc.cep is 'CEP da CPC';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_cpc table: %w", err)
 	}
@@ -498,7 +696,7 @@ func (db *DB) createTableLogCPC() error {
 }
 
 func (db *DB) bulkInsertLogCPC(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_cpc"},
 		[]string{"cpc_nu", "ufe_sg", "loc_nu", "cpc_no", "cpc_endereco", "cep"},
@@ -523,7 +721,7 @@ func (db *DB) createTableLogFaixaCPC() error {
 	COMMENT on column correios.log_faixa_cpc.cpc_final is 'número final da caixa postal comunitária';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_faixa_cpc table: %w", err)
 	}
@@ -531,7 +729,7 @@ func (db *DB) createTableLogFaixaCPC() error {
 }
 
 func (db *DB) bulkInsertLogFaixaCPC(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_cpc"},
 		[]string{"cpc_nu", "cpc_inicial", "cpc_final"},
@@ -572,7 +770,7 @@ func (db *DB) createTableLogLogradouro() error {
 	COMMENT on column correios.log_logradouro.log_no_abrev is 'abreviatura do nome do logradouro';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_logradouro table: %w", err)
 	}
@@ -580,7 +778,7 @@ func (db *DB) createTableLogLogradouro() error {
 }
 
 func (db *DB) bulkInsertLogLogradouro(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_logradouro"},
 		[]string{"log_nu", "ufe_sg", "loc_nu", "bai_nu_ini", "bai_nu_fim",
@@ -608,7 +806,7 @@ func (db *DB) createTableLogVarLog() error {
 	COMMENT on column correios.log_var_log.vlo_tx is 'nome da variação do logradouro';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_var_log table: %w", err)
 	}
@@ -616,7 +814,7 @@ func (db *DB) createTableLogVarLog() error {
 }
 
 func (db *DB) bulkInsertLogVarLog(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_var_log"},
 		[]string{"log_nu", "vlo_nu", "tlo_tx", "vlo_tx"},
@@ -643,7 +841,7 @@ func (db *DB) createTableLogNumSec() error {
 	COMMENT on column correios.log_num_sec.sec_in_lado is 'Indica a paridade/lado do seccionamento A – ambos,P – par,I – ímpar,D – direito eE – esquerdo.';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_num_sec table: %w", err)
 	}
@@ -651,7 +849,7 @@ func (db *DB) createTableLogNumSec() error {
 }
 
 func (db *DB) bulkInsertLogNumSec(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_num_sec"},
 		[]string{"log_nu", "sec_nu_ini", "sec_nu_fim", "sec_in_lado"},
@@ -688,7 +886,7 @@ func (db *DB) createTableLogGrandeUsuario() error {
 	COMMENT on column correios.log_grande_usuario.gru_no_abrev is 'abreviatura do nome do grande usuário';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_grande_usuario table: %w", err)
 	}
@@ -696,7 +894,7 @@ func (db *DB) createTableLogGrandeUsuario() error {
 }
 
 func (db *DB) bulkInsertLogGrandeUsuario(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_grande_usuario"},
 		[]string{"gru_nu", "ufe_sg", "loc_nu", "bai_nu", "log_nu",
@@ -736,7 +934,7 @@ func (db *DB) createTableLogUnidOper() error {
 	COMMENT on column correios.log_unid_oper.uop_no_abrev is 'abreviatura do nome da unid. operacional';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_unid_oper table: %w", err)
 	}
@@ -744,7 +942,7 @@ func (db *DB) createTableLogUnidOper() error {
 }
 
 func (db *DB) bulkInsertLogUnidOper(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_unid_oper"},
 		[]string{"uop_nu", "ufe_sg", "loc_nu", "bai_nu", "log_nu",
@@ -770,7 +968,7 @@ func (db *DB) createTableLogFaixaUOP() error {
 	COMMENT on column correios.log_faixa_uop.fnc_final is 'número final da caixa postal';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating log_faixa_uop table: %w", err)
 	}
@@ -778,7 +976,7 @@ func (db *DB) createTableLogFaixaUOP() error {
 }
 
 func (db *DB) bulkInsertLogFaixaUOP(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "log_faixa_uop"},
 		[]string{"uop_nu", "fnc_inicial", "fnc_final"},
@@ -805,7 +1003,7 @@ func (db *DB) createTableECTPais() error {
 	COMMENT on column correios.ect_pais.pai_sg_alternativa is 'Sigla alternativa';
 	`
 
-	_, err := db.Pool.Exec(db.ctx, query)
+	_, err := db.pool.Exec(db.ctx, query)
 	if err != nil {
 		return fmt.Errorf("error creating ect_pais table: %w", err)
 	}
@@ -813,7 +1011,7 @@ func (db *DB) createTableECTPais() error {
 }
 
 func (db *DB) bulkInsertECTPais(rows [][]any) error {
-	_, err := db.Pool.CopyFrom(
+	_, err := db.pool.CopyFrom(
 		db.ctx,
 		pgx.Identifier{"correios", "ect_pais"},
 		[]string{"pai_sg", "pai_sg_alternativa", "pai_no_portugues",
