@@ -1,0 +1,60 @@
+1003923@AP@307@31040@@Terceira@(Conj. Habitacional da Embrapa)@68903610@Travessa@S@Tv Terc
+1003924@AP@307@57160@@Santa Edwiges@@68906054@Avenida@S@Av Sta Edwiges
+1003925@AP@307@57160@@Nossa Senhora da Conceição@@68906057@Avenida@S@Av N Sra da Conceição
+1003926@AP@307@57160@@Bonfim@@68906060@Avenida@S@Av Bonfim
+1003927@AP@307@57160@@Israel@@68906063@Avenida@S@Av Israel
+1003928@AP@307@57160@@Nova Aliança@@68906066@Rua@S@R N Aliança
+1003929@AP@307@57160@@Montevidéu@@68906069@Rua@S@R Montevidéu
+1003930@AP@307@57160@@Marrocos@@68906072@Rua@S@R Marrocos
+1003931@AP@307@57160@@Estados Unidos@@68906075@Rua@S@R Estados Unidos
+1003932@AP@307@57160@@Egito@@68906078@Rua@S@R Egito
+1003933@AP@307@57160@@África do Sul@@68906081@Rua@S@R África do Sul
+1003934@AP@307@57160@@Angola@@68906084@Rua@S@R Angola
+1003935@AP@307@57160@@Goiabal@@68906087@Travessa@S@Tv Goiabal
+1003936@AP@307@57160@@Nova Jerusalém@@68906090@Avenida@S@Av N Jerusalém
+1003937@AP@307@57160@@Vitoria Regia@@68906093@Rua@S@R Vitoria Regia
+1003938@AP@307@57160@@Josefa da Silva@@68906096@Rua@S@R Josefa da Silva
+1003939@AP@307@57160@@Goiabal@@68906003@Rua@S@R Goiabal
+1003940@AP@307@57160@@Itamaraca@@68906006@Avenida@S@Av Itamaraca
+1003941@AP@307@57160@@Edilson Pinheiro@@68906009@Avenida@S@Av Edilson Pinheiro
+1003942@AP@307@57160@@Francisco de Souza@@68906012@Avenida@S@Av Francisco de Souza
+1003943@AP@307@57160@@José Cardoso da Silva@@68906015@Avenida@S@Av José C da Silva
+1003944@AP@307@57160@@das Amazonas@@68906018@Avenida@S@Av das Amazonas
+1003945@AP@307@57160@@Leopoldo Amancio@@68906021@Avenida@S@Av Leopoldo Amancio
+1003946@AP@307@57160@@Zeca Verônica@@68906024@Rua@S@R Zeca Verônica
+1003947@AP@307@57160@@Maria Alta@@68906027@Avenida@S@Av Maria Alta
+1003948@AP@307@57160@@do Goiabal@@68906030@2ª Travessa@S@2ª Tv do Goiabal
+1003949@AP@307@57160@@Anastácio Gaudêncio da Silva@(Torres do Linhão)@68906033@Avenida@S@Av Anastácio G da Silva
+1003950@AP@307@57160@@Nossa Senhora de Fátima@@68906036@Avenida@S@Av N Sra de Fátima
+1003951@AP@307@57160@@Nossa Senhora Aparecida@@68906039@Avenida@S@Av N Sra Aparecida
+1003952@AP@307@57160@@Santa Catarina@@68906042@Avenida@S@Av Sta Catarina
+1003953@AP@307@57160@@Santa Maria@@68906045@Rua@S@R Sta Maria
+1003954@AP@307@57160@@Santo Expedito@@68906048@Rua@S@R Sto Expedito
+1003955@AP@307@57160@@São Benedito@@68906051@Avenida@S@Av S Benedito
+1007738@AP@307@57160@@Santa Tereza@@68906091@Rua@S@R Sta Tereza
+1007739@AP@307@57160@@Santo Antônio@@68906082@Avenida@S@Av Sto Antônio
+1007740@AP@307@57160@@Maria da Silva Barbosa Barros@@68906071@Avenida@S@Av Maria da S B Barros
+1007741@AP@307@57160@@São Lucas@@68906061@Rua@S@R S Lucas
+1015119@AP@307@215@@Um@(Conjunto Mucaja)@68902012@Rua@S@R Um
+1015120@AP@307@215@@Dois@(Conjunto Mucaja)@68902013@Rua@S@R Dois
+1015121@AP@307@215@@Três@(Conjunto Mucaja)@68902017@Rua@S@R Três
+1015122@AP@307@215@@Quatro@(Conjunto Mucaja)@68902018@Rua@S@R Quatro
+1015123@AP@307@215@@Cinco@(Conjunto Mucaja)@68902019@Rua@S@R Cinco
+1015124@AP@307@215@@Seis@(Conjunto Mucaja)@68902021@Rua@S@R Seis
+1015125@AP@307@215@@Sete@(Conjunto Mucaja)@68902022@Rua@S@R Sete
+1015126@AP@307@215@@Oito@(Conjunto Mucaja)@68902023@Rua@S@R Oito
+1032578@AP@307@49302@@Antônio Ferreira de Jusus@@68904061@Alameda@S@Al Antônio F de Jusus
+1032579@AP@307@49302@@Antônio Ferreira de Jesus@@68904062@Avenida@S@Av Antônio F de Jesus
+1032580@AP@307@33114@@Sol Nascente@@68906300@Avenida@S@Av Sol Nascente
+1032581@AP@307@33114@@Vicente Raimundo Alves@@68906302@Rua@S@R Vicente R Alves
+1032582@AP@307@33114@@do Trilho@@68906303@Rua@S@R do Trilho
+1032583@AP@307@33114@@Marilene Silva Miranda@@68906304@Travessa@S@Tv Marilene S Miranda
+1032584@AP@307@33114@@São Paulo@@68906305@Avenida@S@Av S Paulo
+1032585@AP@307@33114@@Vasco da Gama@@68906306@Avenida@S@Av Vasco da Gama
+1032586@AP@307@33114@@Estrela do Manha@@68906307@Travessa@S@Tv Estrela do Manha
+1032587@AP@307@33114@@Santa Fé@@68906308@Travessa@S@Tv Sta Fé
+1032588@AP@307@33114@@Beira Rio@(Cj, Habitacional Jard. America)@68906450@Rua@S@R Beira Rio
+1032589@AP@307@33114@@do Prazer@(Cj. Habitacional Jard. America)@68906451@Rua@S@R do Prazer
+1032590@AP@307@33114@@Murici@@68906309@Avenida@S@Av Murici
+1032591@AP@307@33114@@Professora Osvaldina Ferreira da Silva@(Cj. Habitacional Jard. America)@68906452@Rua@S@R Prfa Osvaldina F da Silva
+1032592@AP@307@33114@@Liberato@(Cj. Habitacional Jard. America)@68906453@Travessa@S@Tv Liberato

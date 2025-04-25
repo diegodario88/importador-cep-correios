@@ -1,0 +1,60 @@
+1001235@SP@8912@14716@@Octaviano de Arruda Campos@- de 960/961 ao fim@14810227@Avenida@S@Av Octaviano de A Campos
+1001236@SP@8912@14760@@José Salles Gadelha@- até 108/109@14807048@Avenida@S@Av José S Gadelha
+1001237@SP@8912@14668@@José Salles Gadelha@- de 110/111 ao fim@14807126@Avenida@S@Av José S Gadelha
+1001239@SP@8912@55688@@Oswaldo Gonçalves de Jesus@@14805396@Avenida@S@Av Oswaldo G de Jesus
+1001241@SP@8924@56583@@Pedro Eroles@- até km 34,999@07434090@Rodovia@S@Rod Pedro Eroles
+1001242@SP@8924@56584@@Pedro Eroles@- do km 35,000 ao fim@07440550@Rodovia@S@Rod Pedro Eroles
+1001243@SP@8924@56572@@dos Vados@- até 1300 - lado par@07414050@Estrada@S@Est dos Vados
+1001244@SP@8924@56572@@dos Vados@- de 1301/1302 ao fim@07414270@Estrada@S@Est dos Vados
+1001245@SP@8924@56895@@dos Correas@@07424000@Estrada@S@Est dos Correas
+1001248@SP@8924@56582@@Manoel Albuquerque Ribeiro@(Lot Fontes)@07432135@Avenida@S@Av Manoel A Ribeiro
+1001249@SP@8928@14975@@Jerônimo de Camargo@- de 6900/6901 ao fim@12951540@Avenida@S@Av Jerônimo de Camargo
+1001250@SP@8928@15135@@Jerônimo de Camargo@- de 1001/1002 a 2198/2199@12945206@Avenida@S@Av Jerônimo de Camargo
+1001251@SP@8928@50573@@Jerônimo de Camargo@- de 2200/2201 a 3998/3999@12944651@Avenida@S@Av Jerônimo de Camargo
+1001252@SP@8928@15110@@Jerônimo de Camargo@- de 4950/4951 a 6898/6899@12944000@Avenida@S@Av Jerônimo de Camargo
+1001254@SP@8928@54669@@Doutor Marcio Borges da Fonseca@@12941302@Rua@S@R Dr Marcio B da Fonseca
+1001255@SP@8928@54669@@Omar Antonio Grespan@@12941303@Rua@S@R Omar A Grespan
+1001256@SP@8928@54669@@Sebastião da Silva Pinto@@12941304@Rua@S@R Sebastião da S Pinto
+1001257@SP@8928@54669@@Lido Paulinetti@@12941305@Rua@S@R Lido Paulinetti
+1001258@SP@8928@15097@@das Rosas@@12952726@Alameda@S@Al das Rosas
+1001260@SP@8933@15218@@Vila Serena@@18703182@Condomínio@S@Cond Vl Serena
+1001261@SP@8961@15668@@Regina Célia Palmeira@@17018525@Rua@S@R Regina C Palmeira
+1001262@SP@8961@15475@@Izaltina Maria Ribeiro da Silva@@17031410@Rua@S@R Izaltina M R da Silva
+1001263@SP@8961@15475@@José do Nascimento@@17031419@Rua@S@R José do Nascimento
+1001264@SP@8961@15475@@Camel Razuk@@17031422@Rua@S@R Camel Razuk
+1001265@SP@8961@15475@@16@@17031423@Rua@S@R 16
+1001266@SP@8961@15475@@Eliseu de Melo Soares@@17031424@Rua@S@R Eliseu de M Soares
+1001267@SP@8961@15475@@Virgilio Parisi@@17031425@Rua@S@R Virgilio Parisi
+1001268@SP@8961@15475@@7@@17031426@Rua@S@R 7
+1001269@SP@8961@15475@@Dirceu Paniza Garcia@@17031427@Rua@S@R Dirceu P Garcia
+1001270@SP@8961@57107@@Dois@@17056265@Rua@S@R Dois
+1001271@SP@8961@15475@@Pastor Arcilio Antonio de Brito@@17031429@Rua@S@R Pst Arcilio A de Brito
+1001272@SP@8992@56902@@Leonor Chiarion Suppioni@@12908372@Rua@S@R Leonor C Suppioni
+1001273@SP@8992@50014@@Lourenço Antônio Pedro@@12929705@Rua@S@R Lourenço A Pedro
+1001274@SP@8992@57044@@Marcelo Eugênio Tofanin@@12924800@Estrada Municipal@S@Est Mun Marcelo E Tofanin
+1001275@SP@8992@57042@@Ipê Amarelo@@12929031@Rua@S@R Ipê Amarelo
+1001276@SP@8992@57043@@Ipê Branco@@12929021@Rua@S@R Ipê Branco
+1001277@SP@8992@57043@@Ipê Roxo@@12929022@Rua@S@R Ipê Roxo
+1001278@SP@8992@57043@@Ipê Rosa@@12929023@Rua@S@R Ipê Rosa
+1001279@SP@8992@57043@@Ipê Preto@@12929024@Rua@S@R Ipê Preto
+1001280@SP@8992@56747@@Sebastião Rosa de Freitas@@12923002@Estrada Municipal@S@Est Mun Sebastião R de Freitas
+1001281@SP@8992@55281@@Antonio de Moraes@@12928003@Estrada Municipal@S@Est Mun Antonio de Moraes
+1001282@SP@8992@55281@@das Orquídeas@@12928004@Rua@S@R das Orquídeas
+1001283@SP@8992@55281@@das Alamandas@@12928005@Rua@S@R das Alamandas
+1001284@SP@8992@56747@@Professora Therezinha de Lima Belloto@@12923001@Estrada Municipal@S@Est Mun Prfa Therezinha de L Belloto
+1001285@SP@8992@52413@@Luiz Carmignotto@@12926564@Rua@S@R Luiz Carmignotto
+1001286@SP@9025@57035@@da Conquista@@13060674@Rua@S@R da Conquista
+1001287@SP@9025@57035@@Um@@13060675@Rua@S@R Um
+1001288@SP@9025@57035@@Um@@13060676@Viela@S@Vla Um
+1001289@SP@9025@57039@@Nenê do Cavaco@@13059734@Rua@S@R Nenê do Cavaco
+1001290@SP@9025@57039@@Celso Mendes@@13059735@Rua@S@R Celso Mendes
+1001291@SP@9025@57039@@José Rastelli@@13059736@Rua@S@R José Rastelli
+1001292@SP@9025@57039@@Eustáquio Gomes@@13059737@Rua@S@R Eustáquio Gomes
+1001293@SP@9025@57039@@Camilo Chagas@@13059738@Rua@S@R Camilo Chagas
+1001294@SP@9025@57039@@Beto Carioca@@13059739@Rua@S@R Beto Carioca
+1001295@SP@9025@57039@@Lorde Edgar@@13059740@Rua@S@R Lorde Edgar
+1001296@SP@9025@57039@@Lucas da Rosa@@13059741@Rua@S@R Lucas da Rosa
+1001297@SP@9025@57104@@1@@13059815@Caminho de Servidão@S@Cam Serv 1
+1001298@SP@9025@57104@@2@@13059816@Caminho de Servidão@S@Cam Serv 2
+1001299@SP@9025@57104@@3@@13059817@Caminho de Servidão@S@Cam Serv 3
+1001300@SP@9025@57104@@4@@13059818@Caminho de Servidão@S@Cam Serv 4

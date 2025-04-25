@@ -1,0 +1,60 @@
+10000@AM@243@171@@Três@@69038002@Rua@S@R Três
+10001@AM@243@54727@@Doutor Monteiro Peixoto@@69096241@Travessa@S@Tv Dr Monteiro Peixoto
+10002@AM@243@162@@Saquarema@@69082814@Travessa@S@Tv Saquarema
+10003@AM@243@178@@Adrino Gama@@69054732@Rua@S@R Adrino Gama
+10004@AM@243@54727@@Bianor Garcia@@69098471@Rua@S@R Bianor Garcia
+10005@AM@243@152@@3 de Agosto@@69073771@Travessa@S@Tv 3 de Agosto
+10006@AM@243@169@@Professor Botinely@@69078120@Rua@S@R Prf Botinely
+10007@AM@243@168@@23 de Junho@@69027720@Rua@S@R 23 de Junho
+10008@AM@243@202@@Kanamaris@@69084500@Rua@S@R Kanamaris
+10009@AM@243@162@@Três Irmãos@@69080510@Rua@S@R Três Irmãos
+10010@AM@243@162@@Aladoim@@69080511@Beco@S@Bc Aladoim
+10011@AM@243@186@@Jaguará@@69068720@Beco@S@Bc Jaguará
+10012@AM@243@170@@dos Trevos@@69088460@Rua@S@R dos Trevos
+10013@AM@243@54727@@Itobi@@69099551@Rua@S@R Itobi
+10014@AM@243@162@@Treze de Maio@@69080440@Rua@S@R Treze de Maio
+10015@AM@243@177@@Simão Stock@@69039382@Travessa@S@Tv Simão Stock
+10016@AM@243@195@@Treze de Maio@@69086581@Rua@S@R Treze de Maio
+10017@AM@243@163@@Caldeu@@69073124@Travessa@S@Tv Caldeu
+10018@AM@243@195@@Rio Arauana@@69086622@Rua@S@R Rio Arauana
+1001871@AM@243@173@@Piquiarana@@69093169@Rua@S@R Piquiarana
+10019@AM@243@160@@Francisco Paiva@@69093451@Rua@S@R Francisco Paiva
+10020@AM@243@160@@Ambrósio@@69093453@Travessa@S@Tv Ambrósio
+10021@AM@243@172@@Honduras@@69075818@Beco@S@Bc Honduras
+10024@AM@243@54727@@Gameleira@@69099352@Rua@S@R Gameleira
+10025@AM@243@198@@Melanita@@69087510@Rua@S@R Melanita
+10026@AM@243@198@@Estrela do Amazonas@@69087520@Rua@S@R Estrela do Amazonas
+10027@AM@243@152@@31 de Março@@69073080@Rua@S@R 31 de Março
+10028@AM@243@162@@Celidônia@@69082330@Rua@S@R Celidônia
+10029@AM@243@196@@Trinta e Um de Março@@69073390@Beco@S@Bc Trinta e Um de Março
+10030@AM@243@197@@Antônio Rocha@@69027370@Rua@S@R Antônio Rocha
+10031@AM@243@159@@Edmilson Paraíba@@69093390@Rua@S@R Edmilson Paraíba
+10032@AM@243@177@@Orlando Marques@@69039000@Rua@S@R Orlando Marques
+10033@AM@243@196@@Trinta e Um de Março@@69073391@Rua@S@R Trinta e Um de Março
+10034@AM@243@152@@Trinta e Um de Março@@69073082@Travessa@S@Tv Trinta e Um de Março
+10035@AM@243@160@@Moisés@@69093463@Rua@S@R Moisés
+10036@AM@243@181@@Trípoli@@69045800@Rua@S@R Trípoli
+10037@AM@243@160@@Maria Vieira@@69093055@Rua@S@R Maria Vieira
+10038@AM@243@156@@Tucanos@@69094050@Travessa@S@Tv Tucanos
+10039@AM@243@162@@Tucumã@@69082340@Beco@S@Bc Tucumã
+10040@AM@243@164@@Tucumã@@69075220@Avenida@S@Av Tucumã
+10041@AM@243@173@@Louro Aritu@@69093144@Rua@S@R Louro Aritu
+10042@AM@243@156@@Caetano Félix@@69090270@Rua@S@R Caetano Félix
+10043@AM@243@156@@Florida@@69095120@Rua@S@R Florida
+10044@AM@243@162@@Tucunaré@@69082350@Beco@S@Bc Tucunaré
+10045@AM@243@170@@Ana Falcão@@69088730@Rua@S@R Ana Falcão
+10046@AM@243@167@@Tucuruí@@69028143@Rua@S@R Tucuruí
+10048@AM@243@165@@Tucuruí@@69040580@Travessa@S@Tv Tucuruí
+10049@AM@243@177@@Tudy Moutinho@@69039110@Rua@S@R Tudy Moutinho
+1004958@AM@243@170@@da Prata@@69006800@Rua@S@R da Prata
+1004959@AM@243@167@@Conde de Oeiras@@69058142@Rua@S@R Cd de Oeiras
+1004960@AM@243@167@@Conde de Abranhos@@69058144@Rua@S@R Cd de Abranhos
+1004961@AM@243@167@@Conde D'amarante@@69058145@Rua@S@R Cd D'amarante
+1004962@AM@243@167@@Visconde de São Leopoldo@@69058146@Rua@S@R Vsc de S Leopoldo
+1004963@AM@243@167@@Visconde de Cachoeira@@69058148@Rua@S@R Vsc de Cachoeira
+1004964@AM@243@167@@Visconde de Guarapuava@@69058152@Rua@S@R Vsc de Guarapuava
+1004965@AM@243@167@@Visconde de Vila Velha@@69058153@Rua@S@R Vsc de Vl Velha
+1004966@AM@243@167@@Visconde de Vila Moura@@69058155@Rua@S@R Vsc de Vl Moura
+1004967@AM@243@167@@Visconde de Vila Maior@@69058156@Rua@S@R Vsc de Vl Maior
+1004968@AM@243@167@@Visconde de D'olivã@@69058158@Rua@S@R Vsc de D'olivã
+1004969@AM@243@199@@Sino Azul@@69041460@Rua@S@R Sino Azul

@@ -1,3 +1,27 @@
+100000@ES@2044@1705@@Platino@@29112060@Rua@S@R Platino
+100001@ES@2044@1655@@Plutão@@29117670@Rua@S@R Plutão
+100002@ES@2044@34754@@Henrique Laranja@@29100575@Rua@S@R Henrique Laranja
+100003@ES@2044@34754@@Jeronimo Monteiro@@29100570@Avenida@S@Av Jeronimo Monteiro
+100004@ES@2044@1756@@Polinária Satlher@@29116180@Rua@S@R Polinária Satlher
+100005@ES@2044@1747@@Pombal@@29114022@Escadaria@S@Escad Pombal
+100007@ES@2044@1747@@Pontal@@29114580@Beco@S@Bc Pontal
+100008@ES@2044@1747@@Manoel Gilson da Silva@@29114311@Travessa@S@Tv Manoel G da Silva
+100011@ES@2044@1709@@Porto Alegre@@29103835@Rua@S@R Pto Alegre
+100012@ES@2044@1657@@Porto Espanha@@29103170@Rua@S@R Pto Espanha
+100013@ES@2044@1657@@Porto Principe@@29103190@Rua@S@R Pto Principe
+100014@ES@2044@1709@@Porto Seguro@@29103870@Rua@S@R Pto Seguro
+100015@ES@2044@1722@@da Portobras@@29115166@Rua@S@R da Portobras
+100016@ES@2044@1659@@dos Portuários@@29120410@Rua@S@R dos Portuários
+100018@ES@2044@1682@@Potiguara@@29107145@Rua@S@R Potiguara
+100019@ES@2044@36004@@Povo Heróico@@29121223@Rua@S@R Povo Heróico
+100021@ES@2044@1697@@da Praia@@29102085@Avenida@S@Av da Pr
+100022@ES@2044@1687@@Presidente Abraão Lincoln@@29108531@Beco@S@Bc Pres Abraão Lincoln
+100024@ES@2044@1654@@Presidente Café Filho@@29118110@Rua@S@R Pres Café Filho
+100025@ES@2044@1654@@Presidente Costa e Silva@@29118040@Rua@S@R Pres Costa e Silva
+100026@ES@2044@1756@@Presidente Dutra@@29116500@Rua@S@R Pres Dutra
+100027@ES@2044@1756@@Presidente Getúlio Vargas@@29116460@Rua@S@R Pres Getúlio Vargas
+100028@ES@2044@1660@@Presidente Vargas@@29119135@Rua@S@R Pres Vargas
+100029@ES@2044@1756@@Presidente Getúlio Vargas@@29116465@Travessa@S@Tv Pres Getúlio Vargas
 100030@ES@2044@1752@@Presidente Getúlio Vargas@@29127225@Avenida@S@Av Pres Getúlio Vargas
 100031@ES@2044@1687@@Presidente John Kennedy@@29108440@Rua@S@R Pres John Kennedy
 100032@ES@2044@1754@@Presidente John Kennedy@@29113480@Rua@S@R Pres John Kennedy
@@ -6,7 +30,7 @@
 100035@ES@2044@1700@@Primavera@@29104495@Rua@S@R Primavera
 100036@ES@2044@1705@@Primeira@@29112230@Avenida@S@Av Primeira
 100037@ES@2044@1677@@Geneide do Nascimento Nolasco@@29111160@Avenida@S@Av Geneide do N Nolasco
-100038@ES@2044@1736@@Primeira Avenida@@29112680@Avenida@S@Av Primeira Avenida
+100038@ES@2044@1736@@Primeira Avenida@@29112680@Avenida@S@Av Primeira Av
 100039@ES@2044@1705@@1º de Abril@@29112132@Rua@S@R 1º de Abril
 100040@ES@2044@1659@@1º de Maio@@29120260@Rua@S@R 1º de Maio
 100041@ES@2044@1659@@1º de Maio@@29120265@Travessa@S@Tv 1º de Maio
@@ -14,7 +38,6 @@
 100043@ES@2044@1716@@Princesa Izabel@@29110170@Rua@S@R Prca Izabel
 100044@ES@2044@1660@@Princesa Izabel@@29119260@Rua@S@R Prca Izabel
 100045@ES@2044@1659@@Princesa Izabel@@29120275@Rua@S@R Prca Izabel
-100047@ES@2044@1690@@Principal@@29115660@Rua@S@R Principal
 100049@ES@2044@1697@@Professor Augusto Rusch@@29102080@Rua@S@R Prf Augusto Rusch
 100050@ES@2044@1716@@Edgard Souza@@29110110@Rua@S@R Edgard Souza
 100051@ES@2044@1686@@Professor Geraldo Costa Alves@@29103690@Rua@S@R Prf Geraldo C Alves
@@ -31,3 +54,7 @@
 100062@ES@2044@1698@@Professora Francelina Carneiro Setúbal@@29101641@Avenida@S@Av Prfa Francelina C Setúbal
 100064@ES@2044@1682@@Professora Francelina Carneiro Setúbal@- lado ímpar@29107055@Avenida@S@Av Prfa Francelina C Setúbal
 100065@ES@2044@1682@@Professora Francelina Carneiro Setúbal@- lado par@29107052@Avenida@S@Av Prfa Francelina C Setúbal
+100066@ES@2044@36004@@Progresso@@29121224@Rua@S@R Progresso
+100068@ES@2044@1663@@Humberto Lodi@@29125044@Rua@S@R Humberto Lodi
+100069@ES@2044@49103@@do Presépio@@29114608@Rua@S@R do Presépio
+100070@ES@2044@1659@@Maria da Glória Rauta@@29120720@Rua@S@R Maria da G Rauta

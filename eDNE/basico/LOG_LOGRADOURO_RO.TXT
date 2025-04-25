@@ -1,0 +1,60 @@
+1003615@RO@7352@34105@@Miguel de Cervante@@76811003@Rua@S@R Miguel de Cervante
+1003616@RO@7352@12872@@Beira Rio@@76801199@Travessa@S@Tv Beira Rio
+1003617@RO@7352@34105@@Luziana@@76811144@Rua@S@R Luziana
+1006995@RO@7336@50973@@Dezenove@@76907424@Rua@S@R Dezenove
+1014717@RO@7315@51104@@Central@@76876714@Travessa@S@Tv Central
+1032000@RO@7319@12849@@João Alves Diniz@@76965606@Avenida@S@Av João A Diniz
+1032001@RO@7336@58082@@Ipê Tabaco@@76901368@Rua@S@R Ipê Tabaco
+1032002@RO@7336@58082@@Natal Carvalho da Silva@- de 1033/1034 a 1210/1211@76901369@Rua@S@R Natal C da Silva
+1032003@RO@7336@58082@@Natal Carvalho da Silva@- de 1233/1234 a 1517/1518@76901395@Rua@S@R Natal C da Silva
+1032004@RO@7336@58082@@Lincoln Pavão dos Santos@- de 1031/1032 a 1195/1196@76901370@Rua@S@R Lincoln P dos Santos
+1032005@RO@7336@58082@@Lincoln Pavão dos Santos@- de 1209/1210 a 1504/1505@76901394@Rua@S@R Lincoln P dos Santos
+1032006@RO@7336@58082@@Wadih Said Klaime@- de 1169/1170 a 1501/1502@76901392@Rua@S@R Wadih S Klaime
+1032007@RO@7336@58082@@Wadih Said Klaime@- de 929/930 a 1153/1154@76901372@Rua@S@R Wadih S Klaime
+1032008@RO@7336@58082@@Telma da Silveira Machado@@76901374@Rua@S@R Telma da S Machado
+1032009@RO@7336@58082@@Lindicelma Alves de Jesus@- de 1147/1148 a 1491/1492@76901390@Rua@S@R Lindicelma A de Jesus
+1032010@RO@7336@58082@@Lindicelma Alves de Jesus@- de 865/866 a 1136/1137@76901376@Rua@S@R Lindicelma A de Jesus
+1032011@RO@7336@50985@@Catarina da Cunha Costa@@76913895@Rua@S@R Catarina da C Costa
+1032012@RO@7336@50985@@Waldemar Servilhere@@76913891@Rua@S@R Waldemar Servilhere
+1032013@RO@7336@50985@@Garcês de Souza Lima@@76913887@Rua@S@R Garcês de S Lima
+1032014@RO@7336@50985@@Aurélia de Moura Costa@@76913886@Rua@S@R Aurélia de M Costa
+1032015@RO@7336@50985@@Gabriela Amim Campos@@76913889@Avenida@S@Av Gabriela A Campos
+1032016@RO@7336@50985@@Francisco Corrêa Castilho@@76913893@Avenida@S@Av Francisco C Castilho
+1032017@RO@7336@50985@@Osmundo de Moura Costa@@76913897@Rua@S@R Osmundo de M Costa
+1032018@RO@7336@58082@@Ipê do Campo@@76901378@Rua@S@R Ipê do Cpo
+1032019@RO@7336@58082@@João Antonio Endlich@- de 864/865 a 1089/1090@76901380@Rua@S@R João A Endlich
+1032020@RO@7336@58082@@João Antonio Endlich@- de 1115/1116 a 1481/1482@76901388@Rua@S@R João A Endlich
+1032021@RO@7336@58082@@Ipê Roxo@@76901381@Rua@S@R Ipê Roxo
+1032022@RO@7336@58082@@Ipê Branco@@76901382@Rua@S@R Ipê Branco
+1032023@RO@7336@58082@@José Jorge de Melo@@76901384@Rua@S@R José J de Melo
+1032024@RO@7336@58082@@Nadalb Chaves de Oliveira@@76901386@Rua@S@R Nadalb C de Oliveira
+1032025@RO@7336@58082@@Iolanda Gonçalves@@76901393@Rua@S@R Iolanda Gonçalves
+1032026@RO@7336@58082@@Benedito Alfredo Costa@- de 1245/1246 a 1506/1507@76901396@Rua@S@R Benedito A Costa
+1032027@RO@7336@58082@@Benedito Alfredo Costa@- de 1035/1036 a 1198/1199@76901397@Rua@S@R Benedito A Costa
+1033858@RO@7319@58141@@Pioneiro Anésio Pinto de Souza@@76964600@Rua@S@R Pion Anésio P de Souza
+1033859@RO@7319@58141@@Pioneiro João Parra Garcia@@76964608@Rua@S@R Pion João P Garcia
+1033860@RO@7319@58141@@Pioneiro Abílio Borba@@76964612@Rua@S@R Pion Abílio Borba
+1033861@RO@7319@58141@@Pioneiro Claudio Rodrigues Lucilo@@76964610@Rua@S@R Pion Claudio R Lucilo
+1033862@RO@7319@58141@@Pioneiro José Ferreira Maciel@@76964606@Rua@S@R Pion José F Maciel
+1033863@RO@7319@58141@@Pioneiro Gabriel Ramos Ribeiro@@76964604@Rua@S@R Pion Gabriel R Ribeiro
+1033864@RO@7319@58141@@Pioneiro Sandra de Oliveira Calazans@@76964602@Rua@S@R Pion Sandra de O Calazans
+1040007@RO@7352@34105@@BR-364@- do km 1,400 ao km 3,000 - lado par@76816800@Rodovia@S@Rod BR-364
+1041913@RO@7319@51005@@Isabel Betiol Pichek@- de 800 a 1400 - lado par@76966198@Avenida@S@Av Isabel B Pichek
+1041914@RO@7319@51005@@Isabel Betiol Pichek@- de 801 a 1401 - lado ímpar@76966197@Avenida@S@Av Isabel B Pichek
+1041915@RO@7319@51005@@Isabel Betiol Pichek@- de 1631/1632 a 2302/2303@76966226@Avenida@S@Av Isabel B Pichek
+1041916@RO@7319@51005@@Isabel Betiol Pichek@- de 1402/1403 a 1629/1630@76966206@Avenida@S@Av Isabel B Pichek
+1041917@RO@7319@51005@@Rosilene Xavier Transpadini@- de 2339/2340 a 2589/2590@76966202@Avenida@S@Av Rosilene X Transpadini
+1041918@RO@7319@51005@@Rosilene Xavier Transpadini@- de 1618 a 2338 - lado par@76966180@Avenida@S@Av Rosilene X Transpadini
+1041919@RO@7319@51005@@Rosilene Xavier Transpadini@- de 1617 a 2337 - lado ímpar@76966181@Avenida@S@Av Rosilene X Transpadini
+1041920@RO@7319@51005@@Rosilene Xavier Transpadini@- de 2591/2592 a 3099/3100@76966214@Avenida@S@Av Rosilene X Transpadini
+1041921@RO@7319@58496@@Pioneiro Napoleão Ferreira Vieira@@76965458@Rua@S@R Pion Napoleão F Vieira
+1041922@RO@7319@58496@@Pioneira Ana Clara da Silva Leal@@76965460@Rua@S@R Piona Ana C da S Leal
+1041923@RO@7319@58496@@Pioneiro Luis Baes Athayde Leal@@76965462@Rua@S@R Pion Luis B A Leal
+1041924@RO@7319@58496@@Pioneira Isabel Barbosa de Gois@@76965464@Rua@S@R Piona Isabel B de Gois
+1041925@RO@7319@58496@@Pioneiro Manoel Mendonça@@76965466@Rua@S@R Pion Manoel Mendonça
+1041926@RO@7319@51005@@Fiovo Camaione@@76966184@Rua@S@R Fiovo Camaione
+1041927@RO@7319@51005@@Raimundo Faustino Albuquerque@@76966186@Rua@S@R Raimundo F Albuquerque
+1041928@RO@7319@51005@@Evandra Gois@@76966188@Rua@S@R Evandra Gois
+1041929@RO@7319@51005@@Regina Burali@@76966190@Rua@S@R Regina Burali
+1041930@RO@7319@58497@@Pioneiro Luiz Cardoso@@76965388@Rua@S@R Pion Luiz Cardoso
+1041931@RO@7319@58497@@Pioneiro Joaquim Dias Pereira@- de 4200/4201 a 4687/4688@76965390@Rua@S@R Pion Joaquim D Pereira

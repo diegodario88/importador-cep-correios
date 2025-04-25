@@ -1,12 +1,60 @@
-33085@AC@11@39332@@AC Manoel Urbano Clique e Retire@Rua ValÃ©rio Caldas MagalhÃ£es, 92@69950959@AC M U C Retire
-33078@AC@12@39339@@AC Marechal Thaumaturgo Clique e Retire@Rua 5 de Novembro, 125@69983959@AC Mal T C Retire
-33104@AC@13@39325@@AC PlÃ¡cido de Castro Clique e Retire@Avenida Diamantino Augusto de Macedo, 580@69928959@AC P C C Retire
-32499@AC@14@39322@@AC Porto Acre Clique e Retire@Rua Margaridas, 131@69927959@AC Pto A C Retire
-33079@AC@15@39338@@AC Porto Walter Clique e Retire@Rua Projetada, s/n@69982959@AC Pto W C Retire
-1@AC@16@17@55@AssemblÃ©ia Legislativa do Estado do Acre@Rua Arlindo Porto Leal, 241@69900904@AssemblÃ©ia L E Acre
-2@AC@16@17@948218@Governo do Estado do Acre@Avenida GetÃºlio Vargas, 232@69900900@Governo E Acre
+32476@AC@16@17@814@AC Oca Clique e Retire@Rua Quintino Bocaiúva, 299 Clique e Retire Correios@69901959@AC O C Retire
+26789@AC@16@17@948034@AC Rio Branco Clique e Retire@Avenida Epaminondas Jácome, 2858 Clique e Retire Correios@69900959@AC R B C Retire
+34344@AC@16@55439@948258@Residencial Ecoville@Rodovia BR-364, 2081@69915900@Res Ecoville
+33077@AC@17@39340@@AC Rodrigues Alves Clique e Retire@Avenida Presidente Vargas, s/n Clique e Retire Correios@69985959@AC R A C Retire
+33084@AC@18@39333@@AC Santa Rosa do Purus Clique e Retire@Rua Coronel José Ferreira, 1498 Clique e Retire Correios@69955959@AC Sta R P C Retire
+33089@AC@19@39330@@AC Sena Madureira Clique e Retire@Rua Dom Júlio Matiolli, 290 Clique e Retire Correios@69940959@AC S M C Retire
+32492@AC@20@39324@@AC Senador Guiomard Clique e Retire@Avenida Castelo Branco, 1750 Clique e Retire Correios@69925959@AC Sen G C Retire
+33082@AC@21@39335@@AC Tarauacá Clique e Retire@Rua Coronel Juvêncio de Menezes, 158 Clique e Retire Correios@69970959@AC T C Retire
+33099@AC@22@39326@@AC Xapuri Clique e Retire@Rua 24 de Janeiro, 270 Clique e Retire Correios@69930959@AC X C Retire
+33087@AC@1@39331@@AC Acrelândia Clique e Retire@Avenida Paraná, 296 Clique e Retire Correios@69945959@AC A C Retire
+33092@AC@2@39329@@AC Assis Brasil Clique e Retire@Rua Dom Giocondo Maria Grotte, 230 Clique e Retire Correios@69935959@AC A B C Retire
+33094@AC@3@39327@@AC Brasiléia Clique e Retire@Avenida Prefeito Rolando Moreira, 170 Clique e Retire Correios@69932959@AC B C Retire
+32496@AC@4@39321@@AC Bujari Clique e Retire@Rua Expedito Pereira de Souza, 971 Clique e Retire Correios@69926959@AC B C Retire
+33097@AC@5@39323@@AC Capixaba Clique e Retire@Avenida Governador Edmundo Pinto, 711 Clique e Retire Correios@69931959@AC C C Retire
+33080@AC@6@39337@@AC Cruzeiro do Sul Clique e Retire@Rua Rego Barros, 73 Clique e Retire Correios@69980959@AC C S C Retire
+33093@AC@7@39328@@AC Epitaciolândia Clique e Retire@Avenida Santos Dumont, 160 Clique e Retire Correios@69934959@AC E C Retire
+33083@AC@8@39334@@AC Feijó Clique e Retire@Avenida Plácido de Castro, 871 Clique e Retire Correios@69960959@AC F C Retire
+33081@AC@9@39336@@AC Jordão Clique e Retire@Rua Romildo Magalhães, s/n Clique e Retire Correios@69975959@AC J C Retire
+33076@AC@10@39341@@AC Mâncio Lima Clique e Retire@Rua Alberto Gadelha, 333 Clique e Retire Correios@69990959@AC M L C Retire
+33085@AC@11@39332@@AC Manoel Urbano Clique e Retire@Rua Valério Caldas Magalhães, 92 Clique e Retire Correios@69950959@AC M U C Retire
+33078@AC@12@39339@@AC Marechal Thaumaturgo Clique e Retire@Rua 5 de Novembro, 125 Clique e Retire Correios@69983959@AC Mal T C Retire
+33104@AC@13@39325@@AC Plácido de Castro Clique e Retire@Avenida Diamantino Augusto de Macedo, 580 Clique e Retire Correios@69928959@AC P C C Retire
+32499@AC@14@39322@@AC Porto Acre Clique e Retire@Rua Margaridas, 131 Clique e Retire Correios@69927959@AC Pto A C Retire
+33079@AC@15@39338@@AC Porto Walter Clique e Retire@Rua Projetada, s/n Clique e Retire Correios@69982959@AC Pto W C Retire
+1@AC@16@17@55@Assembléia Legislativa do Estado do Acre@Rua Arlindo Porto Leal, 241@69900904@Assembléia L E Acre
+2@AC@16@17@948218@Governo do Estado do Acre@Avenida Getúlio Vargas, 232@69900900@Governo E Acre
 3@AC@16@17@949571@Prefeitura Municipal de Rio Branco@Rua Rui Barbosa, 285@69900901@Prefeitura Mun R Branco
 4@AC@16@17@103@Oi@Avenida Brasil, 378@69900902@Oi
 5@AC@16@22@948254@Universidade Federal do Acre@Rodovia BR-364, 6000@69920900@Universidade Fed Acre
 15346@AC@16@31@674758@UNINORTE@Alameda Alemanha, 200@69915901@UNINORTE
-19123@AC@16@17@948295@MinistÃ©rio da Fazenda@Rua Marechal Deodoro, 340@69900903@MinistÃ©rio Fazenda
+19123@AC@16@17@948295@Ministério da Fazenda@Rua Marechal Deodoro, 340@69900903@Ministério Fazenda
+20001@AC@16@25@948660@Shopping Via Verde@Estrada da Floresta, 2320@69912900@Shopping V Verde
+20277@AC@16@57389@1009708@Aeroporto Plácido de Castro@Avenida Plácido de Castro@69923900@Aer Plácido Castro
+23893@AC@16@55411@1009707@Terminal Rodoviário Internacional@Via Verde@69906900@Ter Rodoviário Internacional
+32491@AC@16@55419@948668@AC João Eduardo Clique e Retire@Avenida Sobral, 960 Clique e Retire Correios@69911959@AC J E C Retire
+27377@AL@137@48956@@AC Pariconha Clique e Retire@Praça Sagrado Coração de Jesus, 7 Clique e Retire Correios@57475959@AC P C Retire
+27208@AL@10089@38551@@AC Jequiá da Praia Clique e Retire@Travessa Boa Vista, 423 Clique e Retire Correios@57255959@AC J Pr C Retire
+27140@AL@14995@95695@@AC Pindorama Clique e Retire@Avenida Camaçari, s/n Clique e Retire Correios@57238959@AC P C Retire
+15@AL@109@105@2924@Condomínio Jardim do Horto Florestal@Avenida Fernandes Lima, s/n@57052900@Cond Jd Horto Florestal
+17@AL@109@110@4862@Condomínio Mahatma Gandi@Avenida Roberto Mascarenhas de Brito, 426@57037900@Cond Mahatma Gandi
+18@AL@109@116@4021@Condomínio Morada das Árvores@Rua Professor José da Silveira Camerino, 290@57055900@Cond Morada Árvores
+19@AL@109@109@3513@Condomínio Rosa dos Ventos@Avenida Maceió, 1615@57025900@Cond Rosa Ventos
+20@AL@109@100@2218@Condomínio Solaris I@Avenida Brigadeiro Eduardo Gomes, 1205@57038900@Cond Solaris I
+21@AL@109@96@4706@Condomínio Vale do Sol@Avenida Governador Afrânio Lages, s/n@57017901@Cond Vle Sol
+22@AL@109@109@4162@Delegacia da Receita Federal@Rua Sá e Albuquerque, 547@57025902@Delegacia R Federal
+23@AL@109@98@3467@Delegacia Regional do Trabalho@Rua do Livramento, 91@57020916@Delegacia R Trabalho
+24@AL@109@32425@654620@Departamento de Trânsito do Estado de Alagoas - DETRAN@Avenida Menino Marcelo, s/n@57073901@Departamento Trans E Alagoas - DETRA
+25@AL@109@101@1961@Superintendência Estadual de Operações de Alagoas@Rua Antenor Gomes de Oliveira, 144@57055905@Superintendência Estd O Alagoas
+26@AL@109@98@2120@Edifício Barão de Penedo@Rua Barão de Penedo, 187@57020914@Ed Br Penedo
+27@AL@109@98@2698@Edifício Brêda@Rua Doutor Luis Pontes de Miranda, 42@57020902@Ed Brêda
+28@AL@109@98@3858@Edifício Delmiro Gouveia@Praça Governador Adhemar de Barros, 36@57020903@Ed Delmiro Gouveia
+29@AL@109@98@1169862@Edifício F Soares@Travessa São Luiz, 79@57020917@Ed F Soares
+30@AL@109@101@2545@Edifício Leonardo da Vinci@Avenida Dom Antônio Brandão, 307@57051902@Ed Leonardo Vinci
+31@AL@109@98@2370@Edifício Lobão Barreto@Rua do Comércio, 436@57020912@Ed Lobão Barreto
+32@AL@109@101@2545@Edifício Maceió Work Center@Avenida Dom Antônio Brandão, 333@57051901@Ed Maceió W Center
+33@AL@109@92@694159@Fórum de Maceió@Avenida Presidente Roosevelt, 206@57045900@Fórum Maceió
+34@AL@109@105@883547@Híper Center Bompreço@Avenida Fernandes Lima, 3700@57052901@Híper C Bompreço
+35@AL@109@98@3969@INSS@Rua Engenheiro Roberto Gonçalves Menezes, 149@57020905@INSS
+36@AL@109@121@1924@Maceió Mar Hotel@Avenida Álvaro Otacílio, 2991@57035900@Maceió M Hotel
+37@AL@109@110@1925@Meliá Maceió Apart Hotel@Avenida Álvaro Otacílio, 4065@57036900@Meliá M A Hotel

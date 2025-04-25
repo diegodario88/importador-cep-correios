@@ -1,0 +1,60 @@
+1003122@MA@2475@56636@@São Lázaro@@65915063@Rua@S@R S Lázaro
+1003123@MA@2587@3013@@São Pedro@@65041540@Rua@S@R S Pedro
+1003124@MA@2587@2918@@São Pedro@@65043362@Rua@S@R S Pedro
+1003125@MA@2587@3013@@da Alegria@@65040160@Rua@S@R da Alegria
+1003126@MA@2587@2918@@da Alegria@@65043361@Rua@S@R da Alegria
+1003127@MA@2587@2974@@da Vitória@@65090873@Estrada@S@Est da Vitória
+1003128@MA@2587@2941@@da Vitória@@65093325@Estrada@S@Est da Vitória
+1003129@MA@2587@2883@@Abranches Moura@@65036725@Rua@S@R Abranches Moura
+1003130@MA@2587@3040@@Roseana Sarney@@65040839@Rua@S@R Roseana Sarney
+1003131@MA@2587@53763@@Vasconcelos@@65040895@Travessa@S@Tv Vasconcelos
+1003132@MA@2587@53769@@Atencio Queiroga@@65043889@Travessa@S@Tv Atencio Queiroga
+1003133@MA@2587@2974@@Milton Bispo@(Vl Industrial)@65090773@Travessa@S@Tv Milton Bispo
+1003134@MA@2587@2974@@Deuzanira@(Vl Industrial)@65090787@Rua@S@R Deuzanira
+1003135@MA@2587@2974@@da Feirinha@(Vl Industrial)@65090767@Rua@S@R da Feirinha
+1003136@MA@2587@55169@@Santa Luzia@(Residencial 2000)@65090426@Rua@S@R Sta Luzia
+1003137@MA@2587@55169@@do Campo@@65090597@Rua@S@R do Cpo
+1003138@MA@2587@53986@@Cinco@@65058773@Rua@S@R Cinco
+1003139@MA@2587@2916@@Sofia de Sousa@@65050055@Travessa@S@Tv Sofia de Sousa
+1003140@MA@2587@2948@@Projetada Um@(Res S Raimundo)@65054199@Rua@S@R Proj Um
+1003141@MA@2587@2948@@Projetada Dois@(Res S Raimundo)@65054208@Rua@S@R Proj Dois
+1003142@MA@2587@54008@@Projetada@@65066843@Rua@S@R Proj
+1003143@MA@2587@2961@@Curuzu@@65067225@Rua@S@R Curuzu
+1003144@MA@2587@2904@@Um@@65061471@Travessa@S@Tv Um
+1003145@MA@2587@2904@@Maria Isabel@@65061511@Rua@S@R Maria Isabel
+1003146@MA@2587@2904@@Cinco@@65061513@Alameda@S@Al Cinco
+1003147@MA@2587@2904@@Abacaxi@@65061637@Rua@S@R Abacaxi
+1003148@MA@2587@2978@@Silva Jardim@@65065255@Rua@S@R Silva Jd
+1003149@MA@2587@54377@@Projetada Quadra I@@65067364@Rua@S@R Proj Q I
+1003150@MA@2587@53998@@Airton Senna@@65068131@Rua@S@R Airton Senna
+1003151@MA@2587@3017@@Santa Rosa@@65068461@2ª Travessa@S@2ª Tv Sta Rosa
+1003152@MA@2587@3017@@Santa Rosa@@65068463@4ª Travessa@S@4ª Tv Sta Rosa
+1003153@MA@2587@3017@@Santa Rosa@@65068462@3ª Travessa@S@3ª Tv Sta Rosa
+1003154@MA@2587@3017@@Santa Rosa@@65068464@5ª Travessa@S@5ª Tv Sta Rosa
+1003155@MA@2587@53999@@São Jorge@(Lot I Rodrigues)@65068694@Rua@S@R S Jorge
+1003156@MA@2587@3011@@da Alegria@@65091773@Rua@S@R da Alegria
+1003157@MA@2587@2994@@Nascente@(Vl Progresso)@65092555@Rua@S@R Nascente
+1003158@MA@2587@2994@@Vitória@(Maruai)@65092610@Rua@S@R Vitória
+1003159@MA@2587@2994@@Primavera@@65092691@Rua@S@R Primavera
+1003160@MA@2587@2994@@Nova Esperança@@65092693@Travessa@S@Tv N Esperança
+1003161@MA@2587@2994@@Laranjeira@@65092697@Rua@S@R Laranjeira
+1003162@MA@2587@3002@@do Povo@(Prq Brasil)@65092185@Rua@S@R do Povo
+1003163@MA@2587@3002@@da Associação@(Sta Helena)@65092215@Rua@S@R da Associação
+1003164@MA@2587@3002@@da Paz@(Tindiba)@65092237@Rua@S@R da Paz
+1003165@MA@2587@3002@@Velha@@65092315@Estrada@S@Est Va
+1003166@MA@2587@3002@@Dois Irmãos@@65092323@Rua@S@R Dois Irmãos
+1003167@MA@2587@53768@@Buriti@@65090111@Travessa@S@Tv Buriti
+1003168@MA@2587@53768@@Cajueiro@@65090131@Rua@S@R Cajueiro
+1003169@MA@2587@53768@@Um@@65090133@Travessa@S@Tv Um
+1003170@MA@2587@52682@@Quinze de Novembro@(Sitinho)@65091138@Rua@S@R Quinze de Novembro
+1003171@MA@2587@53529@@da Alegria@@65058610@Rua@S@R da Alegria
+1003172@MA@2587@2912@@Trinta e Um de Março@(Res São Paulo)@65058425@Rua@S@R Trinta e Um de Março
+1003173@MA@2587@2974@@do Sol@(Res 21 de Abril)@65090860@Rua@S@R do Sol
+1003174@MA@2587@55185@@Nova@@65092365@Rua@S@R N
+1003175@MA@2587@55185@@Principal@@65092367@Rua@S@R Princ
+1003176@MA@2587@55185@@das Palmeiras@@65092368@Rua@S@R das Palmeiras
+1003177@MA@2587@2941@@Santa Helena@@65093305@Rua@S@R Sta Helena
+1003178@MA@2587@2953@@Quatorze de Abril@(Vl Santana)@65092040@Rua@S@R Quatorze de Abril
+1003179@MA@2587@2953@@da Piçarra@(Vl Santana)@65092035@Rua@S@R da Piçarra
+1003180@MA@2587@2953@@do Projeto@@65092072@Rua@S@R do Projeto
+1003181@MA@2587@55186@@Seis@@65092509@Rua@S@R Seis

@@ -5,3 +5,237 @@ DE@DEU@Alemanha@Germany@Allemagne@
 AD@AND@Andorra@Andorra@Andorre@
 AO@AGO@Angola@Angola@Angola@
 AI@AIA@Anguilla@Anguilla@@
+AQ@ATA@Antárctica@Antarctic@@
+AG@ATG@Antigua e Barbuda@Antigua and Barbuda@Antigua-Et-Barbuda@
+AN@ANT@Antilhas Holandesas@Netherlands Antilles@@
+SA@SAU@Arábia Saudita@Saudi Arabia@Arabie Saoudite@
+DZ@DZA@Argélia@Algeria@Algérie@
+AR@ARG@Argentina@Argentina@Argentine@
+AM@ARM@Armênia@Armenia@Arménie@
+AW@ABW@Aruba@Aruba@Aruba@
+AU@AUS@Austrália@Australia@Australie@
+AT@AUT@Áustria@Austria@Autriche@
+AZ@AZE@Azerbaijão@Azerbaijan@Azerbaïjan@
+BS@BHS@Bahamas@Bahamas@Bahamas@
+BD@BGD@Bangladesh@Bangladesh@Bangladesh@
+BB@BRB@Barbados@Barbados@Barbade@
+BH@BHR@Barein@Bahrain@Bahrain@
+BY@BLR@Belarus@Belarus@Bélarus@
+BE@BEL@Bélgica@Belgium@Belgique@
+BZ@BLZ@Belize@Belize@Belize@
+BJ@BEN@Benin@Benin@Bénin@
+BM@BMU@Bermuda@Bermuda@@
+BO@BOL@Bolívia@Bolivia@Bolivie@
+BA@BIH@Bósnia e Herzegóvina@Bosnia And Herzegovina@Bosnie-Herzégovine@
+BW@BWA@Botswana@Botswana@Botswana@
+BR@BRA@Brasil@Brazil@Brésil@
+BN@BRN@Brunei@Brunei Darussalam@Brunei Darussalam@
+BG@BGR@Bulgária@Republic Of Bulgaria@Bulgarie@
+BF@BFA@Burkina Fasso@Burkina Faso@Burkina Faso@
+BI@BDI@Burundi@Burundi@Burundi@
+BT@BTN@Butão@Bhutan@Bhoutan@
+CV@CPV@Cabo Verde@Cape Verde@Cap-Vert@
+CM@CMR@Camarões@Cameroon@Cameroun@
+KH@KHM@Camboja@Cambodia@Cambodge@
+CA@CAN@Canadá@Canada@Canada@
+QA@QAT@Catar@Qatar@Qatar@
+KZ@KAZ@Cazaquistão@Kazakhstan@Kazakhstan@
+TD@TCD@Chade@Chad@Tchad@
+CL@CHL@Chile@Chile@Chili@
+CN@CHN@China@People'S Rep Of China@Chine@
+CY@CYP@Chipre@Cyprus@Chypre@
+SG@SGP@Cingapura@Singapore@Singapour@
+CO@COL@Colômbia@Colombia@Colômbie@
+KM@COM@Comores@Comoros@Comores@
+CG@COG@Congo@Congo@Rép Congo@
+KP@PRK@Coréia do Norte@Democratic People'S Republic Of Korea@Rép. Pop. Dém. Corée@
+KR@KOR@Coréia do Sul@Republic Of Korea@Rép Corée@
+CI@CIV@Costa do Marfim@Republic Of Cote D'Ivoire@Rép. Côte D'Ivoire@
+CR@CRI@Costa Rica@Costa Rica@Costa-Rica@
+HR@HRV@Croácia@Croatia@Croatie@
+CU@CUB@Cuba@Cuba@Cuba@
+DK@DNK@Dinamarca@Danmark@Danemark@
+DJ@DJI@Djibuti@Djibouti@Djibouti@
+DM@DMA@Dominica@Dominica@Dominique@
+EG@EGY@Egito@Egypt@Egypte@
+SV@SLV@El Salvador@El Salvador@El Salvador@
+AE@ARE@Emirados Árabes Unidos@United Arab Emirates@Emirats Arabes Unis@
+EC@ECU@Equador@Ecuador@Equateur@
+ER@ERI@Eritréia@Eritrea@Erythrée@
+SK@SVK@Eslováquia@Slovakia@Slovaquie@
+SI@SVN@Eslovênia@Slovenia@Slovénie@
+ES@ESP@Espanha@Spain@Espagne@
+PS@PSE@Estado da Palestina@Palestine@Palestine@
+US@USA@Estados Unidos@United States Of America@Etats-Unis Amérique@
+EE@EST@Estônia@Estonia@Estonie@
+ET@ETH@Etiópia@Ethiopia@Ethiopie@
+RU@RUS@Federação Russa@Russian Federation@Fédération de Russie@
+FJ@FJI@Fiji@Fiji@Fidji@
+PH@PHL@Filipinas@Philippines@Philippines@
+FI@FIN@Finlândia@Finland@Finlande@
+FR@FRA@França@France@France@
+FX@FXX@França Metropolitana@Metropolitan France@France Metropolitane@
+GA@GAB@Gabão@Gabon@Gabon@
+GM@GMB@Gâmbia@Gambia@Gambie@
+GH@GHA@Gana@Ghana@Ghana@
+GE@GEO@Geórgia@Georgia@Géorgie@
+GI@GIB@Gibraltar@Gibraltar@Gibraltar@
+GB@GBR@Grã-Bretanha@United Kingdom@Grande-Bretagne@
+GD@GRD@Granada@Grenada@Grenade@
+GR@GRC@Grécia@Greece@Grèce@
+GL@GRL@Groenlândia@Greenland@@
+GP@GLP@Guadalupe@Guadeloupe@@
+GU@GUM@Guam@Guam@Guam@
+GT@GTM@Guatemala@Guatemala@Guatémala@
+GY@GUY@Guiana@Guyana@Guyane@
+GF@GUF@Guiana Francesa@French Guiana@@
+GN@GIN@Guiné@Guinea@Guinée@
+GQ@GNQ@Guiné Equatorial@Equatorial Guinea@Guinée Équatoriale@
+GW@GNB@Guiné-Bissau@Guinea-Bissau@Guinée-Bissau@
+HT@HTI@Haiti@Haiti@Haïti@
+NL@NLD@Holanda@The Netherlands@Pays-Bas@
+HN@HND@Honduras@Republic Of Honduras@Honduras@
+HK@HKG@Hong Kong@Hong Kong@Hong Kong@
+HU@HUN@Hungria@Republic Of Hungary@Hongrie@
+YE@YEM@Iêmen@Yemen@Yémen@
+BV@BVT@Ilha Bouvet@Bouvet Island@Île Bouvet@
+CX@CXR@Ilha Christmas@Christmas Island@Île Christmas@
+NF@NFK@Ilha Norfolk@Norfolk Island@Île Norfolk@
+KY@CYM@Ilhas Cayman@Cayman Islands@Îles Cayman@
+CC@CCK@Ilhas Cocos@Cocos Islands@Îles Keeling@
+CK@COK@Ilhas Cook@Cook Islands@Îles Cook@
+FO@FRO@Ilhas Faroe@Faroe Islands@Îles Faroe@
+GS@SGS@Ilhas Geórgia do Sul e Ilhas Sandwich do Sul@South Georgia and The South Sandwich Islands@@
+GG@GGY@Ilhas Guernsey@Guernsey Islands@@
+HM@HMD@Ilhas Heard e Mac Donald@Heard and Mc Donald Islads@Îles Heard-Et-Mac-Donald@
+FK@FLK@Ilhas Malvinas@Falkland Islands@Îles Falkland@
+MP@MNP@Ilhas Mariana@Northern Mariana Islands@@
+MH@MHL@Ilhas Marshall@Marshall Islands@Îles Marshall@
+PN@PCN@Ilhas Pitcairn@Pitcairn Islands@Ilês Pitcairn@
+RE@REU@Ilhas Reunião@Reunion Islands@@
+SB@SLB@Ilhas Salomão@Solomon Islands@Îles Salomon@
+SH@SHN@Ilhas Santa Helena@St Helena@@
+SJ@SJM@Ilhas Svalbard e Jan Mayen@Svalbard and Jan Mayen Islands@@
+TK@TKL@Ilhas Tokelau@Tokelau Islands@@
+TC@TCA@Ilhas Turks e Caicos@Turks and Caicos Islands@@
+VI@VIR@Ilhas Virgens@Virgin Islands Of The United States@@
+VG@VGB@Ilhas Virgens Britânicas@British Virgin Islands@@
+WF@WLF@Ilhas Wallis e Futuna@Wallis and Futuna Islands@Wallis Et Futuna@
+IN@IND@Índia@India@Inde@
+ID@IDN@Indonésia@Indonesia@Indonésie@
+IR@IRN@Irã@Islamic Republic Of Iran@Iran@
+IQ@IRQ@Iraque@Iraq@Iraq@
+IE@IRL@Irlanda@Ireland@Irlande@
+IS@ISL@Islândia@Iceland@Islande@
+IL@ISR@Israel@Israel@Israël@
+IT@ITA@Itália@Italy@Italie@
+YU@YUG@Iugoslávia@Yugoslavia@Yougoslavie@
+JM@JAM@Jamaica@Jamaica@Jamaïque@
+JP@JPN@Japão@Japan@Japon@
+JE@JEY@Jersey@Jersey@@
+JO@JOR@Jordânia@Jordan@Jordanie@
+KI@KIR@Kiribati@Kiribati@Kiribati@
+KW@KWT@Kuweit@Kuwait@Kuwait@
+LA@LAO@Laos@Lao People'S Democratic Republic@Rép. Dém. Pop. Lao@
+LS@LSO@Lesoto@Lesotho@Lesotho@
+LV@LVA@Letônia@Latvia@Lettonie@
+LB@LBN@Líbano@Lebanon@Liban@
+LR@LBR@Libéria@Liberia@Libéria@
+LY@LBY@Líbia@Libyan@Jamahiriya Libyenne@
+LI@LIE@Liechtenstein@Liechtenstein@Liechtenstein@
+LT@LTU@Lituânia@Lithuania@Lituanie@
+LU@LUX@Luxemburgo@Luxembourg@Luxembourg@
+MO@MAC@Macau@Macau@Macau@
+MK@MKD@Macedônia@The Former Yugoslav Republic Of Macedônia@L'Ex-Rép. Yougoslave de Macédoine@
+MG@MDG@Madagascar@Madagascar@Madagascar@
+MY@MYS@Malásia@Malaysia@Malaisie@
+MW@MWI@Malauí@Malawi@Malawi@
+MV@MDV@Maldivas@Maldives@Maldives@
+ML@MLI@Mali@Mali@Mali@
+MT@MLT@Malta@Malta@Malte@
+MA@MAR@Marrocos@Morocco@Maroc@
+MQ@MTQ@Martinica@Martinique@Martinique@
+MU@MUS@Maurício@Mauritius@@
+MR@MRT@Mauritânia@Mauritania@Mauritanie@
+YT@MYT@Mayotte@mayotte@Mayotte@
+MX@MEX@México@Mexico@Mexique@
+MM@MMR@Mianmar@Myanmar@Myanmar@
+FM@FSM@Micronésia@Micronesia@Etats Fédérés Micronésia@
+MZ@MOZ@Moçambique@Mozambique@Mozambique@
+MD@MDA@Moldávia@Moldova@Moldova@
+MC@MCO@Mônaco@Monaco@Monaco@
+MN@MNG@Mongólia@Mongolia@Mongolie@
+ME@MNE@Montenegro@Montenegro@Monténégro@
+MS@MSR@Montserrat@Montserrat@Montserrat@
+NA@NAM@Namíbia@Namibia@Namibie@
+NR@NRU@Nauru@Nauru@Nauru@
+NP@NPL@Nepal@Nepal@Népal@
+NI@NIC@Nicarágua@Nicaragua@Nicaragua@
+NE@NER@Niger@Niger@Niger@
+NG@NGA@Nigéria@Nigeria@Nigéria@
+NU@NIU@Niue@Niue@@
+NO@NOR@Noruega@Norway@Norvège@
+NC@NCL@Nova Caledônia@New Caledonia@@
+NZ@NZL@Nova Zelândia@New Zealand@Nouvelle-Zélande@
+OM@OMN@Omã@Oman@Oman@
+PW@PLW@Palau@Palau Islands@Palaos@
+PA@PAN@Panamá@Republic Of Panama@Panama@
+PG@PNG@Papua Nova Guiné@Papua New Guinea@Papouasie-Nouvelle-Guinee@
+PK@PAK@Paquistão@Pakistan@Pakistan@
+PY@PRY@Paraguai@Paraguay@Paraguay@
+PE@PER@Peru@Peru@Pérou@
+PF@PYF@Polinésia Francesa@French Polynesia@@
+PL@POL@Polônia@Republic Of Poland@Pologne@
+PR@PRI@Porto Rico@Puerto Rico@@
+PT@PRT@Portugal@Portugal@Portugal@
+KE@KEN@Quênia@Kenya@Kenya@
+KG@KGZ@Quirguízia@kygystan@Kirghizistan@
+CF@CAF@República Centro-Africana@Central African Republic@Centrafrique@
+DO@DOM@República Dominicana@Republic Of Dominican@Dominicaine@
+CZ@CZE@República Tcheca@Czech Republic@Tchèque@
+RO@ROU@Romênia@Romania@Roumanie@
+RW@RWA@Ruanda@Rwanda@Rwanda@
+EH@ESH@Sahara Ocidental@Western Sahara@@
+AS@ASM@Samoa Americana@American Samoa@@
+WS@WSM@Samoa Ocidental@Western Samoa@Samoa@
+SM@SMR@San Marino@San Marino@Saint-Marin@
+LC@LCA@Santa Lúcia@Saint Lucia@Sainte-Lucie@
+KN@KNA@São Cristóvão e Névis@Saint Christopher and Nevis@Saint-Christophe-Et-Nevis@
+PM@SPM@São Pierre e Miquelon@St Pierre and Miquelon@St-Pierre Et Miquelon@
+ST@STP@São Tomé e Príncipe@Sao Tome and Principe@Sao Tomé-Et-Principe@
+VC@VCT@São Vicente e Granadinas@Saint Vincent and The Grenadines@Saint-Vicent-Et-Grenadines@
+SC@SYC@Seicheles@Seychelles@Seychelles@
+SN@SEN@Senegal@Senegal@Sénégal@
+SL@SLE@Serra Leoa@Sierra Leone@Sierra Leone@
+RS@SRB@Sérvia@Serbia@Serbie@
+SY@SYR@Síria@Syrian Arab Rep@Syrienne@
+SO@SOM@Somália@Somalia@Somalie@
+LK@LKA@Sri Lanka@Sri Lanka@Sri Lanka@
+SZ@SWZ@Suazilândia@Swaziland@Swaziland@
+SD@SDN@Sudão@Sudan@Soudan@
+SE@SWE@Suécia@Sweden@Suède@
+CH@CHE@Suíça@Switzerland@Suisse@
+SR@SUR@Suriname@Suriname@Suriname@
+TJ@TJK@Tadjiquistão@Tajikistan@Tadjikistan@
+TH@THA@Tailândia@Thailand@Thaïlande@
+TW@TWN@Taiwan@Taiwan@Formosa@
+TZ@TZA@Tanzânia@Tanzania@Tanzanie@
+TF@ATF@Territórios Franceses Meridionais@French Southern Territories@@
+TP@TMP@Timor Leste@East Timor@@
+TG@TGO@Togo@Togo@Togo@
+TO@TON@Tonga@Tonga@Tonga@
+TT@TTO@Trinidad e Tobago@Trinidad and Tobago@Trinité-Et-Tobago@
+TN@TUN@Tunísia@Tunisia@Tunisie@
+TM@TKM@Turcomênia@Turkmenistan@Turkménistan@
+TR@TUR@Turquia@Turkey@Turquie@
+TV@TUV@Tuvalu@Tuvalu@Tuvalu@
+UA@UKR@Ucrânia@Ukraine@Ukraine@
+UG@UGA@Uganda@Uganda@Ouganda@
+UY@URY@Uruguai@Uruguay@Uruguay@
+UZ@UZB@Uzbequistão@Uzbekistan@Ouzbékistan@
+VU@VUT@Vanuatu@Vanuatu@Vanuatu@
+VA@VAT@Vaticano@Vatican@Vatican@
+VE@VEN@Venezuela@Venezuela@Vénézuéla@
+VN@VNM@Vietnã@Viet Nam@Viet Nam@
+ZM@ZMB@Zâmbia@Zambia@Zambie@
+ZW@ZWE@Zimbábue@Zimbabwe@Zimbabwe@

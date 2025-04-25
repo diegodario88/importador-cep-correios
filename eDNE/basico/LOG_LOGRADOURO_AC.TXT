@@ -1,3 +1,39 @@
+1@AC@16@47@@Nelson Mesquita@@69918703@Rua@S@R Nelson Mesquita
+1001866@AC@16@55447@@24 de Dezembro@@69918142@Rua@S@R 24 de Dezembro
+1004886@AC@16@32@@Manoel Cezário@@69900816@Travessa@S@Tv Manoel Cezário
+1004887@AC@16@55437@@São José@@69915361@Travessa@S@Tv S José
+1004888@AC@16@16@@Colombo@@69905027@Beco@S@Bc Colombo
+1004889@AC@16@30@@José Pinho@@69915536@Rua@S@R José Pinho
+1004890@AC@16@30@@Fátima Maia@@69915572@Rua@S@R Fátima Maia
+1004891@AC@16@55480@@Hortencia da Silva@@69922227@Rua@S@R Hortencia da Silva
+1004892@AC@16@55480@@Tufi@@69922250@Rua@S@R Tufi
+1004893@AC@16@55480@@Flor de Jardim@@69922253@Rua@S@R Flor de Jd
+1004894@AC@16@55480@@Raimundo Gomes@@69922256@Rua@S@R Raimundo Gomes
+1004895@AC@16@55480@@Aquiles Peret@@69922259@Rua@S@R Aquiles Peret
+1004896@AC@16@55422@@11 de Agosto@@69911335@Travessa@S@Tv 11 de Agosto
+1004897@AC@16@9@@Santa Inês@@69901314@Beco@S@Bc Sta Inês
+1004898@AC@16@55441@@Odim de Aguiar Queiroz@@69917651@Travessa@S@Tv Odim de A Queiroz
+1009706@AC@16@55411@@do Bombeiro@@69906642@Rua@S@R do Bomb
+1009707@AC@16@55411@@Verde@@69906644@Via@S@V Verde
+1009708@AC@16@57389@@Plácido de Castro@@69923000@Avenida@S@Av Plácido de Castro
+1011026@AC@16@55396@@Rubi@@69902889@Rua@S@R Rubi
+102@AC@16@17@@Brasil@- lado ímpar@69900076@Avenida@S@Av Brasil
+1021286@AC@16@55417@@Manoel Francisco de Paula@@69909651@Travessa@S@Tv Manoel F de Paula
+1021287@AC@16@55417@@Acre@@69909669@Rua@S@R Acre
+1024046@AC@16@20@@Horto Florestal@@69918803@Rua@S@R Horto Florestal
+103@AC@16@17@@Brasil@- lado par@69900078@Avenida@S@Av Brasil
+1038966@AC@16@6@@da Serra@@69900846@Travessa@S@Tv da Serra
+1041146@AC@16@55479@@Cajueiro@@69922013@Rua@S@R Cajueiro
+1041147@AC@16@55403@@dos Vigilantes@@69905119@Travessa@S@Tv dos Vigilantes
+1042846@AC@16@3@@Estado da Guanabara@@69911112@Travessa@S@Tv Estado da Guanabara
+1042847@AC@16@55425@@Vilage Maciel@@69911837@Travessa@S@Tv Vilage Maciel
+1042848@AC@16@55425@@do Bronze@@69911843@Travessa@S@Tv do Bronze
+1045826@AC@16@55431@@Arara@@69914568@Rua@S@R Arara
+1045827@AC@16@55431@@Tatu@@69914571@Rua@S@R Tatu
+1045828@AC@16@5@@Principal do Areal@@69906084@Rua@S@R Princ do Areal
+1047346@AC@16@55469@@Tião Natureza@@69919652@Rua@S@R Tião Natureza
+1047347@AC@16@55416@@dos Moabitas@@69909042@Rua@S@R dos Moabitas
+1047348@AC@16@55416@@Flor Do Campo@@69909058@Rua@S@R Flor Do Cpo
 1047349@AC@16@55416@@Lua Azul@@69909052@Rua@S@R Lua Azul
 1047350@AC@16@55466@@Dias Martins@- de 232 a 790 - lado par@69919180@Estrada@S@Est Dias Martins
 1047351@AC@16@55469@@Dias Martins@- de 792 a 1590 - lado par@69919600@Estrada@S@Est Dias Martins
@@ -7,3 +43,18 @@
 1047355@AC@16@19@@Dias Martins@- de 4121/4122 a 7799/7800@69917520@Estrada@S@Est Dias Martins
 1047356@AC@16@55442@@Dias Martins@- de 7801/7802 ao fim@69917766@Estrada@S@Est Dias Martins
 1047357@AC@16@19@@Dias Martins@- de 1600/1601 a 4119/4120@69917560@Estrada@S@Est Dias Martins
+1047358@AC@16@55413@@Manancial@@69907855@Travessa@S@Tv Manancial
+1049406@AC@16@55439@@Doutor Sérgio Bruno@@69915781@Rua@S@R Dr Sérgio Bruno
+1049407@AC@16@2@@Castanheira@@69901179@Travessa@S@Tv Castanheira
+1055606@AC@16@55398@@Edmundo Pinto@- de 170/171 ao fim@69903194@Rua@S@R Edmundo Pinto
+1055607@AC@16@5@@José Ferraz@@69906085@Rua@S@R José Ferraz
+1055608@AC@16@55395@@Canamaris@@69902673@Rua@S@R Canamaris
+1055610@AC@16@55389@@José Sampaio@@69901272@Beco@S@Bc José Sampaio
+1055611@AC@16@55389@@Arquimedes@@69901273@Beco@S@Bc Arquimedes
+1055612@AC@16@55426@@Ruanda@(Residencial Cabreúva)@69912064@Rua@S@R Ruanda
+1055613@AC@16@55426@@Finlandia@(Residencial Cabreúva)@69912066@Rua@S@R Finlandia
+1055614@AC@16@55426@@Jamaica@(Residencial Cabreúva)@69912068@Rua@S@R Jamaica
+1055615@AC@16@55426@@El Salvador@(Residencial Cabreúva)@69912070@Rua@S@R El Salvador
+1055616@AC@16@55426@@Croácia@(Residencial Cabreúva)@69912072@Rua@S@R Croácia
+1055617@AC@16@55426@@Costa do Marfim@(Residencial Cabreúva)@69912074@Rua@S@R Costa do Marfim
+1055618@AC@16@55426@@San Marino@(Residencial Cabreúva)@69912076@Rua@S@R San Marino

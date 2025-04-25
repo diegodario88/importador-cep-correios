@@ -1,0 +1,60 @@
+1001881@CE@1284@948@@Célia Nascimento@@61624512@Rua@S@R Célia Nascimento
+1001882@CE@1284@49224@@Célia Nascimento@@61621435@Rua@S@R Célia Nascimento
+1001883@CE@1284@54068@@José Roberto de Oliveira@@61606515@Rua@S@R José R de Oliveira
+1001884@CE@1284@951@@José Roberto de Oliveira@@61623475@Rua@S@R José R de Oliveira
+1001885@CE@1284@958@@Sacy@@61648093@Travessa@S@Tv Sacy
+1001886@CE@1284@958@@Boa Esperança@@61650103@Rua@S@R Boa Esperança
+1001887@CE@1284@937@@Júlio Rocha@@61652045@Avenida@S@Av Júlio Rocha
+1001888@CE@1284@937@@1@(Lot Esplanada Araturi)@61652052@Rua@S@R 1
+1001889@CE@1284@937@@2@(Lot Esplanada Araturi)@61652055@Rua@S@R 2
+1001890@CE@1284@937@@3@(Lot Esplanada Araturi)@61652062@Rua@S@R 3
+1001891@CE@1284@937@@4@(Lot Esplanada Araturi)@61652065@Rua@S@R 4
+1001892@CE@1301@50607@@Antônio Macedo de Souza@@63112045@Rua@S@R Antônio M de Souza
+1001893@CE@1301@984@@Maria Sobreira Coriolano@@63106195@Rua@S@R Maria S Coriolano
+1001894@CE@1301@980@@Heleno Tomaz de Souza@@63111310@Rua@S@R Heleno T de Souza
+1001895@CE@1301@50607@@Irismar Leite Feitosa@@63112115@Avenida@S@Av Irismar L Feitosa
+1001896@CE@1347@997@@Coronel Linhares@- de 761/762 a 1989/1990@60170075@Rua@S@R Cel Linhares
+1001897@CE@1347@1023@@Barbosa de Freitas@- de 2061/2062 ao fim@60170174@Rua@S@R Barbosa de Freitas
+1001898@CE@1347@1040@@Desembargador Moreira@- até 899 - lado ímpar@60170055@Avenida@S@Av Des Moreira
+1001899@CE@1347@1023@@Desembargador Moreira@- de 2121 ao fim - lado ímpar@60170173@Avenida@S@Av Des Moreira
+1001900@CE@1347@1023@@Desembargador Moreira@- de 2122 ao fim - lado par@60170172@Avenida@S@Av Des Moreira
+1001901@CE@1347@1036@@Domingos Olímpio@- até 989 - lado ímpar@60040115@Avenida@S@Av Domingos Olímpio
+1001902@CE@1347@1006@@Domingos Olímpio@- de 992 a 1500 - lado par@60040082@Avenida@S@Av Domingos Olímpio
+1001903@CE@1347@1025@@Domingos Olímpio@- de 1501 ao fim - lado ímpar@60015103@Avenida@S@Av Domingos Olímpio
+1001904@CE@1347@1025@@Domingos Olímpio@- de 1502 ao fim - lado par@60015108@Avenida@S@Av Domingos Olímpio
+1001905@CE@1347@1036@@Antônio Pompeu@- até 939 - lado ímpar@60040005@Rua@S@R Antônio Pompeu
+1001906@CE@1347@1025@@Antônio Pompeu@- de 1401 ao fim - lado ímpar@60015107@Rua@S@R Antônio Pompeu
+1001907@CE@1347@1025@@Antônio Pompeu@- de 2002 ao fim - lado par@60015104@Rua@S@R Antônio Pompeu
+1001908@CE@1347@1023@@Antônio Sales@- de 1691 a 3407 - lado ímpar@60135203@Avenida@S@Av Antônio Sales
+1001909@CE@1347@1016@@Antônio Sales@- de 3409/3410 ao fim@60192165@Avenida@S@Av Antônio Sales
+1001910@CE@1347@997@@Heraclito Graça@- de 917 ao fim - lado ímpar@60140035@Avenida@S@Av Heraclito Graça
+1001911@CE@1347@997@@Heraclito Graça@- de 918 ao fim - lado par@60140032@Avenida@S@Av Heraclito Graça
+1001912@CE@1347@1059@@Vicente Leite@- de 2600/2601 ao fim@60135644@Rua@S@R Vicente Leite
+1001913@CE@1347@1006@@Princesa Isabel@- de 1950/1951 ao fim@60015035@Rua@S@R Prca Isabel
+1001914@CE@1347@1006@@Teresa Cristina@- de 1950/1951 ao fim@60015038@Rua@S@R Teresa Cristina
+1001915@CE@1347@1026@@Floriano Peixoto@- de 2390/2391 ao fim@60025068@Rua@S@R Floriano Peixoto
+1001916@CE@1347@1006@@Imperador@- de 1361 ao fim - lado ímpar@60015025@Avenida@S@Av Imp
+1001917@CE@1347@1040@@Monsenhor Tabosa@- de 747 ao fim - lado ímpar@60165065@Avenida@S@Av Mns Tabosa
+1001918@CE@1347@1040@@Monsenhor Tabosa@- de 748 ao fim - lado par@60165068@Avenida@S@Av Mns Tabosa
+1001919@CE@1347@1040@@Senador Virgílio Távora@- até 889 - lado ímpar@60170265@Avenida@S@Av Sen Virgílio Távora
+1001920@CE@1347@997@@Senador Virgílio Távora@- de 891 a 2189 - lado ímpar@60170079@Avenida@S@Av Sen Virgílio Távora
+1001921@CE@1347@997@@Senador Virgílio Távora@- de 892 a 2190 - lado par@60170078@Avenida@S@Av Sen Virgílio Távora
+1001922@CE@1347@1023@@Senador Virgílio Távora@- de 2192 ao fim - lado par@60170192@Avenida@S@Av Sen Virgílio Távora
+1001923@CE@1347@1006@@Tristão Gonçalves@- de 1311 ao fim - lado ímpar@60015005@Avenida@S@Av Tristão Gonçalves
+1001924@CE@1347@1014@@Padre Valdevino@- até 759 - lado ímpar@60135005@Rua@S@R Pe Valdevino
+1001925@CE@1347@1023@@Padre Valdevino@- de 1702 ao fim - lado par@60135414@Rua@S@R Pe Valdevino
+1001926@CE@1347@1026@@Major Facundo@- de 2300/2301 ao fim@60025065@Rua@S@R Maj Facundo
+1001927@CE@1347@1023@@Leonardo Mota@- de 2151/2152 a 2898/2899@60170176@Rua@S@R Leonardo Mota
+1001928@CE@1347@1059@@Leonardo Mota@- de 2900/2901 ao fim@60135642@Rua@S@R Leonardo Mota
+1001929@CE@1347@997@@Santos Dumont@- de 2401 a 3999 - lado ímpar@60150165@Avenida@S@Av Santos Dumont
+1001930@CE@1347@997@@Professor Dias da Rocha@- de 671/672 a 1998/1999@60170285@Rua@S@R Prf Dias da Rocha
+1001931@CE@1347@1025@@Duque de Caxias@- de 1801 ao fim - lado ímpar@60010737@Avenida@S@Av Dq de Caxias
+1001932@CE@1347@1031@@Duque de Caxias@- de 1802 ao fim - lado par@60035078@Avenida@S@Av Dq de Caxias
+1001933@CE@1347@997@@Padre Antônio Tomás@- até 2495 - lado ímpar@60140155@Avenida@S@Av Pe Antônio Tomás
+1001934@CE@1347@1016@@Padre Antônio Tomás@- de 2497 ao fim - lado ímpar@60192125@Avenida@S@Av Pe Antônio Tomás
+1001936@CE@1396@55868@@Doutor Vicente Bezerra da Costa@@63501110@Rua@S@R Dr Vicente B da Costa
+1001937@CE@1396@55868@@José de Alencar@- de 1155/1156 ao fim@63501005@Rua@S@R José de Alencar
+1001938@CE@1396@55873@@Apulcro Lima Verde@@63502382@Travessa@S@Tv Apulcro L Verde
+1001939@CE@1396@55873@@São João@@63502343@Travessa@S@Tv S João
+1001940@CE@1396@55873@@São José@@63502337@Travessa@S@Tv S José
+1001941@CE@1396@55869@@José Severo Chaves@@63502028@Rua@S@R José S Chaves

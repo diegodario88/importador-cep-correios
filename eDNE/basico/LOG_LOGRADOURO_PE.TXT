@@ -1,0 +1,60 @@
+1003322@PE@5154@7095@@Eriberto de Almeida Valença Filho@(Lot Santa Helena)@56509315@Rua@S@R Eriberto de A V Filho
+1003323@PE@5154@7095@@Projetada - 02@(Lot Santa Helena)@56509345@Rua@S@R Proj - 02
+1003324@PE@5154@7095@@Projetada 03@(Lot Santa Helena)@56509225@Rua@S@R Proj 03
+1003325@PE@5154@56789@@Panamá@(Lot Santa Inêz)@56508235@Rua@S@R Panamá
+1003326@PE@5154@7093@@Dalila Evaristo Rogaciano@(Lot Rio Branco)@56503850@Rua@S@R Dalila E Rogaciano
+1003327@PE@5154@7093@@Luiz Sampaio Galvão@(Lot Rio Branco)@56503853@Rua@S@R Luiz S Galvão
+1003328@PE@5154@7093@@Miguel Freire de Araújo@(Lot Rio Branco)@56503856@Rua@S@R Miguel F de Araújo
+1003329@PE@5154@7093@@Nevasca@(Lot Rio Branco)@56503859@Rua@S@R Nevasca
+1003330@PE@5154@7093@@Colorado@(Lot Rio Branco)@56503862@Rua@S@R Colorado
+1003331@PE@5154@56789@@Agamenon-1@(Lot Santa Inêz)@56508200@Rua@S@R Agamenon-1
+1003332@PE@5154@56789@@Agamenon-2@(Lot Santa Inêz)@56508205@Rua@S@R Agamenon-2
+1003333@PE@5154@56789@@Agamenon-3@(Lot Santa Inêz)@56508210@Rua@S@R Agamenon-3
+1003334@PE@5154@56789@@Costa Rica@(Lot Santa Inêz)@56508215@Rua@S@R Costa Rica
+1003335@PE@5154@56789@@Nicarágua@(Lot Santa Inêz)@56508220@Rua@S@R Nicarágua
+1003336@PE@5154@56789@@México@(Lot Sant Inêz)@56508225@Rua@S@R México
+1003337@PE@5154@56789@@Paraguai@(Lot Santa Inêz)@56508230@Rua@S@R Paraguai
+1003339@PE@5198@53322@@Doutor Belmino Correia@- de 4944 ao fim - lado par@54777433@Avenida@S@Av Dr Belmino Correia
+1003340@PE@5198@53323@@Carlos Barreto@@54789795@Rua@S@R Carlos Barreto
+1003341@PE@5198@53305@@Euclídes da Cunha@@54774702@Rua@S@R Euclídes da Cunha
+1003342@PE@5198@53308@@dos Topógrafos@@54774302@Rua@S@R dos Topógrafos
+1003343@PE@5198@53308@@Coronel Joaquim Ribeiro@@54774308@Rua@S@R Cel Joaquim Ribeiro
+1003344@PE@5198@7115@@Minas Gerais@@54762801@Travessa@S@Tv Minas Gerais
+1003345@PE@5198@7115@@Pio XII@@54762804@Rua@S@R Pio XII
+1003347@PE@5198@53307@@Dom Basílio@@54774195@Rua@S@R D Basílio
+1003348@PE@5198@53307@@Esplanada@@54774205@Rua@S@R Esp
+1003349@PE@5198@7116@@José Diogo@@54753435@Rua@S@R José Diogo
+1003350@PE@5198@53288@@José Antônio de Lima@@54762692@Rua@S@R José A de Lima
+1003351@PE@5198@53288@@Elízio Anselmo da Costa@@54762642@Rua@S@R Elízio A da Costa
+1003352@PE@5198@53288@@Mané Garrincha@@54762652@Rua@S@R Mané Garrincha
+1003353@PE@5198@53288@@Foz do Iguaçu@@54762742@Rua@S@R Foz do Iguaçu
+1003354@PE@5198@53288@@do Convento@@54762772@Rua@S@R do Convento
+1003355@PE@5198@53288@@dos Pinheiros@@54762812@Rua@S@R dos Pinheiros
+1003356@PE@5198@53288@@Alto São Paulo@@54759714@5ª Travessa@S@5ª Tv At S Paulo
+1003357@PE@5198@53288@@Alto São Paulo@@54759728@6ª Travessa@S@6ª Tv At S Paulo
+1003359@PE@5198@53255@@Rio Claro@@54780545@Rua@S@R Rio Claro
+1003360@PE@5198@53255@@Mamanguape@@54780565@Rua@S@R Mamanguape
+1003361@PE@5198@7117@@Nossa Senhora dos Remédios@@54767785@Rua@S@R N Sra dos Remédios
+1003362@PE@5198@7117@@Isac Barbosa@@54767805@Rua@S@R Isac Barbosa
+1003363@PE@5198@7117@@C@(Lot Rural Campestre)@54767815@Rua@S@R C
+1003364@PE@5198@7114@@dos Cajazeiros@@54783385@Rua@S@R dos Cajazeiros
+1003365@PE@5198@7114@@Recife@@54783395@Avenida@S@Av Recife
+1003366@PE@5198@7114@@Doutor Carlos Menezes@@54783405@Rua@S@R Dr Carlos Menezes
+1003367@PE@5198@7114@@Gilberto Freire@@54783415@Rua@S@R Gilberto Freire
+1003368@PE@5198@7114@@das Algarobas@@54783425@Rua@S@R das Algarobas
+1003369@PE@5198@7114@@Santa Isabel@@54783435@Rua@S@R Sta Isabel
+1003370@PE@5198@7113@@Porto Rico@@54771665@Rua@S@R Pto Rico
+1003371@PE@5198@7113@@Nossa Senhora do Carmo@@54771675@Rua@S@R N Sra do Carmo
+1003372@PE@5198@7113@@Leópolis@@54771685@Rua@S@R Leópolis
+1003373@PE@5198@54514@@Florestópolis@@54766130@Rua@S@R Florestópolis
+1003374@PE@5198@53272@@Manoel Honorato da Costa@@54759292@Rua@S@R Manoel H da Costa
+1003376@PE@5198@7118@@Dulce Pereira@@54756412@Rua@S@R Dulce Pereira
+1003377@PE@5198@7118@@Benjamin Constant@@54756422@Rua@S@R Benjamin Constant
+1003378@PE@5198@7120@@das Cascatas@@54759592@Alameda@S@Al das Cascatas
+1003379@PE@5198@7120@@dos Lagos@@54759612@Alameda@S@Al dos Lagos
+1003380@PE@5198@7120@@dos Pau Dárcos@@54759638@Alameda@S@Al dos Pau Dárcos
+1003381@PE@5198@53257@@Grande Oriente@@54753712@Rua@S@R Grande Oriente
+1003382@PE@5198@7117@@E@(Lot Rural Campestre)@54767792@Rua@S@R E
+1003383@PE@5198@53322@@Taguarana@@54777422@Rua@S@R Taguarana
+1003384@PE@5198@53322@@Dom Basílio@@54777432@Rua@S@R D Basílio
+1003386@PE@5198@53322@@Liberato Piancó@@54777452@Rua@S@R Liberato Piancó

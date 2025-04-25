@@ -1,0 +1,60 @@
+1003182@MG@2754@50940@@Célio de Castro@- até 699/700@31110000@Rua@S@R Célio de Castro
+1003183@MG@2754@3361@@Célio de Castro@- de 701/702 ao fim@31110052@Rua@S@R Célio de Castro
+1003184@MG@2754@3538@@Queluzita@@31910000@Rua@S@R Queluzita
+1003185@MG@2754@3358@@Queluzita@@31910252@Rua@S@R Queluzita
+1003186@MG@2754@3491@@Queluzita@@31910332@Rua@S@R Queluzita
+1003187@MG@2754@3435@@José de Oliveira@@30620300@Rua@S@R José de Oliveira
+1003188@MG@2754@57145@@José de Oliveira@@30620162@Rua@S@R José de Oliveira
+1003189@MG@2754@3450@@Pastor Washington Geraldo@@31230322@Praça@S@Pç Pst Washington Geraldo
+1003190@MG@2754@3407@@Dante Scalzo@@31970525@Rua@S@R Dante Scalzo
+1003191@MG@2754@3464@@Cinco@@30390465@Rua@S@R Cinco
+1003192@MG@2754@3295@@Quatrocentos e Onze@@31535552@Rua@S@R Quatrocentos e Onze
+1003193@MG@2754@3567@@Doutor Jésus Benigno@@30285272@Praça@S@Pç Dr Jésus Benigno
+1003194@MG@2754@56553@@Um Mil e Noventa e Três@@31814355@Rua@S@R Um Mil e Noventa e Três
+1003195@MG@2754@50453@@Boa Esperança@@30290652@Rua@S@R Boa Esperança
+1003196@MG@2754@50453@@Liberdade@@30290654@Rua@S@R Liberdade
+1003197@MG@2754@50453@@Álvares Cabral@@30290614@Rua@S@R Álvares Cabral
+1003198@MG@2754@50453@@Pedro I@@30290616@Rua@S@R Pedro I
+1003199@MG@2754@50453@@Pedro II@@30290618@Rua@S@R Pedro II
+1003200@MG@2754@50453@@Vitória@@30290619@Rua@S@R Vitória
+1003201@MG@2762@53921@@Damazio Augusto Rezende@- até 229 - lado ímpar@32607095@Avenida@S@Av Damazio A Rezende
+1003202@MG@2762@3642@@Damazio Augusto Rezende@- até 228 - lado par@32603219@Avenida@S@Av Damazio A Rezende
+1003203@MG@2762@53921@@Damazio Augusto Rezende@- de 230/231 ao fim@32607118@Avenida@S@Av Damazio A Rezende
+1003204@MG@2762@53921@@Osvaldo João Cheib@@32607300@Rua@S@R Osvaldo J Cheib
+1003205@MG@2762@53921@@Oity Alves do Prado@@32607136@Rua@S@R Oity A do Prado
+1003206@MG@2762@53921@@Altino Mendes do Santos@- lado ímpar@32607115@Rua@S@R Altino M do Santos
+1003207@MG@2762@3642@@Altino Mendes do Santos@- lado par@32603223@Rua@S@R Altino M do Santos
+1003208@MG@2762@3615@@Dona Terezinha Fabiana do Espiríto Santos@@32606214@Rua@S@R Da Terezinha F do E Santos
+1003209@MG@2885@58182@@Presidente Tancredo Neves@- de 269 a 727 - lado ímpar@35300601@Avenida@S@Av Pres Tancredo Neves
+1003210@MG@2885@3724@@Presidente Tancredo Neves@- de 729 a 1023 - lado ímpar@35300541@Avenida@S@Av Pres Tancredo Neves
+1003211@MG@2885@3724@@Presidente Tancredo Neves@- de 1025 a 1415 - lado ímpar@35300543@Avenida@S@Av Pres Tancredo Neves
+1003212@MG@2885@3724@@Presidente Tancredo Neves@- de 1417 a 1843 - lado ímpar@35300545@Avenida@S@Av Pres Tancredo Neves
+1003213@MG@2885@3729@@Presidente Tancredo Neves@- de 1845 a 3025 - lado ímpar@35300571@Avenida@S@Av Pres Tancredo Neves
+1003214@MG@2885@3729@@Presidente Tancredo Neves@- de 3027 ao fim - lado ímpar@35300573@Avenida@S@Av Pres Tancredo Neves
+1003215@MG@2885@3718@@Presidente Tancredo Neves@- de 822 a 1576 - lado par@35300580@Avenida@S@Av Pres Tancredo Neves
+1003216@MG@2885@3729@@Presidente Tancredo Neves@- de 1578 a 3000 - lado par@35300574@Avenida@S@Av Pres Tancredo Neves
+1003217@MG@2885@3729@@Presidente Tancredo Neves@- de 3002 ao fim - lado par@35300576@Avenida@S@Av Pres Tancredo Neves
+1003218@MG@2885@3716@@Maria Catarina Cimini@- lado par@35300030@Avenida@S@Av Maria C Cimini
+1003219@MG@2885@3716@@Maria Catarina Cimini@- lado ímpar@35300397@Avenida@S@Av Maria C Cimini
+1003220@MG@2885@3716@@Moacir de Matos@- até 332 - lado par@35300394@Avenida@S@Av Moacir de Matos
+1003221@MG@2885@3716@@Moacir de Matos@- de 334 ao fim - lado par@35300396@Avenida@S@Av Moacir de Matos
+1003222@MG@2885@3716@@Moacir de Matos@- até 339 - lado ímpar@35300047@Avenida@S@Av Moacir de Matos
+1003223@MG@2885@3716@@Moacir de Matos@- de 341 ao fim - lado ímpar@35300399@Avenida@S@Av Moacir de Matos
+1003224@MG@2885@3716@@Olegário Maciel@- até 341/342@35300365@Avenida@S@Av Olegário Maciel
+1003225@MG@2885@3716@@Olegário Maciel@- de 344/345 ao fim@35300398@Avenida@S@Av Olegário Maciel
+1003226@MG@2885@3721@@João Caetano Nascimento@- de 1298 ao fim - lado par@35300104@Avenida@S@Av João C Nascimento
+1003227@MG@2885@3716@@João Caetano Nascimento@- até 464 - lado par@35300392@Avenida@S@Av João C Nascimento
+1003228@MG@2885@3721@@João Caetano Nascimento@- de 466 a 1296 - lado par@35300500@Avenida@S@Av João C Nascimento
+1003229@MG@2885@3723@@João Caetano Nascimento@- até 221 - lado ímpar@35300521@Avenida@S@Av João C Nascimento
+1003230@MG@2885@3723@@João Caetano Nascimento@- de 223 a 1255 - lado ímpar@35300523@Avenida@S@Av João C Nascimento
+1003231@MG@2885@3721@@João Caetano Nascimento@- de 1257 ao fim - lado ímpar@35300503@Avenida@S@Av João C Nascimento
+1003232@MG@2885@3711@@Arnando Corrêa de Faria@@35304021@Rua@S@R Arnando C de Faria
+1003233@MG@2885@32868@@Manoel de Paula@@35304623@Travessa@S@Tv Manoel de Paula
+1003234@MG@2885@32867@@Jairo Breder@@35304429@Rua@S@R Jairo Breder
+1003235@MG@2885@3711@@José Felisberto@@35304017@Rua@S@R José Felisberto
+1003236@MG@2980@3874@@Dois@@32042456@Rua@S@R Dois
+1003237@MG@3229@4197@@Copenhague@@35164523@Passagem@S@Psg Copenhague
+1003238@MG@3229@4215@@Mica@@35162763@Passagem@S@Psg Mica
+1003239@MG@3234@54573@@Marília Cecília Duarte@@35901417@Rua@S@R Marília C Duarte
+1003240@MG@3315@4612@@do Lago@(Villela Vilage)@36072324@Alameda@S@Al do Lg
+1003241@MG@3632@57146@@Nilza Maria Botelho Megale@@37713500@Avenida@S@Av Nilza M B Megale

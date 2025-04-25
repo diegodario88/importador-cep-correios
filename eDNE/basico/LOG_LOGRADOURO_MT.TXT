@@ -1,0 +1,60 @@
+1003279@MT@4462@57139@@Rio Vermelho@@78715840@Rua@S@R Rio Vermelho
+1003280@MT@4462@57139@@Rio Arareau@@78715841@Rua@S@R Rio Arareau
+1003281@MT@4462@57139@@Rio Araguaia@@78715842@Rua@S@R Rio Araguaia
+1003282@MT@4462@57139@@Rio Ponte de Pedra@@78715843@Rua@S@R Rio Pte de Pedra
+1003283@MT@4462@57139@@Rio Jurigue@@78715844@Rua@S@R Rio Jurigue
+1003284@MT@4462@57139@@Rio Sepotuba@@78715861@Rua@S@R Rio Sepotuba
+1003285@MT@4462@57139@@Rio Tadarimana@@78715845@Rua@S@R Rio Tadarimana
+1003286@MT@4462@57139@@Rio Arinos@@78715846@Rua@S@R Rio Arinos
+1003287@MT@4462@49822@@Flávio Carvalho@@78721518@Rua@S@R Flávio Carvalho
+1003288@MT@4462@49822@@Filemon Pinto@@78721524@Rua@S@R Filemon Pinto
+1003289@MT@4462@49822@@Estelita Souza Franco@@78721528@Rua@S@R Estelita S Franco
+1003290@MT@4462@49822@@Manoel Logrado de Souza@@78721542@Rua@S@R Manoel L de Souza
+1003291@MT@4462@49822@@Valdir Duarte@@78721537@Rua@S@R Valdir Duarte
+1003292@MT@4462@49822@@Pedro Paulo de Andrade@@78721540@Rua@S@R Pedro P de Andrade
+1003293@MT@4462@49822@@Otacílio Fontoura@@78721544@Rua@S@R Otacílio Fontoura
+1003294@MT@4462@49822@@Marginal@@78721535@Rua@S@R Marg
+1003295@MT@4462@49822@@Ernesto Guedes de Souza@@78721534@Rua@S@R Ernesto G de Souza
+1003296@MT@4462@49822@@Projetada A@@78721529@Rua@S@R Proj A
+1003297@MT@4462@57139@@Rio Paraná@@78715862@Rua@S@R Rio Paraná
+1003298@MT@4462@57139@@Rio Cuiabá@@78715847@Rua@S@R Rio Cuiabá
+1003299@MT@4462@57139@@Rio Guaporé@@78715848@Rua@S@R Rio Guaporé
+1003300@MT@4462@57139@@Rio Jauru@@78715849@Rua@S@R Rio Jauru
+1003301@MT@4462@57139@@Rio Juruena@@78715850@Rua@S@R Rio Juruena
+1003302@MT@4462@57139@@Rio Tapajós@@78715868@Rua@S@R Rio Tapajós
+1004268@MT@4462@57139@@Rio Manso@@78715853@Rua@S@R Rio Manso
+1004269@MT@4462@57139@@Rio Paraguai@@78715854@Rua@S@R Rio Paraguai
+1004270@MT@4462@57139@@Rio Negro@@78715866@Rua@S@R Rio Negro
+1004271@MT@4462@57139@@Rio Madeira@@78715851@Rua@S@R Rio Madeira
+1004272@MT@4462@57139@@Rio Branco@@78715867@Rua@S@R Rio Branco
+1004273@MT@4462@57139@@Rio Cabaçau@@78715859@Rua@S@R Rio Cabaçau
+1004274@MT@4462@57139@@Rio Teles Pires@@78715852@Rua@S@R Rio T Pires
+1004275@MT@4462@57139@@Rio Pequeri@@78715855@Rua@S@R Rio Pequeri
+1004276@MT@4462@57139@@Rio Roosevelt@@78715856@Rua@S@R Rio Roosevelt
+1004277@MT@4462@57139@@Rio São Lourenço@@78715857@Rua@S@R Rio S Lourenço
+1004278@MT@4462@57139@@Rio Xingu@@78715858@Rua@S@R Rio Xingu
+1004279@MT@4462@57139@@Rio Padre Inácio@@78715860@Rua@S@R Rio Pe Inácio
+1004280@MT@4462@57139@@Corrego Tugore@@78715863@Rua@S@R Corrego Tugore
+1004281@MT@4462@57139@@Rio Solimões@@78715864@Rua@S@R Rio Solimões
+1004282@MT@4462@57139@@Rio Prata@@78715865@Rua@S@R Rio Prata
+1004283@MT@4462@52727@@Francisco Marques de Souza@@78720869@Rua@S@R Francisco M de Souza
+1004284@MT@4462@53200@@Francisco Marques de Souza@@78721794@Rua@S@R Francisco M de Souza
+1006664@MT@4462@57277@@Um@@78734580@Travessa@S@Tv Um
+1006665@MT@4462@57277@@Maria Cardoso de Jesus@@78734582@Rua@S@R Maria C de Jesus
+1006666@MT@4462@57277@@das Mangueiras@@78734578@Rua@S@R das Mangueiras
+1006667@MT@4462@57277@@dos Cajueiros@@78734584@Rua@S@R dos Cajueiros
+1006668@MT@4462@57277@@Quatro@@78734572@Rua@S@R Quatro
+1006669@MT@4462@57277@@Três@@78734570@Rua@S@R Três
+1006670@MT@4462@57277@@Pastor José Lino de Amorim@@78734574@Rua@S@R Pst José L de Amorim
+1006671@MT@4462@57277@@Bruno Lima Nascimento@@78734576@Avenida@S@Av Bruno L Nascimento
+1006672@MT@4493@57270@@Projetada@- até 499/500@78550873@Estrada@S@Est Proj
+1006673@MT@4493@57270@@Projetada@- de 501/502 ao fim@78550876@Estrada@S@Est Proj
+1006674@MT@4493@52791@@Claudio Araujo de Souza@@78558033@Rua@S@R Claudio A de Souza
+1006675@MT@4493@54678@@Ipanema@- até 260 - lado par@78555557@Avenida@S@Av Ipanema
+1006676@MT@4493@54678@@Ipanema@- de 300 ao fim  - lado par@78555565@Avenida@S@Av Ipanema
+1006677@MT@4493@54678@@Guanabara@- de 560 a 1000 - lado par@78555569@Rua@S@R Guanabara
+1006678@MT@4493@54678@@Guanabara@- de 1002 ao fim  - lado par@78555567@Rua@S@R Guanabara
+1008411@MT@4347@52029@@Um@@78051416@Rua@S@R Um
+1008412@MT@4347@57348@@L-3@@78091224@Travessa@S@Tv L-3
+1008413@MT@4347@57348@@L-4@@78091222@Travessa@S@Tv L-4
+1008414@MT@4347@57348@@L-5@@78091225@Rua@S@R L-5

@@ -1,0 +1,60 @@
+1009056@RR@7375@34977@@de Acesso@@69312526@Via@S@V de Ac
+1013042@RR@7375@35243@@Universidade Federal de Roraima@@69317810@Rua@S@R Universidade Fed de Roraima
+1013043@RR@7375@12985@@A@@69312010@Travessa@S@Tv A
+1020422@RR@7375@43568@@N-25@- até 820 - lado par@69314493@Rua@S@R N-25
+1020423@RR@7375@35244@@Professora Maria do Carmo Lima Carvalho@- de 03 a 99993 - lado ímpar@69316520@Rua@S@R Prfa Maria do C L Carvalho
+1020424@RR@7375@35244@@Professora Maria do Carmo Lima Carvalho@- de 822 ao fim - lado par@69316563@Rua@S@R Prfa Maria do C L Carvalho
+1033865@RR@7375@43568@@Vereador Waldemar Gomes@- de 603/604 a 1199/1200@69314560@Rua@S@R Ver Waldemar Gomes
+1033866@RR@7375@12992@@Vereador Waldemar Gomes@- de 1201/1202 ao fim@69316760@Rua@S@R Ver Waldemar Gomes
+1033867@RR@7375@43568@@Vereador Manoel Joaquim Martins@- de 529/530 a 1149/1150@69314563@Rua@S@R Ver Manoel J Martins
+1033868@RR@7375@12992@@Vereador Manoel Joaquim Martins@- de 1151/1152 ao fim@69316742@Rua@S@R Ver Manoel J Martins
+1033869@RR@7375@51741@@dos Passarinhos@@69315667@Avenida@S@Av dos Passarinhos
+1035525@RR@7375@12991@@Anísio de Carvalho@@69307252@Travessa@S@Tv Anísio de Carvalho
+1046366@RR@7375@58681@@dos Trabalhadores@@69318705@Rua@S@R dos Trabalhadores
+1046367@RR@7375@58681@@Governador Jerocílio Gueiros@@69318748@Rua@S@R Gov Jerocílio Gueiros
+1046368@RR@7375@58681@@Governador José Maria Barbosa@@69318754@Rua@S@R Gov José M Barbosa
+1046369@RR@7375@58681@@Governador Miguel Ximenes de Melo@@69318750@Rua@S@R Gov Miguel X de Melo
+1046370@RR@7375@58681@@Governador Ottomar de Sousa Pinto@@69318744@Rua@S@R Gov Ottomar de S Pinto
+1046371@RR@7375@58681@@Governador Walmor Leal Dalcin@@69318740@Rua@S@R Gov Walmor L Dalcin
+1046372@RR@7375@58681@@Almir Queirós@@69318762@Rua@S@R Almir Queirós
+1046373@RR@7375@58681@@José Maria Carneiro@@69318760@Rua@S@R José M Carneiro
+1046374@RR@7375@58681@@José Hamilton Gondim@@69318768@Rua@S@R José H Gondim
+1046375@RR@7375@58681@@Armênio Santos@@69318764@Rua@S@R Armênio Santos
+1046376@RR@7375@58681@@Aristoteles de Lima Carneiro@@69318766@Rua@S@R Aristoteles de L Carneiro
+1046377@RR@7375@58681@@São Luiz@@69316273@Rua@S@R S Luiz
+1046378@RR@7375@58681@@Brasil@@69318753@Avenida@S@Av Brasil
+1046379@RR@7375@58681@@Governador Adeumar Soares da Rocha@@69318756@Rua@S@R Gov Adeumar S da Rocha
+1046380@RR@7375@58681@@Governador Auriz Coelho e Silva@@69318758@Rua@S@R Gov Auriz C e Silva
+1046381@RR@7375@58681@@Governador Belarmino Neves Galvão@@69318746@Rua@S@R Gov Belarmino N Galvão
+1046382@RR@7375@58681@@Governador Cloves Nova da Costa@@69318752@Rua@S@R Gov Cloves N da Costa
+1046383@RR@7375@58681@@Governador Fernando Ramos Pereira@@69318738@Rua@S@R Gov Fernando R Pereira
+1046384@RR@7375@58681@@Governador Hélio da Costa Campos@@69318742@Rua@S@R Gov Hélio da C Campos
+1046385@RR@7375@35243@@Nascer do Sol@@69317513@Rua@S@R Nascer do Sol
+1046386@RR@7375@35243@@Por do Sol@@69317515@Rua@S@R Por do Sol
+1046387@RR@7375@35243@@Morada do Sol@@69317517@Rua@S@R Morada do Sol
+1046388@RR@7375@35243@@Eclipse Solar@@69317519@Rua@S@R Eclipse Solar
+1063430@RR@7375@43518@@Cambará@@69313284@Rua@S@R Cambará
+1063431@RR@7375@43518@@Muriciseiro@@69313286@Rua@S@R Muriciseiro
+1063432@RR@7375@43518@@Laura Pinheiro Maia@@69313289@Alameda@S@Al Laura P Maia
+1063433@RR@7375@43518@@Parque dos Cajueiros@@69313287@Rua@S@R Prq dos Cajueiros
+1063434@RR@7375@12991@@Jí-Paraná@@69307155@Rua@S@R Jí-Paraná
+1063435@RR@7375@35243@@Jardim@@69317529@Avenida@S@Av Jd
+1063436@RR@7375@35243@@Salva do Campo@@69317531@Rua@S@R Salva do Cpo
+1063437@RR@7375@35243@@Sidreira@@69317533@Rua@S@R Sidreira
+1063438@RR@7375@58681@@Campos Sales@@69318770@Rua@S@R Cpos Sales
+1063439@RR@7375@58681@@Canoa Quebrada@@69318772@Rua@S@R Canoa Quebrada
+1063440@RR@7375@58681@@Cumbuco@@69318782@Rua@S@R Cumbuco
+1063441@RR@7375@58681@@Diamante@@69318784@Rua@S@R Diamante
+1063442@RR@7375@58681@@Jericoacoara@@69318774@Rua@S@R Jericoacoara
+1063443@RR@7375@58681@@Lagoinha@@69318780@Rua@S@R Lagoinha
+1063444@RR@7375@58681@@Morro Branco@@69318776@Rua@S@R Mro Branco
+1063445@RR@7375@58681@@Mucuripe@@69318778@Rua@S@R Mucuripe
+1063446@RR@7375@58681@@Prainha@@69318786@Rua@S@R Prainha
+1071011@RR@7375@34960@@DI-X2@@69315260@Rua@S@R DI-X2
+1071012@RR@7375@34960@@DI-X1@@69315259@Rua@S@R DI-X1
+1071013@RR@7375@34960@@DI-X3@@69315261@Rua@S@R DI-X3
+1075408@RR@7375@51741@@Severino Pereira da Silva@@69315632@Rua@S@R Severino P da Silva
+1075409@RR@7375@51741@@03@@69315641@Travessa@S@Tv 03
+1075410@RR@7375@51741@@Bem-te-vi@@69315644@Travessa@S@Tv Bem-te-vi
+1075411@RR@7375@51741@@Da Fé@@69315643@Travessa@S@Tv Da Fé
+1075412@RR@7375@51741@@Da Paz@@69315645@Travessa@S@Tv Da Paz

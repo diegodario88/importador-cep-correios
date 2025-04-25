@@ -1,20 +1,60 @@
-41@AC@16@Placas@Placas
-42@AC@16@Plácido de Castro@P Castro
-43@AC@16@Preventório@Preventório
-45@AC@16@Quinze@Quinze
-46@AC@16@Santa Inês@Sta Inês
-47@AC@16@Santa Quitéria@Sta Quitéria
-32642@GO@2361@Vila Isabel@Vl Isabel
-32677@GO@2263@Setor Central@St Central
-32685@GO@2267@Setor Central@St Central
-32714@GO@2268@Setor Central@St Central
-32716@GO@2269@Setor Central@St Central
-5268@MG@3689@Santa Paula@Sta Paula
-5269@MG@3689@Santana (Justinópolis)@Santana (Justinópolis)
-5274@MG@3689@São João de Deus (Justinópolis)@S J Deus (Justinópolis)
-5280@MG@3689@Sevilha (1ª Seção)@Sevilha (1ª Seção)
-5281@MG@3689@Sevilha (2ª Seção)@Sevilha (2ª Seção)
-5284@MG@3689@Suely (Justinópolis)@Suely (Justinópolis)
-5288@MG@3689@Tropical (Justinópolis)@Tropical (Justinópolis)
-5289@MG@3689@Urca (Justinópolis)@Urca (Justinópolis)
-5298@MG@3689@Vila do Sapé@Vl Sapé
+51784@AC@11059@Campinas@Campinas
+51785@AC@5@Conquista@Conquista
+66491@AC@16@Vila Ivonete@Vl Ivonete
+59898@AC@16@Área Rural de Rio Branco@A Rur Rio Branco
+60815@AC@16@Vila Verde@Vl Verde
+60625@AC@16@Vila Santa Cecília@Vl Sta Cecília
+60626@AC@16@Vila Albert Sampaio@Vl Albert Sampaio
+60627@AC@16@Vila Liberdade@Vl Liberdade
+55476@AC@16@Conjunto Adalberto Sena@Cj Adalberto Sena
+55477@AC@16@Montanhês@Montanhês
+55478@AC@16@Defesa Civil@Defesa Civil
+55479@AC@16@Jorge Lavocat@Jorge Lavocat
+55480@AC@16@Irineu Serra@Irineu Serra
+57389@AC@16@Vila Aeroporto@Vl Aeroporto
+60450@AC@16@Cidade do Povo@Cid Povo
+39321@AC@4@Centro@Centro
+39322@AC@14@Centro@Centro
+39323@AC@5@Centro@Centro
+39324@AC@20@Centro@Centro
+39325@AC@13@Centro@Centro
+39326@AC@22@Centro@Centro
+39327@AC@3@Centro@Centro
+39328@AC@7@Centro@Centro
+39329@AC@2@Centro@Centro
+39330@AC@19@Centro@Centro
+39331@AC@1@Centro@Centro
+39332@AC@11@Centro@Centro
+39333@AC@18@Centro@Centro
+39334@AC@8@Centro@Centro
+39335@AC@21@Centro@Centro
+39336@AC@9@Centro@Centro
+39337@AC@6@Centro@Centro
+39338@AC@15@Centro@Centro
+39339@AC@12@Centro@Centro
+39340@AC@17@Centro@Centro
+39341@AC@10@Centro@Centro
+1@AC@16@Abraão Alab@Abraão Alab
+60645@AC@16@Vila Custódio Freire@Vl Custódio Freire
+50460@AC@16@Loteamento Santo Afonso@Lot Sto Afonso
+28@AC@16@Ivete Vargas@Ivete Vargas
+33@AC@16@João Eduardo I@João Eduardo I
+39@AC@16@Palheiral@Palheiral
+55444@AC@16@Jardim Nazle@Jd Nazle
+55445@AC@16@7º BEC@7º BEC
+55447@AC@16@Doca Furtado@Doca Furtado
+55448@AC@16@Conjunto Manoel Julião@Cj Manoel Julião
+55449@AC@16@Jardim Manoel Julião@Jd Manoel Julião
+55450@AC@16@Vilage Wilde Maciel@Vilage W Maciel
+55451@AC@16@Boa Esperança@Boa Esperança
+55452@AC@16@Jardim América@Jd América
+55456@AC@16@Horto Florestal@Horto Florestal
+55457@AC@16@Residencial Iolanda@Res Iolanda
+55459@AC@16@Loteamento Isaura Parente@Lot Isaura Parente
+55460@AC@16@Loteamento dos Engenheiros@Lot Engenheiros
+55461@AC@16@Parque das Palmeiras@Prq Palmeiras
+55386@AC@16@Dom Giocondo@D Giocondo
+55387@AC@16@Conjunto Jardim São Francisco@Cj Jd S Francisco
+55497@AC@16@Raimundo Melo@Raimundo Melo
+55388@AC@16@Jardim Tropical@Jd Tropical
+55389@AC@16@Casa Nova@Casa Nova

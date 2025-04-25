@@ -1,0 +1,60 @@
+1001872@BA@582@408@@Casarão@@44028110@Rua@S@R Casarão
+1001873@BA@988@750@@Rio Branco@@40771525@Rua@S@R Rio Branco
+1001874@BA@988@750@@São José@@40771535@1ª Travessa@S@1ª Tv S José
+1001875@BA@988@750@@Rio Branco@@40771530@Travessa@S@Tv Rio Branco
+1001876@BA@988@750@@14 de Setembro@@40771720@2ª Travessa@S@2ª Tv 14 de Setembro
+1001877@BA@988@750@@Quadra dos Esportes@@40771675@2ª Travessa@S@2ª Tv Q dos Esportes
+1001878@BA@988@750@@Quadra dos Esportes@@40771670@1ª Travessa@S@1ª Tv Q dos Esportes
+1001879@BA@988@750@@Quadra dos Esportes@@40771665@3ª Travessa@S@3ª Tv Q dos Esportes
+1001880@BA@988@699@@Sol Nascente@@40210760@Rua@S@R Sol Nascente
+1003956@BA@988@750@@da Bélgica@@40772655@2ª Travessa@S@2ª Tv da Bélgica
+1005276@BA@988@691@@Ogunjá@@40241005@3ª Avenida@S@3ª Av Ogunjá
+1005277@BA@988@691@@Ogunjá@@40241010@2ª Avenida@S@2ª Av Ogunjá
+1005278@BA@988@750@@São Mateus@@40772870@Rua@S@R S Mateus
+1005279@BA@988@691@@Ogunjá@@40241015@1ª Avenida@S@1ª Av Ogunjá
+1005280@BA@988@691@@Ogunjá@@40241020@Avenida@S@Av Ogunjá
+1005281@BA@988@691@@Vale do Ogunjá@@40241025@3ª Travessa@S@3ª Tv Vle do Ogunjá
+1005282@BA@988@691@@Vale do Ogunjá@@40241030@2ª Travessa@S@2ª Tv Vle do Ogunjá
+1005283@BA@988@691@@Vale do Ogunjá@@40241035@1ª Travessa@S@1ª Tv Vle do Ogunjá
+1005284@BA@988@691@@Vale do Ogunjá@@40241040@Travessa@S@Tv Vle do Ogunjá
+1007742@BA@988@716@@São José da Vitória@@41630500@Rua@S@R S José da Vitória
+1007743@BA@988@739@@Angelim@@41220808@Alameda@S@Al Angelim
+1007744@BA@988@739@@Santo Antônio de Nova Mata Escura@@41220888@Travessa@S@Tv Sto Antônio de N M Escura
+1007745@BA@988@739@@Castro Neves@@41220898@Avenida@S@Av Castro Neves
+1007746@BA@988@739@@Castro Neves@@41220893@Vila@S@Vl Castro Neves
+1007747@BA@988@739@@Jardins do Vale@@41219453@Acesso@S@Ac Jds do Vle
+1007748@BA@988@801@@Marilene Araújo@@41213072@Avenida@S@Av Marilene Araújo
+1007749@BA@988@739@@Mogno@@41220812@Alameda@S@Al Mogno
+1007750@BA@988@739@@Novo Horizonte da Mata Escura@@41219448@Rua@S@R Novo H da M Escura
+1007751@BA@988@739@@Residencial São João@@41219898@Alameda@S@Al Res S João
+1007752@BA@988@739@@São Roque da Mata Escura@@41220698@Travessa@S@Tv S Roque da M Escura
+1007753@BA@988@801@@Sol Nascente@@41213108@Alameda@S@Al Sol Nascente
+1007754@BA@988@801@@do Sossego@@41213103@Alameda@S@Al do Sossego
+1007755@BA@988@739@@Vale do Bosque@@41220814@Rua@S@R Vle do Bsq
+1009734@BA@683@56426@@I@@45607430@Rua@S@R I
+1011043@BA@582@346@@Vicente de Paula Morais@@44010035@Avenida@S@Av Vicente de P Morais
+1011044@BA@988@35197@@Estrela-D'alva@@40490570@Rua@S@R Estrela-D'alva
+1011045@BA@988@767@@Antônio Balbino@@40708530@2ª Travessa@S@2ª Tv Antônio Balbino
+1011046@BA@988@767@@São Miguel@@40708500@Travessa@S@Tv S Miguel
+1011047@BA@988@767@@Saturnino@@40708465@Travessa@S@Tv Saturnino
+1011048@BA@988@767@@Sueli de Plataforma@@40708460@Avenida@S@Av Sueli de Plataforma
+1013376@BA@582@343@@Uruguai@@44052035@Rua@S@R Uruguai
+1013377@BA@988@750@@Marissol Fontanez@@40773420@Rua@S@R Marissol Fontanez
+1013378@BA@988@760@@Marcos Pinheiro@@41650472@Rua@S@R Marcos Pinheiro
+1013379@BA@988@760@@Pasquale Gatto@@41650470@Rua@S@R Pasquale Gatto
+1015127@BA@582@399@@do Altos@@44072750@Rua@S@R do Altos
+1015128@BA@582@346@@Naiane Conrado@@44010095@Rua@S@R Naiane Conrado
+1015129@BA@582@346@@Jane Canário@@44010100@Rua@S@R Jane Canário
+1015130@BA@582@346@@Domingos Ferreira@@44010105@Travessa@S@Tv Domingos Ferreira
+1015131@BA@582@346@@Michele Pinheiro@@44010110@Rua@S@R Michele Pinheiro
+1015132@BA@582@346@@Vitória Régia@@44010115@Rua@S@R Vitória Régia
+1015133@BA@582@346@@Paraíso@@44010120@Rua@S@R Paraíso
+1015134@BA@582@346@@Tatiane Prata@@44010125@Rua@S@R Tatiane Prata
+1015135@BA@582@346@@Gabriel da Paixão@@44010130@Rua@S@R Gabriel da Paixão
+1015136@BA@582@346@@Jardim das Flores@@44010135@Rua@S@R Jd das Flores
+1015137@BA@582@398@@Jorge Rana Bullos@@44077716@Rua@S@R Jorge R Bullos
+1015138@BA@582@49649@@Olegária Ferreira@@44095270@Rua@S@R Olegária Ferreira
+1015139@BA@582@346@@Jorge Amado@@44010008@Rua@S@R Jorge Amado
+1015140@BA@582@346@@Tertuliano@@44010016@Rua@S@R Tertuliano
+1015141@BA@582@346@@Aroeira@@44010024@Rua@S@R Aroeira
+1015142@BA@582@346@@das Acacias@@44010032@Rua@S@R das Acacias

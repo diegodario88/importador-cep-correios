@@ -1,0 +1,60 @@
+1003446@PI@5721@7556@@Maria Socorro de Macêdo Claudino@(Lot Ladeira Uruguai)@64073445@Rua@S@R Maria S de M Claudino
+1004314@PI@5665@56146@@Doutora Zilda Arns@@64607077@Rua@S@R Dra Zilda Arns
+1004315@PI@5665@56146@@José de Arimatéia Rocha@@64607087@Rua@S@R José de A Rocha
+1004316@PI@5721@7558@@Professor Raimundo Nonato Andrade@(Residencial Planalto Uruguai)@64057463@Rua@S@R Prf Raimundo N Andrade
+1006723@PI@5721@7481@@Doutor Walter Oliveira Sousa@@64090085@Rua@S@R Dr Walter O Sousa
+1008532@PI@5721@7561@@Miguel Rosa@(Zona Sul) - de 5180 a 5794 - lado p@64018505@Avenida@S@Av Miguel Rosa
+1008533@PI@5721@7455@@Teresa Ferreira Soares@(Cj Res Dignidade)@64034401@Rua@S@R Teresa F Soares
+1010485@PI@5665@39381@@Antonio da Costa Moura@@64600007@Travessa@S@Tv Antonio da C Moura
+1010486@PI@5721@7516@@Desembargador José Messias@- lado ímpar@64014300@Rua@S@R Des José Messias
+1010487@PI@5721@7473@@Desembargador José Messias@- lado par@64014335@Rua@S@R Des José Messias
+1012860@PI@5665@56141@@Alto da Boa Vista@@64604327@Rua@S@R At da Boa Vista
+1012861@PI@5665@56141@@Edilberto Araújo@@64604142@Rua@S@R Edilberto Araújo
+1012862@PI@5665@56141@@Fernando Wilson Araújo Monteiro@@64604144@Rua@S@R Fernando W A Monteiro
+1016043@PI@5658@7449@@da Fraternidade@(Entre Quadras 29 e 30 Cj Joaz Sousa@64217278@Rua@S@R da Fraternidade
+1016044@PI@5658@7449@@Zulmira do Espírito Santo Justo@@64217550@Rua@S@R Zulmira do E Sto Justo
+1016045@PI@5658@7449@@Projetada 21@@64217555@Rua@S@R Proj 21
+1016046@PI@5658@7449@@Santo Afonso@@64217600@Rua@S@R Sto Afonso
+1016047@PI@5658@7449@@Manuel Paulino Marques@@64217610@Rua@S@R Manuel P Marques
+1016048@PI@5658@54693@@Projetada 139@@64216625@Rua@S@R Proj 139
+1016049@PI@5658@54693@@Silvestre Moreira@@64216635@Rua@S@R Silvestre Moreira
+1016050@PI@5658@7445@@Marechal Pires Ferreira@@64202265@Rua@S@R Mal Pires Ferreira
+1016051@PI@5658@7442@@Andreina Neves Pereira da Silva@@64204330@Rua@S@R Andreina N P da Silva
+1016052@PI@5658@54610@@F-05@(Cj Raul Bacelar V)@64207690@Quadra@S@Q F-05
+1016053@PI@5658@54610@@F-06@(Cj Raul Bacelar V)@64207692@Quadra@S@Q F-06
+1016054@PI@5658@54612@@Bernarda de Carvalho Nascimento@@64212463@Rua@S@R Bernarda de C Nascimento
+1016055@PI@5658@54612@@João de Brito Tupinambá@@64212505@Rua@S@R João de B Tupinambá
+1016056@PI@5658@7430@@Anastácio Gouveia@(Cj IPASE)@64215375@Rua@S@R Anastácio Gouveia
+1016057@PI@5658@7430@@Anselmo Carvalho de Albuquerque@(Cj IPASE)@64215385@Rua@S@R Anselmo C de Albuquerque
+1016058@PI@5658@7430@@Professora Joana Ayres@(Cj IPASE)@64215395@Rua@S@R Prfa Joana Ayres
+1016059@PI@5658@7430@@Osmar Alves Bezerra@(Cj IPASE)@64215405@Rua@S@R Osmar A Bezerra
+1016060@PI@5658@7430@@Alaíde Araújo Sousa@(Cj Esperança II)@64215485@Rua@S@R Alaíde A Sousa
+1016061@PI@5658@7430@@Professora Teresinha Oliveira@(Cj Esperança II)@64215495@Rua@S@R Prfa Teresinha Oliveira
+1016062@PI@5658@7430@@João Neves do Nascimento@(Cj Esperança II)@64215515@Rua@S@R João N do Nascimento
+1016063@PI@5658@7430@@Antonio Rodrigues de Carvalho@@64215525@Rua@S@R Antonio R de Carvalho
+1016064@PI@5658@7430@@Cristo Rei@@64215535@Rua@S@R Cristo Rei
+1016065@PI@5658@7430@@Benedito dos Santos Lima@@64215545@Rua@S@R Benedito dos S Lima
+1016066@PI@5658@7433@@Armando Cajubá@@64215863@Avenida@S@Av Armando Cajubá
+1016067@PI@5658@7433@@Ceará@@64215865@Rua@S@R Ceará
+1016068@PI@5658@7433@@Raimunda Almeida Castro@@64215868@Rua@S@R Raimunda A Castro
+1016069@PI@5658@7434@@Álvaro Mendes@@64200275@Avenida@S@Av Álvaro Mendes
+1016070@PI@5658@57555@@Doutor João Silva Filho@@64209010@Avenida@S@Av Dr João S Filho
+1016071@PI@5658@57555@@Nova@@64209040@Rua@S@R N
+1016072@PI@5658@57555@@Santana@@64209050@Rua@S@R Santana
+1016073@PI@5658@57555@@Dezenove de Outubro@@64209060@Avenida@S@Av Dezenove de Outubro
+1016074@PI@5658@57555@@São Benedito@@64209070@Rua@S@R S Benedito
+1016075@PI@5658@7431@@Benedito dos Santos Lima@@64202780@Rua@S@R Benedito dos S Lima
+1016076@PI@5658@7431@@Governador Chagas Rodrigues@@64202700@Avenida@S@Av Gov Chagas Rodrigues
+1016077@PI@5658@54663@@Projetada 36@(Cj Elias Ximenes do Prado)@64210025@Travessa@S@Tv Proj 36
+1016078@PI@5658@54663@@José Narciso D'Almeida Castro@@64210410@Rua@S@R José N D Castro
+1016079@PI@5658@7449@@Onófre Seixas@(Entre Quadras  12 e 13 Cj Joaz Sous@64217203@Rua@S@R Onófre Seixas
+1016080@PI@5658@7449@@Arimateia Carvalho da Silva@(Entre Quadras 14 e 15 Cj Joaz Sousa@64217213@Rua@S@R Arimateia C da Silva
+1016081@PI@5658@7449@@do Semeador@(Entre Quadras 15 e 16 Cj Joaz Sousa@64217218@Rua@S@R do Semeador
+1016082@PI@5658@7449@@Maria da Graça Paula Costa@(Entre Quadras 25 a 31 Cj Joaz Sousa@64217288@Rua@S@R Maria da G P Costa
+1016083@PI@5658@7449@@da Esperança@(Entre Quadras 26 e 27 Cj Joaz Sousa@64217263@Rua@S@R da Esperança
+1016084@PI@5658@7449@@da Amizade@(Entre Quadras 27 e 28 Cj Joaz Sousa@64217268@Rua@S@R da Amizade
+1016085@PI@5658@54662@@João Claudinho de Souza@(Proj 03 Comunidade Portinho)@64205600@Rua@S@R João C de Souza
+1016086@PI@5658@54662@@Joaquim Moraes Neto@@64205490@Rua@S@R Joaquim M Neto
+1016087@PI@5658@54662@@Manoel Adilino de Sousa@(Proj 01 Comunidade Portinho)@64205580@Rua@S@R Manoel A de Sousa
+1016088@PI@5658@54662@@Manoel Antonino@(Proj 10 Comunidade Portinho)@64205650@Rua@S@R Manoel Antonino
+1016089@PI@5658@54662@@Manoel Emídio Sobrinho@(Proj 12 Comunidade Portinho)@64205660@Rua@S@R Manoel E Sobrinho

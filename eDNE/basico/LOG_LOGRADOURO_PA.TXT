@@ -1,0 +1,60 @@
+1003303@PA@4565@6741@@Arara@@66110225@Travessa@S@Tv Arara
+1006679@PA@4539@6693@@dos Ipês@(BR 316 Km 7,5)@67030032@Rua@S@R dos Ipês
+1006680@PA@4565@6776@@Angustura@@66115355@Rua@S@R Angustura
+1006681@PA@4728@33974@@Paulo Fonteles@@68627555@Rua@S@R Paulo Fonteles
+1006682@PA@4728@6840@@Campolina@@68626415@Rua@S@R Campolina
+1010431@PA@4565@6729@@do Mohab@@66610715@Travessa@S@Tv do Mohab
+1010432@PA@4565@6729@@Deus é Fiel@@66610714@Travessa@S@Tv Deus é Fiel
+1010433@PA@4565@6729@@Jairo Moura@@66610772@Alameda@S@Al Jairo Moura
+1010434@PA@4565@6729@@General Jarbas Bueno@@66610775@Travessa@S@Tv Gen Jarbas Bueno
+1010435@PA@4565@6729@@General Jeannot Jansen@@66610537@Travessa@S@Tv Gen Jeannot Jansen
+1010436@PA@4565@6729@@Sargento Ricardo@@66610539@Travessa@S@Tv Srg Ricardo
+1012839@PA@4565@6749@@Dom Alberto Galdêncio Ramos@@66035142@Rua@S@R D Alberto G Ramos
+1015834@PA@4534@53810@@Antônio Pereira da Silva@@68371600@Rua@S@R Antônio P da Silva
+1015835@PA@4534@53810@@Edla Vieira@@68371602@Rua@S@R Edla Vieira
+1015836@PA@4534@53810@@Maria Salvador Fais@@68371604@Rua@S@R Maria S Fais
+1015837@PA@4534@53810@@Doze@@68371606@Rua@S@R Doze
+1015838@PA@4534@53810@@Arlindo de Sousa@@68371608@Rua@S@R Arlindo de Sousa
+1015839@PA@4534@53810@@Antônio Acácio Sobrinho@@68371610@Rua@S@R Antônio A Sobrinho
+1015840@PA@4534@53810@@Juventino Acácio Barbosa@@68371612@Rua@S@R Juventino A Barbosa
+1015841@PA@4534@53810@@Caetano Francisco Sousa@@68371614@Rua@S@R Caetano F Sousa
+1015842@PA@4534@53810@@Lucimar Lima de Sousa@(Sta Benedita)@68371616@Rua@S@R Lucimar L de Sousa
+1015843@PA@4534@53810@@Claudio Vitorino Rodrigues@(Sta Benedita)@68371618@Rua@S@R Claudio V Rodrigues
+1015844@PA@4534@53810@@João Círio de Moura@(Sta Benedita)@68371620@Rua@S@R João C de Moura
+1015845@PA@4534@53810@@Francisco Alves da Silva@(Sta Benedita)@68371622@Rua@S@R Francisco A da Silva
+1015846@PA@4534@53810@@Alexandre Vieira da Silva@(Sta Benedita)@68371624@Rua@S@R Alexandre V da Silva
+1015847@PA@4534@53810@@Pedro Fontenele@(Sta Benedita)@68371626@Rua@S@R Pedro Fontenele
+1015848@PA@4534@53810@@Carmínio Feitosa de Aquino@(Sta Benedita)@68371628@Rua@S@R Carmínio F de Aquino
+1015849@PA@4539@6691@@Xingú@(Parque Ani)@67020750@Rua@S@R Xingú
+1015850@PA@4539@6691@@Margarida de Araújo@(Parque Ani)@67020752@Alameda@S@Al Margarida de Araújo
+1015851@PA@4539@6696@@Tancredo Neves@@67110295@Passagem@S@Psg Tancredo Neves
+1015852@PA@4565@6743@@Água Cristal@@66615515@Alameda@S@Al Água Cristal
+1015853@PA@4565@6743@@Água Cristal@- lado ímpar@66615062@Alameda@S@Al Água Cristal
+1015854@PA@4565@6743@@Água Cristal@- lado par@66615032@Alameda@S@Al Água Cristal
+1015855@PA@4565@6743@@Santo Antônio@@66615142@Passagem@S@Psg Sto Antônio
+1015856@PA@4774@56539@@Tapajós@- lado ímpar@68041148@Avenida@S@Av Tapajós
+1015857@PA@4774@6889@@Tapajós@@68040265@Avenida@S@Av Tapajós
+1015858@PA@4774@6872@@Tapajós@- de 279 a 835 - lado ímpar@68005005@Avenida@S@Av Tapajós
+1015859@PA@4774@6867@@Tapajós@- de 1105 a 1751 - lado ímpar@68040002@Avenida@S@Av Tapajós
+1015860@PA@4774@6867@@Tapajós@- de 1807 a 1937 - lado ímpar@68040004@Avenida@S@Av Tapajós
+1015861@PA@4774@6877@@Tapajós@- de 1957 a 2267 - lado ímpar@68040445@Avenida@S@Av Tapajós
+1015862@PA@4774@57710@@Curuá-Una@- lado par@68049005@Avenida@S@Av Curuá-Una
+1015863@PA@4774@6872@@Lameira Bittencourt@- até 208/209@68005010@Rua@S@R Lameira Bittencourt
+1015864@PA@4774@6872@@Lameira Bittencourt@- de 219/220 ao fim@68005015@Rua@S@R Lameira Bittencourt
+1015865@PA@4774@6872@@Galdino Veloso@- de 209/210 a 736/737@68005073@Rua@S@R Galdino Veloso
+1015866@PA@4774@6872@@Galdino Veloso@- de 738/739 a 859/860@68005075@Rua@S@R Galdino Veloso
+1015867@PA@4774@6867@@Galdino Veloso@- de 1089/1090 ao fim@68040552@Rua@S@R Galdino Veloso
+1015868@PA@4774@6881@@Silvério Sirotheau Corrêa@- de 3300/3301 ao fim@68040179@Rua@S@R Silvério S Corrêa
+1015869@PA@4774@6867@@Silvério Sirotheau Corrêa@- de 1278/1279 a 1860/1861@68040022@Rua@S@R Silvério S Corrêa
+1015870@PA@4774@6867@@Silvério Sirotheau Corrêa@- de 1866/1867 a 1995/1996@68040025@Rua@S@R Silvério S Corrêa
+1015871@PA@4774@6877@@Silvério Sirotheau Corrêa@- de 1997/1998 a 2459/2460@68040458@Rua@S@R Silvério S Corrêa
+1015872@PA@4774@56539@@Silvério Sirotheau Corrêa@- de 2461/2462 a 2953/2954@68041144@Rua@S@R Silvério S Corrêa
+1015873@PA@4774@6881@@Silvério Sirotheau Corrêa@- de 3048/3049 a 3228/3229@68040177@Rua@S@R Silvério S Corrêa
+1015874@PA@4774@6867@@Vinte e Quatro de Outubro@- de 1096/1097 a 1685/1686@68040012@Rua@S@R Vinte e Quatro de Outubro
+1015875@PA@4774@6867@@Vinte e Quatro de Outubro@- de 1734/1735 a 1903/1904@68040014@Rua@S@R Vinte e Quatro de Outubro
+1015876@PA@4774@6877@@Vinte e Quatro de Outubro@- de 1905/1906 a 2448/2449@68040455@Rua@S@R Vinte e Quatro de Outubro
+1015877@PA@4774@56539@@Vinte e Quatro de Outubro@- de 2477/2478 a 2827/2828@68041146@Rua@S@R Vinte e Quatro de Outubro
+1015878@PA@4774@6889@@Vinte e Quatro de Outubro@- de 2897/2898 a 3145/3146@68040375@Rua@S@R Vinte e Quatro de Outubro
+1015879@PA@4774@6889@@Vinte e Quatro de Outubro@- de 3148/3149 ao fim@68040385@Rua@S@R Vinte e Quatro de Outubro
+1015880@PA@4774@6872@@dos Mártires@- até 283/284@68005540@Travessa@S@Tv dos Mártires
+1015881@PA@4774@6872@@dos Mártires@- de 327/328 ao fim@68005545@Travessa@S@Tv dos Mártires

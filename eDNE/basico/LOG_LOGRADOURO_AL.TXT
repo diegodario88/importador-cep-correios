@@ -1,0 +1,60 @@
+1000@AL@30@69@@Costa Cavalcante@@57306420@Rua@S@R Costa Cavalcante
+1001@AL@30@82@@Costa Cavalcante@@57305620@Rua@S@R Costa Cavalcante
+1001867@AL@109@126@@Jorge Barros@@57063000@Avenida@S@Av Jorge Barros
+1001868@AL@109@126@@Jorge Barros@- lado ímpar@57063005@Avenida@S@Av Jorge Barros
+1001869@AL@109@32424@@Jorge Barros@- lado par@57071610@Avenida@S@Av Jorge Barros
+1001870@AL@109@91@@D@(Lot Monte Verde)@57048031@Quadra@S@Q D
+1003@AL@30@59@@Costa Rêgo@@57312280@Rua@S@R Costa Rêgo
+1003886@AL@30@49572@@Isaias Bernardo de Oliveira@@57309224@Rua@S@R Isaias B de Oliveira
+1003887@AL@30@77@@Angelita Ferreira da Silva@@57316482@Rua@S@R Angelita F da Silva
+1003888@AL@30@30420@@João Nobre de Farias@@57309415@Rua@S@R João N de Farias
+1003889@AL@30@81@@Rosa Ferreira da Conceição@@57308595@Rua@S@R Rosa F da Conceição
+1003890@AL@30@67@@Professor Miguel Valeriano da Silva@@57302778@Rua@S@R Prf Miguel V da Silva
+1003891@AL@30@60@@Francisco Lucio da Silva@@57307280@Rua@S@R Francisco L da Silva
+1003893@AL@109@126@@Walfrido Gerônimo da Rocha@- lado par@57063505@Avenida@S@Av Walfrido G da Rocha
+1003894@AL@109@129@@Walfrido Gerônimo da Rocha@- lado ímpar@57060570@Avenida@S@Av Walfrido G da Rocha
+1003895@AL@109@32427@@Oswaldo Ramos@@57082822@Rua@S@R Oswaldo Ramos
+1003896@AL@109@129@@Oswaldo Ramos@@57081590@Rua@S@R Oswaldo Ramos
+1003897@AL@109@129@@Desembargador Carlos de Gusmão@- lado ímpar@57081366@Rua@S@R Des Carlos de Gusmão
+1003898@AL@109@91@@Desembargador Carlos de Gusmão@- lado par@57083108@Rua@S@R Des Carlos de Gusmão
+1003899@AL@109@32427@@Zacarias Fontan de Melo@@57082842@Rua@S@R Zacarias F de Melo
+1003900@AL@109@129@@Zacarias Fontan de Melo@@57081592@Rua@S@R Zacarias F de Melo
+1003901@AL@109@32427@@Carlos Buarque@@57082702@Rua@S@R Carlos Buarque
+1003902@AL@109@129@@Carlos Buarque@@57081588@Rua@S@R Carlos Buarque
+1003903@AL@109@32427@@Maria Erivânia dos Santos@@57082792@Rua@S@R Maria E dos Santos
+1003904@AL@109@129@@Maria Erivânia dos Santos@@57081576@Rua@S@R Maria E dos Santos
+1003905@AL@109@32427@@Mensageiro José Raimundo dos Santos@@57082621@Rua@S@R Mens José R dos Santos
+1003906@AL@109@129@@Mensageiro José Raimundo dos Santos@@57081572@Rua@S@R Mens José R dos Santos
+1003907@AL@109@32427@@Antônio de Andrade@@57082612@Rua@S@R Antônio de Andrade
+1003908@AL@109@129@@Antônio de Andrade@@57081574@Rua@S@R Antônio de Andrade
+1003909@AL@109@32427@@Etiene Cristina@@57082732@Rua@S@R Etiene Cristina
+1003910@AL@109@129@@Etiene Cristina@@57081578@Rua@S@R Etiene Cristina
+1003911@AL@109@99@@da Paz@@57018482@Rua@S@R da Paz
+1003912@AL@109@99@@da Paz@@57018484@Travessa@S@Tv da Paz
+1003914@AL@109@32421@@Álvaro Melo@@57044100@Rua@S@R Álvaro Melo
+1003915@AL@109@95@@02@(Lot Cely Loureiro)@57084334@Avenida@S@Av 02
+1003916@AL@109@95@@Belém@(Lot Galiléia)@57084332@Rua@S@R Belém
+1003917@AL@109@95@@Jerusalém@(Lot Galiléia)@57084328@Rua@S@R Jerusalém
+1003918@AL@109@95@@São Mateus@(Lot Galiléia)@57084322@Rua@S@R S Mateus
+1003919@AL@109@95@@Manaim@(Lot Galiléia)@57084326@Rua@S@R Manaim
+1003920@AL@109@95@@El Shaday@(Lot Galiléia)@57084324@Rua@S@R El Shaday
+1003921@AL@109@32425@@D - E@(Cj Eustáquio Gomes de Melo)@57072404@Rua@S@R D - E
+1003922@AL@109@32425@@ABC@(Cj Eustáquio Gomes de Melo)@57072406@Rua@S@R ABC
+1004@AL@30@63@@Costa Rica@@57313855@Rua@S@R Costa Rica
+1004899@AL@30@67@@Professora Maria Bispo dos Santos@@57302678@Rua@S@R Prfa Maria Bpo dos Santos
+1004900@AL@30@67@@Sebastiana Izídio de Oliveira@@57302679@Rua@S@R Sebastiana I de Oliveira
+1004901@AL@30@67@@José Romildo Fagundes@@57302677@Rua@S@R José R Fagundes
+1004902@AL@30@43866@@Luiz Barbosa Lopes@@57301729@Rua@S@R Luiz B Lopes
+1004903@AL@30@89@@José Firmino Neto@@57303062@Rua@S@R José F Neto
+1004904@AL@30@54604@@Professora Maria Salete de Lira@@57309734@Rua@S@R Prfa Maria S de Lira
+1004905@AL@30@54604@@Helena Magalhães Leite@@57309772@Rua@S@R Helena M Leite
+1004906@AL@30@54604@@Maria Leão de Melo@@57309778@Rua@S@R Maria L de Melo
+1004907@AL@30@54604@@José Praxedes de Farias@@57309780@Rua@S@R José P de Farias
+1004908@AL@30@54604@@Renato Victor da Silva@@57309782@Rua@S@R Renato V da Silva
+1004909@AL@30@54604@@Ronaldo José Victor da Silva@@57309784@Rua@S@R Ronaldo J V da Silva
+1004910@AL@30@54604@@Terezinha Feitosa de Lima@@57309786@Rua@S@R Terezinha F de Lima
+1004911@AL@30@54604@@Professora Shirley Canuto Alves@@57309788@Rua@S@R Prfa Shirley C Alves
+1004912@AL@30@54604@@Aurélio Freire Monteiro@@57309790@Rua@S@R Aurélio F Monteiro
+1004913@AL@30@54604@@Laurita Nogueira e Silva Alcântara@@57309792@Rua@S@R Laurita N e S Alcântara
+1004914@AL@30@54604@@Edmício Oliveira Silva@@57309794@Rua@S@R Edmício O Silva
+1004915@AL@30@54604@@Vilma Leão de Oliveira@@57309798@Rua@S@R Vilma L de Oliveira

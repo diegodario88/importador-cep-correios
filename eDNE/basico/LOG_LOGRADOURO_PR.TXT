@@ -1,0 +1,60 @@
+1003447@PR@5789@8051@@Ângelo Rigolino@@83706314@Rua@S@R Ângelo Rigolino
+1003448@PR@5789@8051@@Donato Karas@@83706312@Rua@S@R Donato Karas
+1003449@PR@5789@8051@@Albino Adelino Hüttener@@83706316@Rua@S@R Albino A Hüttener
+1003450@PR@5789@8051@@Leopoldo Rodrigues@@83706318@Rua@S@R Leopoldo Rodrigues
+1003451@PR@5789@8051@@Amauri Rogério Padilha@@83706322@Rua@S@R Amauri R Padilha
+1003452@PR@5789@8051@@Acieli Beatriz Kobellarz@@83706324@Rua@S@R Acieli B Kobellarz
+1003453@PR@5789@8051@@Júlio Wardenski@@83706313@Rua@S@R Júlio Wardenski
+1003454@PR@5789@8051@@Joacir Leal Neves@@83706315@Rua@S@R Joacir L Neves
+1003455@PR@5789@8054@@Pedro Orlikowski@@83709158@Rua@S@R Pedro Orlikowski
+1003456@PR@5789@8054@@Maria Basso de Paula Lima@@83709153@Rua@S@R Maria B de P Lima
+1003457@PR@5789@8053@@Emidio Lemos@@83707745@Rua@S@R Emidio Lemos
+1003458@PR@5789@8056@@Ubirajara Sávio Torres@@83704614@Rua@S@R Ubirajara S Torres
+1003459@PR@5789@8051@@Honorito Gabriel Cercal@@83705658@Rua@S@R Honorito G Cercal
+1003460@PR@5789@8051@@Felix Incote@@83705662@Rua@S@R Felix Incote
+1003461@PR@5789@8051@@Alfredo Bazia@@83705663@Rua@S@R Alfredo Bazia
+1003462@PR@5789@8051@@Maria Terezinha Karas@@83705664@Rua@S@R Maria T Karas
+1003463@PR@5789@8051@@Antônio Scherreier@@83705666@Rua@S@R Antônio Scherreier
+1003464@PR@5789@8051@@Odail Horácio@@83705668@Rua@S@R Odail Horácio
+1003465@PR@5789@8047@@Helena Gembaroski@@83707458@Rua@S@R Helena Gembaroski
+1003466@PR@5789@8051@@Silvia Andrade de Souza@@83705665@Rua@S@R Silvia A de Souza
+1003467@PR@5789@8062@@Valdemiro Wysocki@@83707132@Rua@S@R Valdemiro Wysocki
+1003468@PR@5789@8062@@Pedro Krupa@@83707134@Rua@S@R Pedro Krupa
+1003469@PR@5789@8062@@Vereador Miguel Burda@@83707137@Rua@S@R Ver Miguel Burda
+1003470@PR@5789@8054@@Clairval Teixeira@@83701813@Rua@S@R Clairval Teixeira
+1003471@PR@5789@8056@@Sebastião Lemos@@83704612@Rua@S@R Sebastião Lemos
+1003472@PR@5789@8054@@Miguel Skura@@83709282@Rua@S@R Miguel Skura
+1003473@PR@5789@8063@@Joel Neves@@83708272@Rua@S@R Joel Neves
+1003474@PR@5789@8054@@Arlai Ozório Vicente@@83709151@Rua@S@R Arlai O Vicente
+1003475@PR@5789@8054@@Professor Clayton José Bastos Ortiz@@83709152@Rua@S@R Prf Clayton J B Ortiz
+1003476@PR@5789@8054@@Alexandre Klamas@@83709154@Rua@S@R Alexandre Klamas
+1003477@PR@5789@8054@@Romão Orlikowski@@83709156@Rua@S@R Romão Orlikowski
+1003478@PR@5914@57164@@Thea Aichner Soavinski@@87302842@Rua@S@R Thea A Soavinski
+1003479@PR@5914@57164@@Nair Machado Nogarolli@@87302844@Rua@S@R Nair M Nogarolli
+1003480@PR@5914@57165@@Doutor Francisco Irineu Brzezinski@@87305462@Rua@S@R Dr Francisco I Brzezinski
+1003482@PR@5914@57163@@Vereador Eudes Sartor@@87302554@Rua@S@R Ver Eudes Sartor
+1003483@PR@5914@57163@@Vereador Manoel Pereira Martins@@87302556@Rua@S@R Ver Manoel P Martins
+1003484@PR@5914@57163@@Vereador José Costa Maria@@87302558@Rua@S@R Ver José C Maria
+1003485@PR@5914@57163@@Guiomar Rodrigues dos Santos@@87302560@Rua@S@R Guiomar R dos Santos
+1003486@PR@5914@57163@@Professor Egydio Martello@@87302562@Rua@S@R Prf Egydio Martello
+1003488@PR@5914@57166@@Elza Brisola Maciel@@87310704@Rua@S@R Elza B Maciel
+1003489@PR@5914@57166@@Augusto Paulovski@@87310706@Rua@S@R Augusto Paulovski
+1003491@PR@5914@57166@@Antonio Custódio de Mello@@87310710@Rua@S@R Antonio C de Mello
+1003492@PR@5914@57166@@Professor Abelegy Alves@@87310712@Rua@S@R Prf Abelegy Alves
+1003494@PR@5914@57166@@Affonso Keller@@87310716@Rua@S@R Affonso Keller
+1003496@PR@5914@57165@@Daniel Kravchychyn@@87305464@Rua@S@R Daniel Kravchychyn
+1003497@PR@5914@57165@@Sônia Sekcinski@@87305466@Rua@S@R Sônia Sekcinski
+1003498@PR@5914@57165@@Matheus Rafael Raschen@@87305468@Rua@S@R Matheus R Raschen
+1003499@PR@5914@57165@@Pioneiro Manoel Gabriel de Lara@@87305470@Rua@S@R Pion Manoel G de Lara
+1003500@PR@5914@57165@@Débora Cristina Brzezinski Fuzeto@@87305472@Rua@S@R Débora C B Fuzeto
+1003501@PR@5914@57165@@Ana Maria Zamoro@@87305474@Rua@S@R Ana M Zamoro
+1003502@PR@5914@57166@@Ana André@@87310702@Rua@S@R Ana André
+1003503@PR@5942@8400@@Jerônimo Cabral Pereira do Amaral@- até 1499/1500@84172100@Rua@S@R Jerônimo C P do Amaral
+1003504@PR@5942@8396@@Prefeito Ronie Cardoso@- de 516/517 ao fim@84174105@Avenida@S@Av Pref Ronie Cardoso
+1003505@PR@5942@8400@@Renato Menarin@- até 1499/1500@84172110@Rua@S@R Renato Menarin
+1003506@PR@5964@8416@@Pedro Gonshi@@83404450@Rua@S@R Pedro Gonshi
+1003507@PR@6015@8645@@Princesa Izabel@- de 521/522 a 809/810@80430128@Alameda@S@Al Prca Izabel
+1003508@PR@6015@8662@@Martim Afonso@- de 301/302 a 998/999@80430100@Rua@S@R Martim Afonso
+1003509@PR@6015@8629@@Martim Afonso@- de 1000/1001 ao fim@80730030@Rua@S@R Martim Afonso
+1003510@PR@6015@8659@@Simão Bolivar@- de 379/380 ao fim@80040140@Rua@S@R Simão Bolivar
+1003511@PR@6015@8645@@Vinte e Quatro de Maio@- até 349/350@80230080@Rua@S@R Vinte e Quatro de Maio

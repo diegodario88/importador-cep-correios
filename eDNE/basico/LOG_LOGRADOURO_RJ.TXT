@@ -1,0 +1,60 @@
+1003565@RJ@6912@11073@@Sete de Janeiro@(Novo S Bento)@25045037@Rua@S@R Sete de Janeiro
+1003566@RJ@6912@11073@@das Flores@(Novo S Bento)@25045038@Rua@S@R das Flores
+1003567@RJ@6912@11073@@Treze de Maio@(Novo S Bento)@25045036@Rua@S@R Treze de Maio
+1003568@RJ@6912@11073@@Esperança@(Novo S Bento)@25045034@Rua@S@R Esperança
+1003569@RJ@6912@11073@@Porto Rico@(Novo S Bento)@25045032@Rua@S@R Pto Rico
+1003570@RJ@6912@11073@@Por do Sol@(Novo S Bento)@25045029@Rua@S@R Por do Sol
+1003571@RJ@6912@11073@@da Paz@(Novo S Bento)@25045028@Rua@S@R da Paz
+1003572@RJ@6912@11073@@Beira Rio@(Novo S Bento)@25045026@Rua@S@R Beira Rio
+1003573@RJ@6912@11073@@Maia@(Novo S Bento)@25045039@Rua@S@R Maia
+1003575@RJ@6971@55579@@José Carlos Pace@@24900093@Rua@S@R José C Pace
+1003576@RJ@6989@11383@@Escrivão Cezar March@(Lot Maravista)@24342079@Rua@S@R Evao Cezar March
+1003577@RJ@6993@11417@@Antônio Lopes de Almeida@@28605425@Rua@S@R Antônio L de Almeida
+1003578@RJ@6993@11419@@Arindo da Rosa Pinheiro@@28633789@Rua@S@R Arindo da R Pinheiro
+1003579@RJ@7043@12150@@Ituverava@- até 937 - lado ímpar@22750005@Rua@S@R Ituverava
+1003580@RJ@7043@12150@@Ituverava@- até 960 - lado par@22750006@Rua@S@R Ituverava
+1003581@RJ@7043@12222@@Ituverava@- de 939 ao fim - lado ímpar@22750443@Rua@S@R Ituverava
+1003582@RJ@7043@12222@@Ituverava@- de 962 ao fim - lado par@22750444@Rua@S@R Ituverava
+1003583@RJ@7043@12305@@Flores@@22290177@Rua@S@R Flores
+1003584@RJ@7043@12305@@Lírio da Paz@@22290178@Rua@S@R Lírio da Paz
+1003585@RJ@7043@12305@@Bougainville@@22290179@Rua@S@R Bougainville
+1003586@RJ@7043@12305@@Primavera@@22290181@Rua@S@R Primavera
+1003587@RJ@7043@12305@@Amor Perfeito@@22290183@Rua@S@R Amor Perfeito
+1003588@RJ@7043@12305@@Azaleias@@22290182@Rua@S@R Azaleias
+1003589@RJ@7043@12305@@Girassol@@22290184@Rua@S@R Girassol
+1003590@RJ@7043@12305@@Orquídeas@@22290185@Rua@S@R Orquídeas
+1003591@RJ@7043@12305@@Vitória Régia@@22290186@Rua@S@R Vitória Régia
+1003592@RJ@7043@12281@@Maria do Carmo Soares do Nascimento@@22451267@Rua@S@R Maria do C S do Nascimento
+1003593@RJ@7043@12281@@Elizete Maria dos Santos@@22451268@Rua@S@R Elizete M dos Santos
+1003594@RJ@7043@12281@@Seis@@22451502@Travessa@S@Tv Seis
+1003595@RJ@7043@12281@@Sete@@22451504@Travessa@S@Tv Sete
+1003596@RJ@7043@12281@@Oito@@22451572@Travessa@S@Tv Oito
+1003597@RJ@7043@12281@@Nove@@22451574@Travessa@S@Tv Nove
+1003598@RJ@7043@12281@@Dez@@22451576@Travessa@S@Tv Dez
+1003599@RJ@7043@12281@@Vinte e Sete@@22451506@Travessa@S@Tv Vinte e Sete
+1003600@RJ@7043@12161@@do Império@@22260131@Rua@S@R do Império
+1003601@RJ@7043@12161@@José Rufino@@22260177@Rua@S@R José Rufino
+1003602@RJ@7043@12161@@da Mangueira@@22260105@Rua@S@R da Mangueira
+1003603@RJ@7043@12170@@Principal@(Cj Sta Maria)@23071578@Rua@S@R Princ
+1003604@RJ@7043@12305@@Flor de Liz@@22290187@Rua@S@R Flor de Liz
+1003605@RJ@7043@33624@@Lysâneas Maciel@@22763265@Rua@S@R Lysâneas Maciel
+1003606@RJ@7043@12170@@Dores de Macabu@@23081115@Rua@S@R Dores de Macabu
+1003607@RJ@7067@12343@@Francisco Taborda@@24417165@Rua@S@R Francisco Taborda
+1003608@RJ@7088@56396@@Novina de Souza Ramos@@23893757@Rua@S@R Novina de S Ramos
+1003609@RJ@7121@12734@@Trinta e Cinco B@@27261150@Rua@S@R Trinta e Cinco B
+1004465@RJ@6862@10483@@Benedito da Silva Lomba@@27140295@Travessa@S@Tv Benedito da S Lomba
+1004466@RJ@6865@58269@@Sargento Delmar Holembach@@26178555@Rua@S@R Srg Delmar Holembach
+1004467@RJ@6865@58269@@Tenente Joaquim Correia de Souza@@26178557@Rua@S@R Ten Joaquim C de Souza
+1004468@RJ@6865@58269@@Sargento Bento Wilson da Costa@@26178559@Rua@S@R Srg Bento W da Costa
+1004469@RJ@6865@58269@@Tenente Walter Leandro Paschoal@@26178561@Rua@S@R Ten Walter L Paschoal
+1004470@RJ@6865@58269@@Tenente Mário Gonçalves Lessa@@26178563@Rua@S@R Ten Mário G Lessa
+1004471@RJ@6865@58269@@Suboficial Oswaldo Romão@@26178565@Rua@S@R So Oswaldo Romão
+1004472@RJ@6865@58269@@Capitão Cornélio Alves da Mota@@26178567@Rua@S@R Cap Cornélio A da Mota
+1004473@RJ@6865@58269@@Tenente Aécio de Souza Dias@@26178569@Rua@S@R Ten Aécio de S Dias
+1004474@RJ@6865@58269@@Sargento Alfredo Irapuan Duprat@@26178571@Rua@S@R Srg Alfredo I Duprat
+1004475@RJ@6865@58269@@Tenente Hércio Ribeiro da Silva@@26178573@Rua@S@R Ten Hércio R da Silva
+1004476@RJ@6865@58269@@Sargento Leônidas Monteiro Holanda@@26178575@Rua@S@R Srg Leônidas M Holanda
+1004477@RJ@6865@58269@@Tenente Manoel Leôncio dos Santos@@26178577@Rua@S@R Ten Manoel L dos Santos
+1004478@RJ@6865@58269@@Tenente Hermeto Firmino da Silva@@26178579@Rua@S@R Ten Hermeto F da Silva
+1004479@RJ@6865@58269@@Geraldo Pedro de Souza@@26178581@Rua@S@R Geraldo P de Souza
+1004480@RJ@6865@58269@@Capitão Alencar Batista de Carvalho@@26178583@Rua@S@R Cap Alencar B de Carvalho

@@ -1,14 +1,60 @@
-3538@2@Avenida@Avenida Augusto Ferreira da Silva
-3540@1@Avenida@Avenida Rotary
-3541@2@Rua@Rua C
-4852@1@Rua@Rua G
-3542@2@Rua@Rua Nove
-4721@2@Vila@Vila Redenção
-3544@1@Rua@Rua S
-3557@1@Rua@Rua T - Conjunto Santo Eduardo
-3560@1@Rua@Rua da Mangueira
-956578@2@Rua@Rua Santa Tercila
-956579@2@Rua@Rua Santa Tercila
-3564@1@Rua@Rua B - Lot Cambuci
-1106646@1@Rua@Rua Dr Meneses
-1106647@1@Rua@Rua Dr Meneses
+898770@4@Rua@Rua Gazeta de Alagoas
+2991@2@Avenida@Avenida General Alcir Werner
+2995@1@Rua@Rua Antônio Cansançao
+2996@1@Rua@Rua M - Conjunto Castelo Branco
+2997@6@Rua@Rua Bom Conselho
+2999@1@Rua@Rua Portugal Ramalho
+4000@1@Praça@Praça Professor Artur Ramos
+4010@6@Rua@Rua 25
+4013@1@Rua@Rua Professor Gilson Lucas
+4015@1@Avenida@Avenida Graciliano Ramos
+4803@1@Rua@Rua H - Conjunto Pajuçara
+4023@2@Rua@Rua A - Conjunto Morada dos Palmares
+4024@2@Rua@Rua Paraguassu
+956584@1@Avenida@Avenida Claudio Manoel
+956558@1@Rua@Rua Bom Retiro
+956559@1@Rua@Rua Bom Retiro
+1015047@1@Rua@Rua Clarencio Juca
+1015048@1@Rua@Rua Clarencio Juca
+4035@2@Rua@Rua 4-B
+4036@3@Rua@Rua 46
+4040@1@Entre Quadra@Entre Quadra A-08 A-09
+956601@4@Rua@Rua Boa Sorte
+956602@4@Rua@Rua Boa Sorte
+4044@7@Rua@Rua Cinco
+3004@1@Rua@Rua Geraldo Novaes de Castro
+3011@1@Rua@Rua Panair
+3012@4@Quadra@Quadra B5-B6
+3021@3@Estrada@Estrada dos Ferroviários
+3023@1@Rua@Rua Goiás
+3024@1@Rua@Rua Goiás
+1041152@1@Rua@Rua Goiás
+4706@8@Avenida@Avenida Luís Tenório Cavalcante
+4707@8@Avenida@Avenida Luís Tenório Cavalcante
+4708@8@Avenida@Avenida Luís Tenório Cavalcante
+903800@8@Avenida@Avenida Luís Tenório Cavalcante
+3031@3@Avenida@Avenida Penedo
+3031@1@Avenida@Avenida R Penedo
+3032@3@Avenida@Avenida Penedo
+3032@1@Avenida@Avenida R Penedo
+4709@5@Avenida@Avenida Governador Luiz Cavalcante
+3036@3@Rua@Rua C - Lor Antares II
+3038@1@Rua@Rua D - Conjunto Castelo Branco
+3046@2@Rua@Rua J
+4774@1@Rua@Rua Santa Maria
+3053@1@Beco@Beco do Leite
+3054@2@Rua@Rua 15 Conj COHAB
+3055@3@Travessa@Travessa Doutor Paulo Neto
+3057@2@Rua@Rua 16 Conj COHAB
+3059@1@Rua@Rua A - Loteamento Lagoa Azul
+3063@1@Rua@Rua A-B - Conjunto Santo Eduardo
+3064@7@Avenida@Avenida Raul Barbosa
+3066@1@Rua@Rua G - Conjunto Dubeaux Leão
+4046@1@Travessa@Travessa Trav Prof Sidrônio
+956603@5@Rua@Rua Professor Virgílio Guedes
+956604@5@Rua@Rua Professor Virgílio Guedes
+956605@5@Rua@Rua Professor Virgílio Guedes
+4052@2@Alameda@Alameda Professora Alzira Rocha de Lima
+4053@3@Rua@Rua D - Conjunto Eustáquio Gomes I
+4058@1@Rua@Rua N - Conjunto Salvador Lyra
+4059@7@Rua@Rua 6-A

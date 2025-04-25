@@ -1,0 +1,60 @@
+1003610@RN@7221@12805@@Rio Salgado@@59122507@1ª Travessa@S@1ª Tv Rio Salgado
+1003611@RN@7221@12805@@Rio Salgado@@59122508@2ª Travessa@S@2ª Tv Rio Salgado
+1003612@RN@7221@12805@@Rio Salgado@@59122509@3ª Travessa@S@3ª Tv Rio Salgado
+1003613@RN@7221@12794@@Yeshua@@59115629@Travessa@S@Tv Yeshua
+1003614@RN@7229@38118@@Sapucaia@@59148634@Rua@S@R Sapucaia
+1004563@RN@7220@49853@@José Raimundo da Silva@@59616693@Rua@S@R José R da Silva
+1004564@RN@7220@49853@@Benjamin Soares Cardoso@@59616650@Avenida@S@Av Benjamin S Cardoso
+1004565@RN@7220@49853@@Dedé do Gesso@@59616670@Rua@S@R Dedé do Gesso
+1004566@RN@7220@49853@@Prefeito Antônio Hermínio@@59616671@Rua@S@R Pref Antônio Hermínio
+1004567@RN@7220@49853@@Aristides Jácome de Lira@@59616672@Rua@S@R Aristides J de Lira
+1004568@RN@7220@49853@@Félix José de Morais@@59616673@Rua@S@R Félix J de Morais
+1004569@RN@7220@49853@@Nazaré Gondim@@59616674@Rua@S@R Nazaré Gondim
+1004570@RN@7220@49853@@Luzia Falcão@@59616675@Rua@S@R Luzia Falcão
+1004571@RN@7220@49853@@Francisco da Costa Gondim@@59616676@Rua@S@R Francisco da C Gondim
+1004572@RN@7220@49853@@Lindolfo Henrique de Lucena@@59616677@Rua@S@R Lindolfo H de Lucena
+1004573@RN@7220@49853@@Ítalo Marcos da Fonseca Oliveira@@59616678@Rua@S@R Ítalo M da F Oliveira
+1004574@RN@7220@49853@@José Cecílio da Fonseca@@59616679@Rua@S@R José C da Fonseca
+1004575@RN@7220@49853@@Professora Albertina Portela@@59616680@Rua@S@R Prfa Albertina Portela
+1004576@RN@7220@49853@@Manoel Guilherme de Souza@@59616687@Rua@S@R Manoel G de Souza
+1004577@RN@7220@49853@@Santina Maria de Souza@@59616688@Rua@S@R Santina M de Souza
+1004578@RN@7220@49853@@Antonio Raimundo da Silva@@59616689@Rua@S@R Antonio R da Silva
+1004579@RN@7220@49853@@Sebastião Sales de Oliveira@@59616691@Rua@S@R Sebastião S de Oliveira
+1004580@RN@7220@49853@@Joaquim Guilherme de Souza@@59616694@Rua@S@R Joaquim G de Souza
+1004581@RN@7220@49853@@Professora Maria José Falcão@@59616695@Rua@S@R Prfa Maria J Falcão
+1004582@RN@7220@49853@@Maria de Lourdes Souza da Silva@@59616696@Rua@S@R Maria de L S da Silva
+1004583@RN@7220@49853@@Francisco Laurindo Pereira@@59616697@Rua@S@R Francisco L Pereira
+1004584@RN@7220@49853@@Claudionor Amâncio de Oliveira@@59616685@Rua@S@R Claudionor A de Oliveira
+1004585@RN@7220@12773@@Antônio Ivo Marinho@@59625830@Rua@S@R Antônio Ivo Marinho
+1004586@RN@7220@12772@@Maria Soares da Costa@@59631375@Rua@S@R Maria S da Costa
+1004587@RN@7221@12794@@José Luiz da Silva@@59114286@Travessa@S@Tv José L da Silva
+1004588@RN@7221@30903@@Lourenço Wagner@@59073194@Rua@S@R Lourenço Wagner
+1004589@RN@7221@12800@@Radialista Ademir Ribeiro@@59067715@Rua@S@R Rad Ademir Ribeiro
+1004590@RN@7221@12779@@Jornalista Abmael Morais@@59066855@Rua@S@R Jorn Abmael Morais
+1004591@RN@7221@12794@@Alvorecer@@59114179@Rua@S@R Alvorecer
+1004592@RN@7221@12794@@Boa Esperança@@59114174@Travessa@S@Tv Boa Esperança
+1004593@RN@7221@12794@@Fênix@@59114287@Travessa@S@Tv Fênix
+1004594@RN@7221@12797@@Dunas VI@@59133266@Rua@S@R Dunas VI
+1004595@RN@7221@12794@@João Melo@@59114036@Vila@S@Vl João Melo
+1004596@RN@7221@12794@@Moura@@59114034@Travessa@S@Tv Moura
+1004597@RN@7221@12794@@Cárceres@@59114288@Rua@S@R Cárceres
+1006994@RN@7220@12774@@Diocesana@@59611150@Avenida@S@Av Diocesana
+1009027@RN@7221@12797@@Everardo Barros de Vasconcelos@@59133114@Rua@S@R Everardo B de Vasconcelos
+1009028@RN@7221@12794@@Castelo Branco@@59115691@Travessa@S@Tv Castelo Branco
+1009029@RN@7221@12779@@dos Potiguares@@59064015@Travessa@S@Tv dos Potiguares
+1009030@RN@7221@12779@@Leonora Armstrong@@59065285@Rua@S@R Leonora Armstrong
+1009031@RN@7221@12800@@Hilda Munis@@59066312@Rua@S@R Hilda Munis
+1009032@RN@7221@12792@@Aeroporto do Galeão@@59080505@Travessa@S@Tv Aer do Galeão
+1009033@RN@7221@12792@@Minas Novas@@59088358@Travessa@S@Tv Minas Novas
+1009034@RN@7221@12792@@Ouro Preto@@59086657@Travessa@S@Tv Ouro Preto
+1009035@RN@7221@12792@@Porto de Pedras@@59086385@Travessa@S@Tv Pto de Pedras
+1009036@RN@7229@44058@@João Paulo II@@59144850@Avenida@S@Av João Paulo II
+1009037@RN@7229@44058@@Dom José Monteiro Sobrinho@@59144822@Rua@S@R D José M Sobrinho
+1009038@RN@7229@44058@@Dom Pedro Ernandez Aguirre@@59144824@Rua@S@R D Pedro E Aguirre
+1009039@RN@7229@44058@@Dom Luiz Fernando Castillo Méndez@@59144826@Rua@S@R D Luiz F C Méndez
+1009040@RN@7229@44058@@Dom Jorge Alves de Souza@@59144828@Rua@S@R D Jorge A de Souza
+1009041@RN@7229@44058@@Dom Pedro dos Santos Silva@@59144838@Rua@S@R D Pedro dos S Silva
+1009042@RN@7229@44058@@Dom Salomão Barbosa Ferraz@@59144840@Rua@S@R D Salomão B Ferraz
+1009043@RN@7229@44058@@Dom Antídio José Vargas@@59144842@Rua@S@R D Antídio J Vargas
+1009044@RN@7229@44058@@Dom Carlos Duarte Costa@@59144846@Rua@S@R D Carlos D Costa
+1009045@RN@7229@44058@@Dom Diamantino Augusto Pereira da Costa@@59144849@Rua@S@R D Diamantino A P da Costa

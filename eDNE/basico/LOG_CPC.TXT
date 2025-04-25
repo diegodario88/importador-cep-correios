@@ -10,3 +10,99 @@
 4204@AL@143@Marituba do Peixe@Povoado Marituba do Peixe@57200991
 4205@AL@143@Ponta Morfina@Povoado Ponta Morfina@57200992
 4381@AL@169@Povoado Quitunde@Escola Monteiro Lobato - Povoado Quitunde@57920990
+5469@AL@169@Alto Cristo Redentor@Rua George José da Silva s/n@57920991
+5470@AL@31@Povoado Genipapeiro@Rua Manoel Francisco, s/n@57690992
+5471@AL@71@Usina Guaxuma@Avenida Goiás nº 11 - Usina Guaxuma@57230991
+5472@AL@71@Pontal do Coruripe@Rua da Praia, s/n - Pontal do Coruripe@57230990
+5474@AL@182@Povoado Lagoa Grande@Rua Principal, s/n - Lagoa Grande@57640990
+6325@AL@114@Povoado Tuquanduba@Rua Principal@57160990
+6328@AL@170@Coité de São Miguel@Rodovia Municipal Aureo Cesar Teixeira@57240990
+6762@AL@57@Povoado Chã da Imbira@Rua Amerino Rodrigues de Paiva, 264, Chã da Imbira, Campo Alegre, Alagoas@57254990
+6935@AL@135@Caldeirões de Cima@Sítio Povoado Caldeirões de Cima, s/n, Caldeirões de Cima.@57600990
+2607@AM@243@Comunidade Agrícola São João@Rodovia BR-174, km 4@69048990
+5361@AM@232@Associação Agro Extrativista do Lago do Limão@Estrada Manoel Urbano, Km 30@69423990
+5362@AM@256@Associação Comunitária Bom Socorro do Zé Açu@Lago do Zé Açu S/N@69150990
+5363@AM@256@Associação dos Pais e Mestres da Escola Marcelino@Estrada da Vila Amazônia, Km 55@69150991
+5364@AM@243@Associação da Comunidade Nossa Senhora de Fátima@Rio Tarumã Mirim S/N@69049992
+5365@AM@243@Comunidade Cueiras do Tarumã Açu@BR-174, Km 15@69048992
+5547@AM@243@Comunidade São Sebastião do Rio Cuieiras@Margem Esquerda do Rio Negro@69049993
+5610@AM@216@Associação Comunitária dos Moradores Rurais do Purupuru@Rua Nunes de Melo, 17@69250990
+5613@AM@243@Associação de Moradores do Pontal da Cachoeira@Avenida Cachoeira Alta, Nº  31 - Tarumã@69041991
+6372@AM@256@Residencial Vila Cristina@Rua 12, Quadra 04, Casa 34 - Residencial Vila Cristina@69158992
+3277@AP@307@Associação São Francisco do Coração@Rodovia Duque de Caixas, km 14@68906990
+3278@AP@307@Danielle de Souza Nazaré - ME@Avenida das Bacabas, 5 - BR-156 km 2@68909990
+6511@AP@316@Associação dos Produtores Rurais do Pirativa@Comunidade Sao Sebastiao Do Lago Pirativa Br Jari Km 96@68939990
+1292@BA@789@Glória Maria Silva e Silva@Rua Valença, s/n - Vila Praiana@42705990
+1293@BA@789@Armarinho Ponto 13@Rua Cristovão B Pires, s/n - Portão@42713990
+1294@BA@789@Mercadinho Neves@Rua Doutor Gerino de Souza Filho, 18 - Caixa D'Água@42711990
+1295@BA@789@Edgar dos Santos Carneiro@Rua Maria Amorim Silva, 15 - Caji@42721990
+1296@BA@789@Anexo do Posto Policial@Rua Jacobina, s/n - Areia Branca@42733991
+1297@BA@789@Associação dos Moradores de Areia Branca@Rua Nova, s/n - Jambeiro@42728990
+1298@BA@789@Nazareth e Cia Ltda - Farmácia Fernandez@Rua Capimarara, 517 - Lot Jaíba - Areia Branca@42733990
+1301@BA@988@Associação de Moradores de São Cristóvão@1ª Travessa 2 de Julho, 30 - Colina do Rio@41500990
+1302@BA@988@Núcleo de Promoção e Ação Social - SETRADES@Rua Stella Maris, 1 - São Cristóvão@41510991
+1307@BA@988@Associação Beneficente dos Moradores de Nova Constituinte@Rua Direta da Nova Constituinte, 128 - Nova Constituinte@40720990
+1308@BA@988@Associação Jardim Campo da Mina@Rua Irecê, s/n - Alto do Cruzeiro@40740990
+1309@BA@988@Associação de Moradores de Santa Maria@Avenida São Jorge, s/n@40726990
+1310@BA@988@João Bosco Lopes da Silva@Rua Desembargador Manoel Pereira - Costa Azul@41760990
+1311@BA@988@Comercial Padaria e Mercearia@Rua Manoelito Teixeira, 66 - Mirante de Periperi Conj II@40726991
+1313@BA@988@Bar e Restaurante Berico Ltda@Rua Santana, s/n - Ilha de Maré@40000990
+1315@BA@988@Vila da Base Naval de Aratu@Estrada da Base Naval de Aratu - São Tomé de Paripe@40800990
+1316@BA@988@Base Naval de Aratu@Estrada da Base Naval de Aratu - São Tomé de Paripe@40800991
+1318@BA@988@Sociedade Beneficente Recreativa e Cultural João Paulo II@Conjunto João Paulo II -Fim de Linha do Uruguai@40450990
+2133@BA@988@Associação Beneficente dos Moradores do Bairro da Paz@Praça das Decisões, s/n@41515990
+2140@BA@988@Conselho de Moradores do Bairro da Paz@Rua Nossa Senhora da Paz, 60 - Bairro da Paz@41515991
+2155@BA@506@Cardeal da Silva@Praça José Osete, s/n@48390990
+2166@BA@473@Monte Gordo@Rua Senhor do Bonfim, s/n - Monte Gordo (Monte Gordo)@42829990
+2167@BA@473@Vila de Abrantes@Estrada do Côco, km 13 - (PAO) - Vila de Abrantes (Abrantes)@42827990
+2169@BA@519@Associação Comunitária da Baixada da Paz@Rua José Visco, s/n@48110990
+2170@BA@519@Associação Comunitária e Social de Catu@Caminho 5, Casa 11 - URBIS@48110992
+2171@BA@519@Associação Beneficente do Bom Viver@Rua Carlos Gomes, 87@48110991
+2172@BA@537@Colônia de Pescadores Z-31@Rua da Igreja, s/n@48300990
+2173@BA@366@Araçás@Praça da Matriz, s/n@48108990
+2174@BA@369@Aramari@Rua Juvino Cunha, s/n@48130990
+2175@BA@379@Comercial Maria do Bairro@Rua Risoleta Neves, s/n@45675990
+2176@BA@400@Edelzuíta Maria Dias@Rua G, s/n - Firno Leal@45560990
+2177@BA@364@Aporá@Rua Coronel Francelino, 301@48350990
+2178@BA@537@Farmácia Vila Nova@Avenida Oito de Setembro, s/n@48300991
+2179@BA@565@Associação Beneficente Unida e Desp. de Biribeira@Rua Antônio Norberto, 06@42850990
+2180@BA@575@Casa Senhor do Bonfim@Rua Lauro de Freitas, s/n@48180992
+2181@BA@575@Mercearia Casa Progresso@Avenida Presidente Médici, 1@48180991
+2182@BA@575@Letícia Maria Sousa Rocha Ltda@Rua Dois de Fevereiro, 1830-Bela Vista-MCPC Instalado na Casa Material de Constr@48180990
+2183@BA@582@Associação dos Trabalhadores do Rosário@Rua Tijuca do Sul, s/n@44072990
+2184@BA@624@Associação de Moradores do Bairro D. Guedes@Quadra L, 186 - Mercearia Dias@45745990
+2185@BA@626@Noedna M. da S. Santana@Praça do Mercado, s/n@45290990
+2186@BA@626@Vanilza Pinheiro Cruz@Rua da Bandinha, s/n - MCPC Instalado na Escola Ministro Tarso Dutra@45290992
+2187@BA@626@Maria de Fátima L. S. Galvão@Rua Jerson França, s/n@45290991
+2188@BA@634@Prefeitura Municipal de Ibirapitanga_@Anexo Centro Educacional de Itamaraty@45500991
+2189@BA@634@Prefeitura Municipal de Ibirapitanga - Escola Edson Ramos de Almeida@Escola Edson Ramos de Almeida@45500992
+2190@BA@634@Prefeitura Municipal de Ibirapitanga - Escola Maria das Dores@Escola Maria das Dores@45500990
+2191@BA@636@Supermercado Mirante@Alto do Mirante@45580990
+2193@BA@668@Teotônio Januário dos Santos@Rua Dona Benta - Sítio do Pica-pau@45570991
+2194@BA@682@Prefeitura Municipal de Itaberaba - Posto Médico@Praça J. J. Seabra, 373 - Posto Médico do Povoado de Alagoas@46880991
+2195@BA@682@Prefeitura Municipal de Itaberaba - Mercado Municipal de São Vicente@Praça J. J. Seabra, 373@46880990
+2199@BA@708@Itanagra@Rua Nestor Duarte, 46@48290990
+2200@BA@745@Jandaíra@Rua Capitão Durval Faria, s/n@48310990
+2201@BA@753@Prefeitura Municipal de Jitaúna@Lomanto Júnior, 14 - Centro@45225990
+2202@BA@851@Associação Comunitária do Povoado de Rosa Benta@Praça Ovídio de Carvalho, s/n - Centro@44850991
+2203@BA@851@Associação Comunitária de Dias Coelho@Praça Doutor Muniz, 04 - Centro@44850990
+2204@BA@801@Prefeitura Municipal de Madre de Deus@Posto Médico do Distrito de Maria Guarda Madre de Deus@42600990
+2205@BA@827@Barramar Comércio de Alimentos Ltda@Loteamento Praia de Imbassaí, s/n - Lote 01, Quadra 08 - Imbassaí@48280992
+2206@BA@944@Prefeitura Municipal de Porto Seguro@Rua Carlos Alberto de Souza Parracho, s/n@45819990
+2207@BA@1090@Supermercado Maia@Avenida Antonio Carlos, s/n@45545991
+2208@BA@1090@Joana Celeste V. Magno@Armarinho Celeste Distrito de Faisqueira@45545990
+2209@BA@1091@Florisvaldo Cardoso Almeida@Rua Félix Londrina, 239@45550990
+2210@BA@1091@Barachísio Martins de Souza@Avenida Landulfo Alves, s/n@45550991
+2211@BA@1091@Wannuacick Pereira Bonfim@Rua Francisco Xavier, 67@45550992
+2212@BA@939@Associação dos Moradores do Bairro do Retiro@Módulo Esportivo do Retiro, s/n@48120990
+2213@BA@939@Associação Católica Comunitária de Pojuca@Loteamento Jardim Los Angeles, s/n@48120991
+2214@BA@1027@Associação Beneficente e Recreativa de B. Areia@Rua Banco de Areia, s/n@43850991
+2215@BA@1113@Prefeitura Municipal de Vera Cruz - Cacha Pregos@Travessa Recuada, 57 - Cacha Pregos@44478990
+2709@BA@366@Associação Comunitária dos Moradores do Gaioso@Fazenda Gaioso, s/n@48108991
+2710@BA@379@Associação dos Moradores do Distrito de Lage Branco@Praça Mário Reis, s/n@45675991
+2711@BA@427@Associação dos Irrigantes do Projeto Formoso A@Posto Telefônico Setor 33, Projeto Formoso A@47600990
+2712@BA@400@Associação Comunitária de Tapirama@Praça Idelbrando Ribeiro, s/n@45560991
+2713@BA@427@Associação dos Pequenos Produtores Rurais de Favelândia@Praça do Comércio, s/n@47600991
+2730@BA@465@Pedreira Comércio e Indústria de Produtos Alimentícios Ltda@Rua da Rainha, 46-A - Distrito de Morro de São Paulo@45420990
+2731@BA@472@Prefeitura Municipal de Camacan@Avenida Doutor João Gonzaga, 622 - Centro (Posto de Saúde S. J. Panelinha)@45880990
+2734@BA@489@Associação Beneficente e Comunitária dos Moradores da URBIS I@Caminho 10, s/n@43800992

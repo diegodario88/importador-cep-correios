@@ -1,0 +1,60 @@
+1001195@SE@8770@14221@@H@(Lot Juciara)@49061085@Rua@S@R H
+1001196@SE@8770@56552@@Procurador José Costa Cavalcante@@49003247@Rua@S@R Proc José C Cavalcante
+1001197@SE@8770@56552@@Promotor Paulo Moura@@49003250@Rua@S@R Prom Paulo Moura
+1001198@SE@8770@56552@@Promotor Pedro Rubens dos Santos@@49003253@Rua@S@R Prom Pedro R dos Santos
+1001199@SE@8770@56552@@Vinte e Dois@(Bloco 2)@49003256@Acesso@S@Ac Vinte e Dois
+1001200@SE@8770@56552@@Vinte e Sete@(Bloco 2)@49003259@Acesso@S@Ac Vinte e Sete
+1001201@SE@8770@56552@@Vinte e Cinco@(Bloco 2)@49003238@Acesso@S@Ac Vinte e Cinco
+1001202@SE@8770@56552@@Promotor Avante Amaral de Oliveira@@49003241@Rua@S@R Prom Avante A de Oliveira
+1001203@SE@8770@56552@@José Rodrigues Sobrinho@(Bloco 2) - lado par@49003160@Avenida@S@Av José R Sobrinho
+1001204@SE@8770@56552@@Promotora Maria Zita Pires@@49003163@Rua@S@R Proma Maria Z Pires
+1001205@SE@8770@56552@@Dezoito@(Bloco 2)@49003166@Acesso@S@Ac Dezoito
+1001206@SE@8770@56552@@Vinte@(Bloco 2)@49003169@Acesso@S@Ac Vinte
+1001207@SE@8770@56552@@Vinte e Três@(Bloco 2)@49003172@Acesso@S@Ac Vinte e Três
+1001208@SE@8770@56552@@Vinte e Oito@(Bloco 2)@49003175@Acesso@S@Ac Vinte e Oito
+1001209@SE@8770@56552@@Trinta@(Bloco 2)@49003178@Acesso@S@Ac Trinta
+1001210@SE@8770@56552@@Quinze@(Bloco 2)@49003181@Acesso@S@Ac Quinze
+1001211@SE@8770@56552@@Promotor Aluisio Barbosa Porto@@49003184@Rua@S@R Prom Aluisio B Pto
+1001212@SE@8770@56552@@Onze@(Bloco 2)@49003187@Acesso@S@Ac Onze
+1001213@SE@8770@56552@@Vinte e Nove@(Bloco 2)@49003190@Acesso@S@Ac Vinte e Nove
+1001214@SE@8770@56552@@Promotora Maria Aparecida dos Santos@@49003193@Rua@S@R Proma Maria A dos Santos
+1001215@SE@8770@56552@@Vinte e Seis@(Bloco 2)@49003196@Acesso@S@Ac Vinte e Seis
+1001216@SE@8770@56552@@Promotora Maria da Conceição Ribeiro@@49003199@Rua@S@R Proma Maria da C Ribeiro
+1001217@SE@8770@56552@@Vinte e Um@(Bloco 2)@49003202@Acesso@S@Ac Vinte e Um
+1001218@SE@8770@56552@@Procurador Jugurta Barreto Lima@@49003205@Rua@S@R Proc Jugurta B Lima
+1001219@SE@8770@56552@@Quatorze@(Bloco 2)@49003208@Acesso@S@Ac Quatorze
+1001220@SE@8770@56552@@Dez@(Bloco 2)@49003211@Acesso@S@Ac Dez
+1001221@SE@8770@56552@@Promotora Maria José Pizzi de Menezes Moreira@@49003214@Rua@S@R Proma Maria J P de M Moreira
+1001222@SE@8770@56552@@Promotor Fernando Barreto Nunes@@49003217@Rua@S@R Prom Fernando B Nunes
+1001223@SE@8770@56552@@Promotor José Luiz Melo@@49003223@Rua@S@R Prom José L Melo
+1001224@SE@8770@56552@@Promotor José Gomes de Andrade@@49003226@Rua@S@R Prom José G de Andrade
+1001225@SE@8770@56552@@Promotora Maria Anamira Amado Batalha Neta@@49003229@Rua@S@R Proma Maria A A B Neta
+1001226@SE@8770@56552@@Promotor Carlos Augusto Garcez@@49003235@Rua@S@R Prom Carlos A Garcez
+1001227@SE@8770@14201@@Ulisses Alves de Moura@@49031063@Rua@S@R Ulisses A de Moura
+1001228@SE@8770@56552@@João Batista Costa@- até 615 - lado ímpar@49003232@Avenida@S@Av João B Costa
+1001229@SE@8770@14210@@C@(Pousada Verde)@49088255@Rua@S@R C
+1001230@SE@8770@14210@@N@(Pousada Verde)@49088269@Rua@S@R N
+1001231@SE@8770@56552@@Luiz Carlos Prestes@- até 520 - lado par@49003220@Avenida@S@Av Luiz C Prestes
+1001232@SE@8770@14228@@Maria do Carmo Batista Santos@@49043787@Rua@S@R Maria do C B Santos
+1001233@SE@8770@14205@@B@(At da Favela)@49065063@Travessa@S@Tv B
+1001234@SE@8770@14205@@B@(Lot Sta Tereza)@49066246@Travessa@S@Tv B
+1003776@SE@8770@14215@@Josefina Fagundes Pereira@@49060706@Rua@S@R Josefina F Pereira
+1003777@SE@8770@30721@@Pedro Rogério Cardoso Barbosa@@49001120@Rua@S@R Pedro R C Barbosa
+1003778@SE@8770@14223@@Cinco@(Cj Orlando Dantas)@49043083@Travessa@S@Tv Cinco
+1003779@SE@8770@14226@@das Rosas@@49089084@Travessa@S@Tv das Rosas
+1003780@SE@8770@14226@@dos Cravos@@49089098@Rua@S@R dos Cravos
+1004664@SE@8770@14221@@Granja Altamira@- até 99997/99998@49060186@Rua@S@R Gja Altamira
+1004665@SE@8770@56417@@Granja Altamira@- de 1/2 ao fim@49063010@Rua@S@R Gja Altamira
+1004666@SE@8770@56417@@João Batista Cabral@- lado ímpar@49063070@Rua@S@R João B Cabral
+1004667@SE@8770@14218@@João Batista Cabral@- lado par@49067033@Rua@S@R João B Cabral
+1004668@SE@8770@14221@@Santa Terezinha@- até 99998 - lado par@49060183@Rua@S@R Sta Terezinha
+1004669@SE@8770@56417@@Santa Terezinha@- de 2 ao fim - lado par@49063001@Rua@S@R Sta Terezinha
+1004670@SE@8770@14197@@Santa Terezinha@- lado ímpar@49070355@Rua@S@R Sta Terezinha
+1004671@SE@8770@56417@@Espírito Santo@- de 1/2 ao fim@49063016@Rua@S@R Espírito Santo
+1004672@SE@8770@14197@@Espírito Santo@- até 99997/99998@49070179@Rua@S@R Espírito Santo
+1004673@SE@8770@14197@@Maria Auxiliadora Mendonça Melo@- até 99997/99998@49070583@Avenida@S@Av Maria A M Melo
+1004674@SE@8770@56417@@Maria Auxiliadora Mendonça Melo@- de 1/2 ao fim@49063031@Avenida@S@Av Maria A M Melo
+1004675@SE@8770@14197@@Bolívia@- até 99997/99998@49070083@Rua@S@R Bolívia
+1004676@SE@8770@56417@@Bolívia@- de 1/2 ao fim@49063013@Rua@S@R Bolívia
+1004677@SE@8770@56417@@Sete de Setembro@- até 99997/99998@49063055@Rua@S@R Sete de Setembro
+1004678@SE@8770@14218@@Sete de Setembro@- de 1/2 ao fim@49067036@Rua@S@R Sete de Setembro

@@ -1,5 +1,17 @@
+11059@AC@Campinas@69929000@0@D@13@Campinas@
+12@AC@Marechal Thaumaturgo@69983000@0@M@@Mal Thaumaturgo@1200351
+15393@AC@Terra Indígena Mamoadate@69944810@0@P@19@Terra Ind Mamoadate@
+15398@AC@Terra Indígena Riozinho do Alto Envira@69959810@0@P@18@Terra Ind R At Envira@
+15321@AC@Terra Indígena Mamoadate@69939810@0@P@2@Terra Ind Mamoadate@
+15322@AC@Terra Indígena Alto Tarauacá@69969810@0@P@8@Terra Ind At Tarauacá@
+15323@AC@Terra Indígena Kampa e Isolados do Rio Envira@69969820@0@P@8@Terra Ind K I R Envira@
+15324@AC@Terra Indígena Kaxinawá do Rio Humaitá@69969830@0@P@8@Terra Ind K R Humaitá@
+15325@AC@Terra Indígena Kulina do Rio Envira@69969840@0@P@8@Terra Ind K R Envira@
+15326@AC@Terra Indígena Riozinho do Alto Envira@69969850@0@P@8@Terra Ind R At Envira@
+15327@AC@Terra Indígena Igarapé Taboca do Alto Tarauacá@69979810@0@P@9@Terra Ind I T At Tarauacá@
+1@AC@Acrelândia@69945000@0@M@@Acrelândia@1200013
 2@AC@Assis Brasil@69935000@0@M@@Assis Brasil@1200054
-15398@AC@Terra Indígena Riozinho do Alto Envira@69959810@0@P@18@Terra I R At Envira@
+3@AC@Brasiléia@69932000@0@M@@Brasiléia@1200104
 4@AC@Bujari@69926000@0@M@@Bujari@1200138
 5@AC@Capixaba@69931000@0@M@@Capixaba@1200179
 6@AC@Cruzeiro do Sul@69980000@0@M@@Cruzeiro Sul@1200203
@@ -14,7 +26,35 @@
 18@AC@Santa Rosa do Purus@69955000@0@M@@Sta Rosa Purus@1200435
 20@AC@Senador Guiomard@69925000@0@M@@Sen Guiomard@1200450
 22@AC@Xapuri@69930000@0@M@@Xapuri@1200708
-1@AC@Acrelândia@69945000@0@M@@Acrelândia@1200013
-19@AC@Sena Madureira@69940000@0@M@@Sena Madureira@1200500
+13@AC@Plácido de Castro@69928000@0@M@@Plácido Castro@1200385
 21@AC@Tarauacá@69970000@0@M@@Tarauacá@1200609
 16@AC@Rio Branco@@1@M@@Rio Branco@1200401
+19@AC@Sena Madureira@69940000@0@M@@Sena Madureira@1200500
+15367@AC@Terra Indígena Alto Tarauacá@69979820@0@P@9@Terra Ind At Tarauacá@
+15709@AL@Impueiras@57629300@0@P@77@Impueiras@
+15601@AL@Alto do Garrote@@2@P@184@At Garrote@
+15602@AL@Alecrim@57269520@0@P@184@Alecrim@
+15603@AL@Cavaçú@57269540@0@P@184@Cavaçú@
+15604@AL@Gulandim@@2@D@184@Gulandim@
+15605@AL@Mutuns@57269580@0@P@184@Mutuns@
+15606@AL@Água de Meninos@@2@D@184@Água Meninos@
+15607@AL@Sucupira@57269620@0@D@184@Sucupira@
+15608@AL@Lagoa II@57269640@0@P@184@Lagoa II@
+15609@AL@Gravatá@57269660@0@P@184@Gravatá@
+15610@AL@Aboboreira@57269680@0@P@184@Aboboreira@
+15611@AL@Lagoa I@57269700@0@P@184@Lagoa I@
+15612@AL@Imburí do Matão@57269720@0@P@184@Imburí Matão@
+15613@AL@Matão do Roberto@57269740@0@P@184@Matão Roberto@
+15614@AL@Chã do Remígio@57269760@0@P@184@Chã Remígio@
+15615@AL@Folha Larga@57269780@0@P@184@Folha Larga@
+15616@AL@Santa Maria@57269800@0@P@184@Sta Maria@
+15617@AL@Imburí do Inácio@57269820@0@D@184@Imburí Inácio@
+61@AL@Canapi@57530000@0@M@@Canapi@2701605
+62@AL@Canastra@57895000@0@D@85@Canastra@
+63@AL@Cangandu@57318100@0@P@30@Cangandu@
+64@AL@Capela@57780000@0@M@@Capela@2701704
+65@AL@Carneiros@57535000@0@M@@Carneiros@2701803
+66@AL@Carrasco@57318200@0@D@30@Carrasco@
+68@AL@Coité do Nóia@57325000@0@M@@Coité Nóia@2702009
+69@AL@Colônia Leopoldina@57975000@0@M@@Col Leopoldina@2702108
+71@AL@Coruripe@57230000@0@M@@Coruripe@2702306

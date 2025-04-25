@@ -1,0 +1,60 @@
+1003304@PB@4904@6949@@Maria Luiza Nascimento Alencar@@58421652@Rua@S@R Maria L N Alencar
+1003305@PB@4904@6949@@Francisco Pereira da Costa@@58421654@Rua@S@R Francisco P da Costa
+1003306@PB@4904@6949@@Luiz Vieira da Silva@@58421656@Rua@S@R Luiz V da Silva
+1003307@PB@4904@6949@@Rui Costa Barreto@@58421658@Rua@S@R Rui C Barreto
+1003308@PB@4904@6949@@Engrácio Guedes Bezerra@@58421648@Rua@S@R Engrácio G Bezerra
+1003309@PB@4904@6949@@Robson Pereira Lima@@58421646@Rua@S@R Robson P Lima
+1003310@PB@4964@37650@@Osvaldo Oliveira da Silva@@58052075@Rua@S@R Osvaldo O da Silva
+1003311@PB@4964@7001@@Praia Azul@@58059847@Rua@S@R Pr Azul
+1003312@PB@4964@7001@@Praia de Coqueiros@@58059844@Rua@S@R Pr de Coqueiros
+1003313@PB@4964@7001@@Praia Acaú@@58059841@Rua@S@R Pr Acaú
+1003314@PB@4964@6985@@Funcionário Josias Prudêncio da Silva@@58075641@Rua@S@R Func Josias P da Silva
+1003315@PB@4964@37729@@Maria das Neves Santos@@58051597@Rua@S@R Maria das N Santos
+1003316@PB@4964@6972@@Maria Galdino do Nascimento@@58090273@Rua@S@R Maria G do Nascimento
+1003317@PB@4964@6981@@João Batista da Rocha@@58071705@Rua@S@R João B da Rocha
+1003319@PB@4964@37729@@Cantora Ivone Lira Lima@@58051599@Rua@S@R Cta Ivone L Lima
+1003320@PB@5114@7055@@José Gonçalves Ribeiro@@58806382@Rua@S@R José G Ribeiro
+1004285@PB@4904@51166@@Lynaldo Cavalcanti de Albuquerque@@58433736@Rua@S@R Lynaldo C de Albuquerque
+1004286@PB@4904@51169@@Irmã Porto@@58434096@Rua@S@R Ima Pto
+1004287@PB@4904@51169@@Professor Simão Arruda Guimarães@@58434137@Rua@S@R Prf Simão A Guimarães
+1004288@PB@4904@51169@@Antonio Mangueira Diniz@@58434170@Rua@S@R Antonio M Diniz
+1004289@PB@4904@51169@@Isaias Bezerra de Souza@@58434182@Rua@S@R Isaias B de Souza
+1004290@PB@4904@51169@@Jefferson Guedes de Araujo@@58434185@Rua@S@R Jefferson G de Araujo
+1004291@PB@4904@51166@@Josepha Filomena de Almeida@@58433706@Rua@S@R Josepha F de Almeida
+1004292@PB@4904@51166@@Vereador Manoel Figueiredo@@58433709@Rua@S@R Ver Manoel Figueiredo
+1004293@PB@4904@51166@@Maria do Carmo Marques dos Santos@@58433712@Rua@S@R Maria do C M dos Santos
+1004294@PB@4904@51166@@Cabo Romualdo Brito Figueiredo@@58433715@Rua@S@R Cb Romualdo B Figueiredo
+1004295@PB@4904@51166@@Sindicalista Maria Ednalva B. de Lima@@58433718@Rua@S@R Sind Maria E B. de Lima
+1004296@PB@4904@51166@@Comerciante Diogenes Donato@@58433724@Rua@S@R Cote Diogenes Donato
+1004297@PB@4904@51166@@Maria Dalva de Almeida Uchoa@@58433733@Rua@S@R Maria D de A Uchoa
+1004298@PB@4964@37491@@Gumercindo Cabral de Lucena@@58046725@Rua@S@R Gumercindo C de Lucena
+1006683@PB@4904@6949@@Vanildo Pereira dos Santos@@58421644@Rua@S@R Vanildo P dos Santos
+1006684@PB@4904@6949@@Katarina Maria Uchoa Lucena@@58421660@Rua@S@R Katarina M U Lucena
+1006685@PB@4904@6949@@Jomarcio Travassos de Moura@@58421664@Rua@S@R Jomarcio T de Moura
+1006686@PB@4904@51179@@General Carlos Lamarca@@58423544@Rua@S@R Gen Carlos Lamarca
+1006687@PB@4964@49509@@Tenente Manoel Rosendo da Silva@@58065081@Rua@S@R Ten Manoel R da Silva
+1006689@PB@4964@7001@@João Arruda Campos@@58059109@Rua@S@R João A Campos
+1006690@PB@4964@6981@@Ysabel Escalabri@@58071692@Rua@S@R Ysabel Escalabri
+1006691@PB@4964@6973@@Escritora Rosilda Cartaxo@@58035027@Rua@S@R Esca Rosilda Cartaxo
+1006692@PB@4964@37500@@Severina do Nascimento Fonseca@@58066280@Rua@S@R Severina do N Fonseca
+1006693@PB@4964@49509@@Argemira Gomes Arruda@@58065046@Rua@S@R Argemira G Arruda
+1006694@PB@4964@49509@@Ednaldo Anacleto de Arruda@@58065219@Rua@S@R Ednaldo A de Arruda
+1006695@PB@4964@37491@@Amazile da Silva@@58046663@Rua@S@R Amazile da Silva
+1006696@PB@4964@43523@@Maria Antonieta Pereira Salles@@58062196@Rua@S@R Maria A P Salles
+1006697@PB@4964@43523@@Isauro Domingues de Carvalho@@58062198@Rua@S@R Isauro D de Carvalho
+1006698@PB@4964@43523@@Aposentada Josefa Mesquita da Silva@@58062200@Rua@S@R Apª Josefa M da Silva
+1006699@PB@4964@43523@@Estudante Kleber Ferreira de Araújo@@58062202@Rua@S@R Estud Kleber F de Araújo
+1006700@PB@4964@43523@@Luiz Carlos Bronzeado Machado@@58062204@Rua@S@R Luiz C B Machado
+1006701@PB@4964@43523@@José Israel de Oliveira@@58062206@Rua@S@R José I de Oliveira
+1006702@PB@4964@43523@@José Miguel de Lima@@58062215@Rua@S@R José M de Lima
+1006703@PB@4964@7001@@Comerciante José Galdino Anselmo@@58058593@Rua@S@R Cote José G Anselmo
+1006704@PB@4964@7001@@Pedro Pio Chaves@@58058643@Rua@S@R Pedro Pio Chaves
+1006705@PB@4964@6998@@José Gouveia de Lima@@58074178@Rua@S@R José G de Lima
+1006706@PB@4964@43475@@Otacilio Mangueira Ramalho@@58036836@Rua@S@R Otacilio M Ramalho
+1008499@PB@4904@51177@@Ilma Ramos Lucio Pedrosa@@58421005@Rua@S@R Ilma R L Pedrosa
+1008500@PB@4904@51169@@Dom Helder Pessoa Camara@@58434191@Rua@S@R D Helder P Camara
+1008501@PB@4904@51179@@Severino Francisco dos Santos@@58423548@Rua@S@R Severino F dos Santos
+1008502@PB@4904@51179@@Joao Amazonas de Souza Pedroso@@58423552@Rua@S@R Joao A de S Pedroso
+1008503@PB@4904@51179@@Pedra Lavrada@@58423334@Rua@S@R Pedra Lavrada
+1008504@PB@4964@6998@@Rosalva Pereira de Barros@@58074188@Rua@S@R Rosalva P de Barros
+1008505@PB@4964@37491@@José Ayrthon Nóbrega@@58046547@Rua@S@R José A Nóbrega

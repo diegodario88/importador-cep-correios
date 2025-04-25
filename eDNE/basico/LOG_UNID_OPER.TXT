@@ -1,16 +1,60 @@
-48437@AC@11059@51784@@AGC Campinas@Rua KaxinawÃ¡s, s/n@69929970@N@AGC Campinas
-12035@AC@22@39326@@AC Xapuri@Rua 24 de Janeiro, 270@69930970@S@AC Xapuri
+48437@AC@11059@51784@@AGC Campinas@Rua Kaxinawás, s/n@69929970@N@AGC Campinas
+11986@AC@5@39323@@AC Capixaba@Avenida Governador Edmundo Pinto, 711@69931970@N@AC Capixaba
+12039@AC@19@39330@@AC Sena Madureira@Rua Dom Júlio Matiolli, 290@69940970@N@AC Sena Madureira
 12046@AC@6@39337@@AC Cruzeiro do Sul@Rua Rego Barros, 73@69980970@S@AC Cruzeiro Sul
 34293@AC@6@39337@@CDD Cruzeiro do Sul@Rua Rego Barros, 73@69980972@N@CDD Cruzeiro Sul
-12037@AC@7@39328@@AC EpitaciolÃ¢ndia@Avenida Santos Dumont, 160@69934970@N@AC EpitaciolÃ¢ndia
-12043@AC@8@39334@@AC FeijÃ³@Avenida PlÃ¡cido de Castro, 871@69960970@N@AC FeijÃ³
-12044@AC@21@39335@@AC TarauacÃ¡@Rua Coronel JuvÃªncio de Menezes, 158@69970970@S@AC TarauacÃ¡
-12040@AC@1@39331@@AC AcrelÃ¢ndia@Avenida ParanÃ¡, 296@69945970@N@AC AcrelÃ¢ndia
-12050@AC@10@39341@@AC MÃ¢ncio Lima@Rua Alberto Gadelha, 333@69990970@N@AC MÃ¢ncio Lima
-12041@AC@11@39332@@AC Manoel Urbano@Rua ValÃ©rio Caldas MagalhÃ£es, 92@69950970@N@AC Manoel Urbano
+12037@AC@7@39328@@AC Epitaciolândia@Avenida Santos Dumont, 160@69934970@N@AC Epitaciolândia
+12043@AC@8@39334@@AC Feijó@Avenida Plácido de Castro, 871@69960970@N@AC Feijó
+30613@AC@16@55411@1009707@CLI Rio Branco@Via Verde, 2434@69906970@N@CLI Rio Branco
+12040@AC@1@39331@@AC Acrelândia@Avenida Paraná, 296@69945970@N@AC Acrelândia
+12050@AC@10@39341@@AC Mâncio Lima@Rua Alberto Gadelha, 333@69990970@N@AC Mâncio Lima
+12041@AC@11@39332@@AC Manoel Urbano@Rua Valério Caldas Magalhães, 92@69950970@N@AC Manoel Urbano
 12038@AC@2@39329@@AC Assis Brasil@Rua Dom Giocondo Maria Grotte, 230@69935970@N@AC Assis Brasil
-11987@AC@20@39324@@AC Senador Guiomard@Avenida Castelo Branco, 1750@69925970@N@AC Sen Guiomard
-12036@AC@3@39327@@AC BrasilÃ©ia@Avenida Prefeito Rolando Moreira, 170@69932970@S@AC BrasilÃ©ia
-11984@AC@4@39321@@AC Bujari@Rua Expedito Pereira de Souza, 971@69926970@N@AC Bujari
-12045@AC@9@39336@@AC JordÃ£o@Rua Romildo MagalhÃ£es, s/n@69975970@N@AC JordÃ£o
+12045@AC@9@39336@@AC Jordão@Rua Romildo Magalhães, s/n@69975970@N@AC Jordão
 12048@AC@12@39339@@AC Marechal Thaumaturgo@Rua 5 de Novembro, 125@69983970@N@AC Mal Thaumaturgo
+11988@AC@13@39325@@AC Plácido de Castro@Avenida Diamantino Augusto de Macedo, 580@69928970@N@AC Plácido Castro
+11985@AC@14@39322@@AC Porto Acre@Rua Margaridas, 131@69927970@N@AC Pto Acre
+12047@AC@15@39338@@AC Porto Walter@Rua Projetada, s/n@69982970@N@AC Pto Walter
+1@AC@16@17@948034@AC Rio Branco@Avenida Epaminondas Jácome, 2858@69900970@S@AC Rio Branco
+25740@AC@16@17@814@AC Oca@Rua Quintino Bocaiúva, 299@69900974@N@AC Oca
+24821@AC@16@55445@950232@CDD Bosque@Avenida Ceará, 3607@69900973@N@CDD Bosque
+5@AC@16@10@950390@CDD Rio Branco@Rua Floriano Peixoto, 411@69900971@N@CDD Rio Branco
+27136@AC@16@55419@948668@AC João Eduardo@Avenida Sobral, 960@69911970@N@AC João Eduardo
+6@AC@16@55411@1009707@CDD Seis de Agosto@Via Verde, 2434@69905970@N@CDD Seis Agosto
+12049@AC@17@39340@@AC Rodrigues Alves@Avenida Presidente Vargas, s/n@69985970@N@AC Rodrigues Alves
+11987@AC@20@39324@@AC Senador Guiomard@Avenida Castelo Branco, 1750@69925970@N@AC Sen Guiomard
+12044@AC@21@39335@@AC Tarauacá@Rua Coronel Juvêncio de Menezes, 158@69970970@S@AC Tarauacá
+12035@AC@22@39326@@AC Xapuri@Rua 24 de Janeiro, 270@69930970@S@AC Xapuri
+12036@AC@3@39327@@AC Brasiléia@Avenida Prefeito Rolando Moreira, 170@69932970@S@AC Brasiléia
+11984@AC@4@39321@@AC Bujari@Rua Expedito Pereira de Souza, 971@69926970@N@AC Bujari
+12042@AC@18@39333@@AC Santa Rosa do Purus@Rua Coronel José Ferreira, 1498@69955970@N@AC Sta Rosa Purus
+53738@AL@14995@95695@@AC Pindorama@Avenida Camaçari, s/n@57238975@N@AC Pindorama
+54368@AL@15733@97003@@AGC Povoado Caraibeiras dos Teodósios@Povoado Caraibeiras dos Teodósios, s/n@57479970@N@AGC Pov Caraibeiras Teodósios
+10974@AL@10089@38551@@AC Jequiá da Praia@Travessa Boa Vista, 423@57255970@N@AC Jequiá Praia
+23459@AL@11081@51210@@AGC Pontal de Coruripe@Rua Grande, s/n@57234970@N@AGC Pontal Coruripe
+24568@AL@11082@80212@@AGC Botafogo@Rua do Posto, s/n@57237970@N@AGC Botafogo
+23451@AL@11083@51211@@AGC Bonsucesso@Rua Nova, s/n@57239970@N@AGC Bonsucesso
+55871@AL@11697@98775@@AGC Barreiras@Rua Luiz Lima Beltrão, s/n@57236970@N@AGC Barreiras
+11260@AL@160@38762@@AC Roteiro@Rua João Pedro, s/n@57257970@N@AC Roteiro
+51609@AL@162@38584@@AGC Santa Luzia do Norte@Rua Estevão Protomartir de Brito, 84@57130971@N@AGC Sta Luzia Norte
+10912@AL@163@97079@@AC Santana do Ipanema@Avenida Doutor Arsênio Moreira, 358@57500970@N@AC Santana Ipanema
+11055@AL@164@38580@@AC Santana do Mundaú@Rua Silvestre Péricles, s/n@57840970@N@AC Santana Mundaú
+11144@AL@166@38663@@AC São Brás@Rua São José, 02@57380970@N@AC S Brás
+11062@AL@167@38589@@AC São José da Laje@Avenida Valdemar Pontes, s/n@57860970@N@AC S José Laje
+11123@AL@168@38648@@AC São José da Tapera@Rua 24 de Dezembro, 65@57445970@N@AC S José Tapera
+11063@AL@169@38590@@AC São Luís do Quitunde@Rua Doutor Fernando Sarmento, S/N@57920970@N@AC S Luís Quitunde
+11040@AL@170@38568@1130846@AC São Miguel dos Campos@Praça Padre Júlio de Albuquerque, 16@57240970@N@AC S Miguel Campos
+11076@AL@171@38599@@AC São Miguel dos Milagres@Rua Vereador Lamenha Couto, 119@57940970@N@AC S Miguel Milagres
+11107@AL@172@38629@@AC São Sebastião@Rua Valdevino da Silva, 39@57275970@N@AC S Sebastião
+11122@AL@176@38646@@AC Senador Rui Palmeira@Rua do Comércio, 482@57515970@N@AC Sen Rui Palmeira
+10938@AL@175@92365@@AC Satuba@Rua Tenente Paulo Winteler, 38@57120970@N@AC Satuba
+11225@AL@92@38744@@AC Jaramataia@Rua do Comércio, 173@57425970@N@AC Jaramataia
+11279@AL@94@38780@@AC Joaquim Gomes@Rua José Correia de Araújo, 13@57980970@N@AC Joaquim Gomes
+11278@AL@95@38779@@AC Jundiá@Rua Nossa Senhora da Conceição, 37@57965970@N@AC Jundiá
+11088@AL@96@38521@1555818@AC Junqueiro@Praça Padre Aurélio Gois, 32@57270970@N@AC Junqueiro
+11034@AL@98@38564@@AC Lagoa da Canoa@Avenida Antonio Albuquerque, 16@57330970@N@AC Lga Canoa
+11059@AL@124@38586@@AC Murici@Avenida Presidente Vargas, 23@57820970@N@AC Murici
+11275@AL@125@38776@@AC Novo Lino@Rua do Comércio, 288@57970970@N@AC Novo Lino
+11231@AL@126@38746@@AC Olho D'Água Grande@Rua Quatorze de Setembro, 92@57390970@N@AC Olho D Grande
+4814@AL@154@32289@@AGC Poxim@Praça São José, s/n@57235970@N@AGC Poxim
+11060@AL@155@38587@@AC Quebrangulo@Praça Major Cícero de Góes Monteiro, 152@57750970@N@AC Quebrangulo

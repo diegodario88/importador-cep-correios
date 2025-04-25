@@ -1,0 +1,60 @@
+1000000@RS@8104@13662@@E@(Lot Jardins)@98805816@Rua@S@R E
+1000001@RS@8104@13662@@F@(Lot Jardins)@98805818@Rua@S@R F
+1000002@RS@8104@13662@@G@(Lot Jardins)@98805820@Rua@S@R G
+1000003@RS@8104@13662@@K@(Lot Jardins)@98805811@Rua@S@R K
+1000004@RS@8104@13635@@Araucária@@98802027@Travessa@S@Tv Araucária
+1000005@RS@8104@13668@@Santa Maria@@98807087@Avenida@S@Av Sta Maria
+1000006@RS@8104@13668@@Alcides Barrios@@98807068@Travessa@S@Tv Alcides Barrios
+1000007@RS@8104@13668@@Ernestina Lemke@@98807077@Travessa@S@Tv Ernestina Lemke
+1000008@RS@8104@13645@@Casemira Jaskulski@@98802607@Travessa@S@Tv Casemira Jaskulski
+1000009@RS@8104@13645@@Julio Obalski@@98802609@Travessa@S@Tv Julio Obalski
+1000010@RS@8104@13651@@Nove de Novembro@@98804865@Travessa@S@Tv Nove de Novembro
+1000011@RS@8146@13714@@Carlos Krohn@- lado ímpar@93044803@Rua@S@R Carlos Krohn
+1000012@RS@8146@13697@@Carlos Krohn@- lado par@93044252@Rua@S@R Carlos Krohn
+1000013@RS@8294@13783@@dos Eucalipitos Tarumã@@94417090@Rua@S@R dos Eucalipitos Tarumã
+1003618@RS@7533@13130@@Antônio João Bianchini@- até 399 - lado ímpar@92325781@Rua@S@R Antônio J Bianchini
+1003619@RS@7533@13133@@Antônio João Bianchini@- até 398 - lado par@92323850@Rua@S@R Antônio J Bianchini
+1003620@RS@7533@13130@@Antônio João Bianchini@- de 401 ao fim - lado ímpar@92325791@Rua@S@R Antônio J Bianchini
+1003621@RS@7533@13133@@Antônio João Bianchini@- de 400 ao fim - lado par@92323890@Rua@S@R Antônio J Bianchini
+1003622@RS@7566@93142@@Albino Boff@@95074716@Rua@S@R Albino Boff
+1003623@RS@7566@13177@@Idilia Menegotto Rasia@@95098652@Rua@S@R Idilia M Rasia
+1003624@RS@7566@93142@@José Gentil Alves@@95074728@Rua@S@R José G Alves
+1003625@RS@7566@93142@@Joaquim Longo@@95074712@Rua@S@R Joaquim Longo
+1003626@RS@7748@13292@@Miguel Couto@@94080032@Rua@S@R Miguel Couto
+1003627@RS@7748@13269@@Dona Elísia@@94025258@Rua@S@R Da Elísia
+1003628@RS@7965@13454@@Doutor José Amaral Braga Filho@@96020522@Largo@S@Lrg Dr José A B Filho
+1003629@RS@7994@13502@@Samambaias@@91550232@Rua@S@R Samambaias
+1003630@RS@8079@50367@@da Pedreira@- até 628 - lado par@96840126@Rua@S@R da Pedreira
+1003631@RS@8079@51351@@da Pedreira@- de 630/631 a 1125/1126@96845182@Rua@S@R da Pedreira
+1003632@RS@8079@13581@@João de Barros@- lado ímpar@96830211@Rua@S@R João de Barros
+1003633@RS@8079@50282@@João de Barros@- lado par@96830208@Rua@S@R João de Barros
+1003634@RS@8079@54796@@Linha João Alves@- lado ímpar@96826001@Acesso@S@Ac Linha J Alves
+1003635@RS@8079@50283@@Linha João Alves@- lado par@96824750@Acesso@S@Ac Linha J Alves
+1003636@RS@8079@13584@@Marechal Deodoro@- até 298/299@96810022@Rua@S@R Mal Deodoro
+1003637@RS@8079@13584@@Marechal Deodoro@- de 300/301 a 898/899@96810062@Rua@S@R Mal Deodoro
+1003638@RS@8079@13584@@Marechal Deodoro@- de 900/901 ao fim@96810102@Rua@S@R Mal Deodoro
+1003639@RS@8079@13584@@Marechal Floriano@- de 510/511 a 1118/1119@96810052@Rua@S@R Mal Floriano
+1003640@RS@8079@13584@@Marechal Floriano@- de 1120 a 1538 - lado par@96810106@Rua@S@R Mal Floriano
+1003641@RS@8079@13584@@Marechal Floriano@- de 1121 ao fim - lado ímpar@96810109@Rua@S@R Mal Floriano
+1003642@RS@8079@50282@@Marechal Floriano@- de 1540 ao fim - lado par@96830012@Rua@S@R Mal Floriano
+1003643@RS@8079@13584@@Marechal Floriano@- até 508/509@96810002@Rua@S@R Mal Floriano
+1003644@RS@8079@50281@@Maria Carolina@- lado ímpar@96825529@Rua@S@R Maria Carolina
+1003645@RS@8079@50282@@Maria Carolina@- lado par@96830077@Rua@S@R Maria Carolina
+1003646@RS@8079@50282@@Paul Harris@- de 930 ao fim - lado par@96830188@Avenida@S@Av Paul Harris
+1003647@RS@8079@13582@@Ruy A. Kaercher@- lado par@96815242@Rua@S@R Ruy A. Kaercher
+1003648@RS@8079@51607@@Ruy A. Kaercher@- lado ímpar@96816001@Rua@S@R Ruy A. Kaercher
+1003649@RS@8079@13584@@Thomaz Flores@- até 388/389@96810038@Rua@S@R Thomaz Flores
+1003650@RS@8079@13584@@Thomaz Flores@- de 390/391 a 998/999@96810068@Rua@S@R Thomaz Flores
+1003651@RS@8079@13584@@Thomaz Flores@- de 1000/1001 ao fim@96810078@Rua@S@R Thomaz Flores
+1003652@RS@8079@13584@@Venâncio Aires@- até 508/509@96810204@Rua@S@R Venâncio Aires
+1003653@RS@8079@13584@@Venâncio Aires@- de 510/511 a 1128/1129@96810124@Rua@S@R Venâncio Aires
+1003654@RS@8079@13584@@Venâncio Aires@- de 1130/1131 ao fim@96810336@Rua@S@R Venâncio Aires
+1003655@RS@8079@13584@@Gaspar Silveira Martins@- de 1751 a 2489 - lado ímpar@96825145@Rua@S@R Gaspar S Martins
+1003656@RS@8079@50367@@Goiás@- até 98/99@96840012@Rua@S@R Goiás
+1003657@RS@8079@50282@@Goiás@- de 100/101 ao fim@96830184@Rua@S@R Goiás
+1003658@RS@8079@13582@@Félix Hoppe@- lado ímpar@96815021@Rua@S@R Félix Hoppe
+1003659@RS@8079@51605@@Félix Hoppe@- lado par@96810288@Rua@S@R Félix Hoppe
+1003660@RS@8079@13589@@Agudo@- lado ímpar@96835391@Rua@S@R Agudo
+1003661@RS@8079@13591@@Agudo@- lado par@96835388@Rua@S@R Agudo
+1003662@RS@8079@13584@@Assis Brasil@- até 508/509@96810182@Rua@S@R Assis Brasil
+1003663@RS@8079@13584@@Assis Brasil@- de 510/511 ao fim@96810158@Rua@S@R Assis Brasil

@@ -1,18 +1,60 @@
-8357@10@Balneário
-8452@2@Floripa
-8518@4@Jaragua do Sul
-2310@5@Santa Rita
-5072@1@Santarém
-179@4@tabuleiro do Pinto
-11323@1@S Navio
-549@1@Cotejipe
-1009@1@São Dezidério
-1009@2@S Dezidério
-7275@6@São Miguel de Touros
-1401@1@Inhuporanga
-2799@1@Brasóplis
-8744@1@Tupitinga
-1489@1@Mararupá
-2462@1@Governador Edson Lobão
-2462@2@Gov Edson Lobão
-2385@1@Araióses
+9383@1@Mte Verde Pta
+9383@2@Monte Verde Pta
+9809@1@Arrais TO
+9809@2@Araias TO
+9809@4@ARS
+9788@1@Vtm
+9789@1@Vot
+9789@2@Votup
+9789@3@Votupor
+9789@4@Cidade das Brisas
+9789@5@Brisas Suaves
+9791@1@Abreulândia TO
+9796@1@Anajanópolis TO
+9797@1@ANW TO
+9798@1@ANG TO
+9799@1@Aparecida do Rio Negro TO
+9799@2@Miramatos
+9800@1@Apinagé TO
+9801@1@Aragacui TO
+9802@1@PE do Morro
+9802@2@AGM TO
+9803@1@Araguacema TO
+9785@1@Vta A Alto
+9785@2@Vista A do Alto
+9785@3@Vista A Alto
+9764@1@Ururia
+9764@2@Ururi
+9767@1@Val Gentil
+9767@2@V Gentil
+9767@3@Valentim Gent
+9767@4@Valentim G
+9767@5@Val Gent
+9767@6@V Gent
+9769@1@Valparaizo
+9772@1@V G do Sul
+9772@2@V Grande do Sul
+9775@1@Vzea Paulista
+9775@2@Várzea Pta
+9779@1@Vicentinópoles
+9738@1@T Pedra
+9740@1@Itrabiju
+9743@1@T Fronteiras
+9743@2@T Front
+9743@3@Três Front
+9743@4@Três F
+9750@1@Tupi Pta
+9751@1@Toriba do Sul
+9759@1@União Pta
+9716@1@Tampinas
+9719@1@Taquarau
+9659@1@S J Rio Preto
+9659@2@São J do Rio Preto
+9659@3@S José do Rio Preto
+9659@4@São José R Preto
+9659@5@S José Rio Preto
+9659@6@S J R Preto
+9660@1@S José dos Campos
+9660@2@S J Campos
+9660@3@São J Campos
+9661@1@S Lourenço da Serra

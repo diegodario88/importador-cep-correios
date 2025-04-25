@@ -1,0 +1,60 @@
+1000014@SC@8357@48449@@Olimpio Germano Rosa@@88334055@Rua@S@R Olimpio G Rosa
+1000015@SC@8357@43729@@Ilhas Virgens@@88338278@Rua@S@R Ilhas Virgens
+1000016@SC@8357@43729@@Ilhas Maldivas@@88338277@Rua@S@R Ilhas Maldivas
+1000017@SC@8357@43723@@Daniel Vieira@@88332495@Rua@S@R Daniel Vieira
+1000018@SC@8357@43725@@José Cordeiro@@88336155@Rua@S@R José Cordeiro
+1000019@SC@8357@43723@@Franklim Pereira@@88332445@Rua@S@R Franklim Pereira
+1000020@SC@8357@43729@@Armênia@@88338338@Rua@S@R Armênia
+1000021@SC@8357@48450@@Alex Sandro Simas@@88334532@Rua@S@R Alex S Simas
+1000022@SC@8357@48450@@Miguel de Avis@@88334697@Rua@S@R Miguel de Avis
+1000023@SC@8357@48449@@Maria Rosa D'Aquino@@88334125@Rua@S@R Maria R D'Aquino
+1000024@SC@8377@13800@@Vilson Antônio Vieira@- lado ímpar@89070534@Rua@S@R Vilson A Vieira
+1000025@SC@8377@13808@@Vilson Antônio Vieira@- lado par@89070545@Rua@S@R Vilson A Vieira
+1000026@SC@8377@13802@@Ewaldo Alfarth@@89032535@Rua@S@R Ewaldo Alfarth
+1000027@SC@8377@13802@@José Pedro Rausch@@89032575@Rua@S@R José P Rausch
+1000028@SC@8390@13839@@Bom Jesus de Nazaré@@88358511@Rua@S@R Bom J de Nazaré
+1000029@SC@8390@13839@@Bom Pastor@@88358513@Rua@S@R Bom Pastor
+1000030@SC@8390@13839@@Voluntários da Pátria@@88358545@Rua@S@R Vltos da Pátria
+1000031@SC@8390@13817@@Andrino Leopoldo de Souza@@88353707@Rua@S@R Andrino L de Souza
+1000032@SC@8390@13836@@Radialista Celso Teixeira@@88351694@Rua@S@R Rad Celso Teixeira
+1000033@SC@8390@13837@@Flor-de-lis@@88359060@Rua@S@R Flor-de-lis
+1000034@SC@8390@13824@@Rio Grande do Sul@@88356105@Rua@S@R Rio G do Sul
+1000035@SC@8390@13824@@Paraná@@88356102@Rua@S@R Paraná
+1000036@SC@8390@13833@@Célia Zen@@88352065@Rua@S@R Célia Zen
+1000037@SC@8390@13836@@Madre Teresa de Calcutá@@88351578@Rua@S@R Me Teresa de Calcutá
+1000038@SC@8390@13836@@Adelia Boos@@88351627@Rua@S@R Adelia Boos
+1000039@SC@8390@13834@@Noeli Saraiva de Figueiredo@@88352370@Rua@S@R Noeli S de Figueiredo
+1000040@SC@8396@56210@@Rio Claro@@88343401@Rua@S@R Rio Claro
+1000041@SC@8396@56209@@Ida Casagrande de Aguiar@@88341575@Servidão@S@Srv Ida C de Aguiar
+1000042@SC@8396@56215@@Pouso Redondo@@88349154@Rua@S@R Pouso Redondo
+1000043@SC@8396@56208@@Arthur Manoel Crispim Correa@@88341075@Rua@S@R Arthur M C Correa
+1000045@SC@8396@56210@@Rio Ipiranga@@88343840@Rua@S@R Rio Ipiranga
+1000046@SC@8430@13902@@Hegydio José Maciel@@88805238@Rua@S@R Hegydio J Maciel
+1000047@SC@8430@13886@@Odorica Lima Soares@@88810420@Rua@S@R Odorica L Soares
+1000048@SC@8430@50933@@Nestor Antônio dos Santos@@88819131@Rua@S@R Nestor A dos Santos
+1000049@SC@8430@13899@@Augusto Miguel Borges@@88812492@Rua@S@R Augusto M Borges
+1000050@SC@8430@13899@@Julia Dagostim Rosso@@88812493@Avenida@S@Av Julia D Rosso
+1000051@SC@8430@13899@@Paulo Manoel de Melo@@88812403@Rua@S@R Paulo M de Melo
+1000052@SC@8430@13899@@Salvador Domingos de Aguiar@@88812413@Rua@S@R Salvador D de Aguiar
+1000053@SC@8430@13899@@Marcílio Onofre Feliciano@@88812393@Rua@S@R Marcílio O Feliciano
+1000054@SC@8430@13899@@Maria Dagostim Honorato@@88812466@Rua@S@R Maria D Honorato
+1000055@SC@8430@13864@@Amarilis@@88815362@Rua@S@R Amarilis
+1000056@SC@8430@13864@@Mauro Augusto Pinto@@88815364@Rua@S@R Mauro A Pinto
+1000057@SC@8430@13864@@Augustinho Fernandes@@88815358@Rua@S@R Augustinho Fernandes
+1000058@SC@8430@13886@@José Costa@@88810492@Travessa@S@Tv José Costa
+1000059@SC@8430@29952@@Nery Dandolini@@88808502@Rua@S@R Nery Dandolini
+1000060@SC@8430@13886@@Giovanni Angelo Ortolan@@88810496@Rua@S@R Giovanni A Ortolan
+1000061@SC@8430@13864@@Ismael Maria@@88815356@Rua@S@R Ismael Maria
+1000062@SC@8430@13886@@Andréia Francisco Serafin@@88810542@Rua@S@R Andréia F Serafin
+1000063@SC@8430@52619@@Manoel Pedro Filho@@88812750@Rua@S@R Manoel P Filho
+1000064@SC@8430@13895@@Garapuvu@@88804534@Rua@S@R Garapuvu
+1000065@SC@8430@51485@@Antônio Luiz Zanette@@88812003@Rua@S@R Antônio L Zanette
+1000066@SC@8430@13895@@Anita Spilere Benedet@@88804535@Rua@S@R Anita S Benedet
+1000067@SC@8430@13886@@Domingos Ortolan@@88810539@Rua@S@R Domingos Ortolan
+1000068@SC@8430@13886@@Mario Stefano Benedet@@88810537@Rua@S@R Mario S Benedet
+1000069@SC@8430@13904@@Meleiro@@88810245@Rua@S@R Meleiro
+1000070@SC@8452@13958@@Gente da Terra@@88048332@Servidão@S@Srv Gente da Terra
+1000071@SC@8452@13931@@Revoar das Corujas@@88063464@Servidão@S@Srv Revoar das Corujas
+1000072@SC@8452@13931@@das Três Palmeiras Reais@@88065462@Rua@S@R das Três P Reais
+1000073@SC@8452@13933@@João Thiago Mattos@@88070221@Servidão@S@Srv João T Mattos
+1000074@SC@8452@13944@@Amarilis@@88058505@Rua@S@R Amarilis

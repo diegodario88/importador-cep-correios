@@ -1,0 +1,60 @@
+1003278@MS@4226@55712@@MS 164@@79901130@Rodovia@S@Rod MS 164
+1004247@MS@4141@57171@@Filomena Segundo Nascimento@- de 1805 a 2101 - lado ímpar@79060532@Rua@S@R Filomena Seg Nascimento
+1004248@MS@4141@6289@@Filomena Segundo Nascimento@- de 2103 a 4199 - lado ímpar@79063646@Rua@S@R Filomena Seg Nascimento
+1004249@MS@4141@6190@@Filomena Segundo Nascimento@- de 4201 ao fim - lado ímpar@79062066@Rua@S@R Filomena Seg Nascimento
+1004250@MS@4141@57168@@Filomena Segundo Nascimento@- de 1806 a 2664 - lado par@79063622@Rua@S@R Filomena Seg Nascimento
+1004251@MS@4141@6181@@Filomena Segundo Nascimento@- de 2666 a 2868 - lado par@79063722@Rua@S@R Filomena Seg Nascimento
+1004252@MS@4141@57170@@Filomena Segundo Nascimento@- de 3252 a 4230 - lado par@79062192@Rua@S@R Filomena Seg Nascimento
+1004253@MS@4141@6174@@Filomena Segundo Nascimento@- de 4232 ao fim - lado par@79062342@Rua@S@R Filomena Seg Nascimento
+1004254@MS@4141@52485@@Filomena Segundo Nascimento@- de 2870 a 3250 - lado par@79063307@Rua@S@R Filomena Seg Nascimento
+1004255@MS@4163@6420@@Leonor dos Santos@@79814275@Rua@S@R Leonor dos Santos
+1004256@MS@4163@6372@@Dois@@79843042@Corredor@S@Cor Dois
+1004257@MS@4163@53423@@Cesar Gomes de Matos@@79841610@Rua@S@R Cesar G de Matos
+1004258@MS@4163@57223@@Hatsujiro Kudo@@79841660@Rua@S@R Hatsujiro Kudo
+1004259@MS@4163@56228@@NPA 01@@79823734@Rua@S@R NPA 01
+1004260@MS@4163@56228@@Pedro Ortiz@@79823736@Avenida@S@Av Pedro Ortiz
+1004261@MS@4163@6433@@Lourdes Abraão Prates@@79843245@Rua@S@R Lourdes A Prates
+1004262@MS@4226@31305@@13 de Setembro@@79904704@Rua@S@R 13 de Setembro
+1004263@MS@4226@31305@@Paraguai@- até 524/525@79904714@Rua@S@R Paraguai
+1004264@MS@4226@31305@@Paraguai@- de 526/527 a 2463/2464@79904709@Rua@S@R Paraguai
+1004265@MS@4226@31305@@Paraguai@- de 2465/2466 ao fim@79904678@Rua@S@R Paraguai
+1004266@MS@4226@31305@@Internacional@- até 1007/1008@79904738@Avenida@S@Av Intern
+1004267@MS@4226@31305@@Internacional@- de 1009/1010 ao fim@79904728@Avenida@S@Av Intern
+1006588@MS@4141@6222@@Doutor Meireles@- até 779/780@79011060@Rua@S@R Dr Meireles
+1006589@MS@4141@6142@@Doutor Meireles@- de 781/782 ao fim@79011344@Rua@S@R Dr Meireles
+1006590@MS@4141@6222@@Presidente Dutra@- até 879/880@79011160@Rua@S@R Pres Dutra
+1006591@MS@4141@6142@@Presidente Dutra@- de 881/882 ao fim@79011348@Rua@S@R Pres Dutra
+1006592@MS@4141@6222@@Luiza Ovando@- até 739/740@79011010@Rua@S@R Luiza Ovando
+1006593@MS@4141@6142@@Luiza Ovando@- de 741/742 ao fim@79011342@Rua@S@R Luiza Ovando
+1006594@MS@4141@6222@@Norte@- até 779/780@79011105@Avenida@S@Av Norte
+1006595@MS@4141@6142@@Norte@- de 781/782 ao fim@79011322@Avenida@S@Av Norte
+1006596@MS@4141@6222@@São José@- até 769/770@79011200@Rua@S@R S José
+1006597@MS@4141@6142@@São José@- de 771/772 ao fim@79011352@Rua@S@R S José
+1006598@MS@4141@6222@@Rogélio Casal Caminha@- até 779/780@79011170@Rua@S@R Rogélio C Caminha
+1006599@MS@4141@6142@@Rogélio Casal Caminha@- de 781/782 ao fim@79011336@Rua@S@R Rogélio C Caminha
+1006600@MS@4141@6222@@das Nações Unidas@- até 779/780@79011140@Rua@S@R das Nações Unidas
+1006601@MS@4141@6142@@das Nações Unidas@- de 781/782 ao fim@79011338@Rua@S@R das Nações Unidas
+1006602@MS@4141@6222@@Anita Garibaldi@- até 799/800@79011220@Rua@S@R Anita Garibaldi
+1006603@MS@4141@6142@@Anita Garibaldi@- de 801/802 ao fim@79011332@Rua@S@R Anita Garibaldi
+1006604@MS@4141@6222@@Santa Maria@- até 849/850@79011190@Rua@S@R Sta Maria
+1006605@MS@4141@6142@@Santa Maria@- de 851/852 ao fim@79011346@Rua@S@R Sta Maria
+1006606@MS@4141@57300@@Kanga Rosa@@79042652@Rua@S@R Kanga Rosa
+1006607@MS@4141@57300@@Morganita@@79042654@Rua@S@R Morganita
+1006608@MS@4141@57300@@Citrino@@79042656@Rua@S@R Citrino
+1006609@MS@4141@57300@@Mandana@@79042658@Rua@S@R Mandana
+1006610@MS@4141@57300@@João Garcia de Carvalho Filho@@79042660@Avenida@S@Av João G de C Filho
+1006611@MS@4141@57300@@Esmeralda@@79042662@Rua@S@R Esmeralda
+1006612@MS@4141@57300@@Ambar@@79042664@Rua@S@R Ambar
+1006613@MS@4141@57300@@Turmalina Paraiba@@79042666@Rua@S@R Turmalina Paraiba
+1006614@MS@4141@57300@@Bronzita@@79042668@Rua@S@R Bronzita
+1006615@MS@4141@57300@@Aragonita@@79042670@Rua@S@R Aragonita
+1006616@MS@4141@57300@@Amazonita@@79042672@Rua@S@R Amazonita
+1006617@MS@4141@57300@@Cristal Negro@@79042674@Rua@S@R Cristal Negro
+1006618@MS@4141@57300@@2001@@79042676@Rua@S@R 2001
+1006619@MS@4141@57300@@Prata@@79042678@Rua@S@R Prata
+1006620@MS@4141@57300@@Pérola@@79042680@Rua@S@R Pérola
+1006621@MS@4141@57300@@Alexandrita@@79042682@Rua@S@R Alexandrita
+1006622@MS@4141@57300@@Sodalita@@79042684@Rua@S@R Sodalita
+1006623@MS@4141@57276@@Nadir Araujo Trombini@@79032216@Rua@S@R Nadir A Trombini
+1006624@MS@4141@57276@@Antonio de Araujo@@79032214@Rua@S@R Antonio de Araujo
+1006625@MS@4141@57276@@Luiz Trombini@@79032212@Rua@S@R Luiz Trombini

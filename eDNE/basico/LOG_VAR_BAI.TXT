@@ -1,13 +1,60 @@
-14818@4@Jd Geni Mercatelli
-12077@1@V São Joaquim
-12044@1@V Coqueiros
-11936@1@J Europa
+37113@1@Amarelos de Vila Velha
+37483@1@SPMN
+37488@1@SHTQ
+37491@1@Altiplano Cabo Branco
+37517@1@Divino Espírito Santo
+37528@1@Santa Maria de Marechal
+37539@1@Santa Cruz
+37551@1@Nova Viana
+37551@2@Santo Agostinho
+37551@3@Verona
+37551@4@Santa Terezinha
+37657@1@Cidalia
+9628@1@Lot Batel
+9630@1@Lot Madrid
+9633@1@Pq Avenida
+9716@1@Cruzeiro
+11860@1@Quitandinha
+11861@1@Retiro
+11863@1@Roseiral
+11864@1@Saldanha Marinho
+11865@1@Loteamento Samambaia
+11867@1@São Sebastião
+11869@1@Simeria
+11872@1@Valparaíso
+11874@1@Vila Militar
+11877@1@Jd Boa Vista
+11877@2@Jd B Vista
+11877@3@Boa Vista
+11885@1@N S do Rosário
+11885@2@N Sra do Rosário
+11891@1@Lot Santo Antônio
+11891@2@Santo Antônio
+11897@1@Doutor Arruda Negreiro
+11897@2@Dr Arruda Negreiro
+11897@3@Dr A Negreiro
+11897@4@D A Negreiro
+11897@5@A Negreiro
+11898@1@Bairro Austin
+11898@2@Distrito Austim
+11899@1@Bel Monte
+11908@1@Santa Cecília
+11912@1@Coqueiros
+11923@1@G Mônica
+11926@1@G Rosalina
+11928@1@J Aimorés
+11929@1@J Alzira
+11929@2@Jd Alzira
+11931@1@J Campo Alegre
+11932@1@J C Belo
+11932@2@J Campo Belo
+11932@3@Jd C Belo
+11932@4@Jd Campo Belo
+11932@5@R dos Laranjais
+11934@1@J Ceci
+11935@1@J Continental
 11938@1@J Faturista
 11941@1@J Guandu
-11935@1@J Continental
-11931@1@J Campo Alegre
-11934@1@J Ceci
-11993@1@P Peraflor
-11986@1@P Ipiranga
-11991@1@P Palmeiras
-11919@1@F Cabuçu
+11944@1@Jd Laranjeiras
+11946@1@J Magnólia
+11946@2@Jd Magnólia
